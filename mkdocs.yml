@@ -1,0 +1,72 @@
+site_name: V-Control Pro User Guide
+site_description: User Guide for V-Control Pro.
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - toc.integrate
+plugins:
+  - include-markdown
+nav:
+  - V-Control Pro:
+    - Welcome To V-Control Pro: './index.md'
+    - System Requirements: './requirements.md'
+    - Quick Start Guide: './quick-start-guide.md'
+    - Install And Run V-Control Pro : './install-and-run-v-control-pro.md'
+    - V-Control Pro Licensing: './v-control-pro-licensing.md'
+    - Setting Up Control Surfaces:
+      - Overview: './controllers-overview.md'
+      - Setting Up Ethernet Controllers: './ethernet-controllers.md'
+      - Setting Up Midi Controllers: './midi-controllers.md'
+      - Setting Up Firewire Controllers: './firewire-controllers.md'
+      - Avid D-Command: './d-command.md'
+      - Digidesign Control 24: './control-24.md'
+      - Avid/Digidesign C|24: './c24.md'
+      - Digidesign Pro Control: './pro-control.md'
+      - Digidesign Command 8: './command8.md'
+      - Digidesign 003: './digidesign-003.md'
+      - FaderPort V2 / iOStation 24c: './faderport-v2.md'
+      - FaderPort 8 / 16: './faderport-8-16.md'
+      - V-Console: './v-console.md'
+      - V-Control Pro iPad App: './v-control-pro-ipad.md'
+    - Setting Up DAWs / Media Apps:
+      - Pro Tools: './pro-tools.md'
+      - Logic Pro X: './logic-pro.md'
+      - Cubase / Nuendo: './cubase-nuendo.md'
+      - Mackie Control DAWs:
+        - Getting Started: './mackie-control.md'
+        - Ableton Live: './ableton-live.md'
+        - Adobe Audition: './adobe-audition.md'
+        - DaVinci Resolve: './davinci-resolve.md'
+        - Digital Performer: './digital-performer.md'
+        - FL Studio: './fl-studio.md'
+        - FMOD Studio: './fmod-studio.md'
+        - LUNA: './luna.md'
+        - MIO Console: './mio-console.md'
+        - MixBus: './mixbus.md'
+        - Premiere Pro: './premiere-pro.md'
+        - Reaper: './reaper.md'
+        - Reason: './reason.md'
+        - Sonar: './sonar.md'
+        - Studio One: './studio-one.md'
+        - Tracktion: './tracktion.md'
+        - Wwise: './wwise.md'
+    - Using MIDI Mode: './midi-mode.md'
+    - Using V-Window: './v-window.md'
+    - Feature Charts: './feature-charts.md'
+    - Troubleshooting: './troubleshooting.md'
+    - Additional Resources: './getting-help.md'
+    - Release Notes: './release-notes.md'
+
+markdown_extensions:
+  - attr_list
+  - meta
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
