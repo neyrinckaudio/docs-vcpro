@@ -1,5 +1,3 @@
-title: V-Control Pro User Guide
-description: Setup and configure control surfaces to control DAWs.
 
 # Welcome To V-Control Pro
 V-Control Pro is a Mac OS / Windows application that connects control surfaces to digital audio and video workstation applications.

@@ -1,7 +1,7 @@
 # Quick Start Guide
 
 ## Install And Run
-Install and launch the V-Control Pro application on your computer as described in the 'Installing V-Control Pro' section.
+Install and launch the V-Control Pro application on your computer as described in the [Installing V-Control Pro](./install-and-run-v-control-pro.md) section.
 
 ## Open The Setups Window
 To do this on Windows, click on the V-Control Pro system tray item and select Setups… To do this on Mac, click on the V-Control Pro menu bar  item and select Setups…

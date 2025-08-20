@@ -19,7 +19,7 @@ V-Control Pro supports different licenses depending on your system requirements.
 
 <a id="license-activate"></a>
 ## Activating A License
-When you purchase a license or you request a trial license, a license will be deposited to your iLok user account. To use a licensee, it must be activated. You can activate a trial or purchased license in two ways:
+When you purchase a license or you request a trial license, a license will be deposited to your iLok user account. To use a license, it must be activated. You can activate a trial or purchased license in two ways:
 
 ### 1️⃣ Activate A License Using V-Control Pro
 
