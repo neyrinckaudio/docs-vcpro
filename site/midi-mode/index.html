@@ -1538,6 +1538,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    MIDI Mode
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1549,6 +1562,34 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#midi-mode-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      MIDI Mode Overview
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1638,7 +1679,22 @@
 
 <h1 id="using-midi-mode">Using MIDI Mode</h1>
 <p>V-Control Pro provides a virtual MIDI port named "V-Control MIDI Mode" that lets control surfaces send and receive MIDI CC messages to applications and plugins that provide custom MIDI mapping. At the time of this writing, Pro Control, Control 24, C24, and D-Command provide MIDI Mode.</p>
-<p>When a surface is not connected to a DAW, V-Control Pro defaults the surface to MIDI mode.</p>
+<h3 id="midi-mode-overview">MIDI Mode Overview</h3>
+<ul>
+<li>When a surface is not connected to a DAW<ul>
+<li>V-Control Pro defaults the surface to MIDI mode.</li>
+<li>V-Control Pro displays 'MIDI' in scribble strips to indicate DAW Mode</li>
+</ul>
+</li>
+<li>When a surface connects to a DAW<ul>
+<li>V-Control Pro defaults the surface to DAW Mode.</li>
+<li>Use a button to toggle the entire surface between DAW Mode and MIDI Mode. </li>
+<li>Use other buttons to toggle subsections of the surface between DAW Mode and MIDI Mode.</li>
+</ul>
+</li>
+</ul>
+<p>The buttons assigned to toggle MIDI Mode are different for each kind of surface. You can find the MIDI Mode buttons assignments in the MIDI Mode Feature Chart section for your surface.</p>
+<p><a class="md-button" href="../feature-charts/">Feature Charts</a></p>
 <p>Learn more about <a href="https://neyrinck.com/midimode/">MIDI Mode here</a>.</p>
 <p>See the <a href="../midi-chart/">MIDI Implementation Chart</a></p>
 
