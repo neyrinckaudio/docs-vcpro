@@ -7,4 +7,4 @@
 * V-Console and FL Studio should now have bidirectional communication with each other.
 
 !!! note
-    FL Studio only supports one device for setup. It is not possible to setup for more than 8 tracks of control through V-Control Pro.
+    FL Studio only supports one device for setup. It is not possible to set up for more than 8 tracks of control through V-Control Pro.

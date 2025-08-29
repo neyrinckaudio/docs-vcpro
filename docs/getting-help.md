@@ -1,6 +1,6 @@
 # Additional Resources
 
-## Knowledgebase
+## Knowledge Base
 [Neyrinck Help](https://neyrinck.com/help/)
 
 ## V-Control Pro Users Group

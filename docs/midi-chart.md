@@ -7,8 +7,7 @@ Learn more about [MIDI Mode here](https://neyrinck.com/midimode/).
 All buttons, encoders, and faders send CC messages that range from 0 to 127.
 
 ### MIDI Feedback
-LEDs
-LEDs respond to CC messages . OFF = less than 40. ON = greater than or equal to 40.
+LEDs respond to CC messages. OFF = less than 40. ON = greater than or equal to 40.
 
 ### Faders
 Faders respond to CC messages. 0 to 127
@@ -18,6 +17,7 @@ Encoder LED rings respond to CC messages. 0 to 127
 
 ### Meters
 Track and output meters respond to CC messages. 0 to 127
+
 ### Scribbles
 Scribble text can be set using system exclusive messages.
 

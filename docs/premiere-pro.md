@@ -10,7 +10,7 @@
     * MIDI Input Device: V-Control
     * MIDI Output Device: V-Control
 
-Here is how to setup additional controllers for up to 32 tracks of control simultaneously.
+Here is how to set up additional controllers for up to 32 tracks of control simultaneously.
 
 In the Configure Mackie Controller window, click on Add and set up as:
 
