@@ -147,7 +147,7 @@ Command 8
 
 Mac OS Ventura
 
-* Fix OS version detection to allow ethernet features
+* Fix OS version detection to allow Ethernet features
 
 Digidesign 003 Console
 
@@ -398,7 +398,7 @@ FaderPort / ioStation24C
 
 Logic Pro
 
-* Fixed problem where Raven does not connect to Logic if computer has no ethernet port and WiFi is turned off.  
+* Fixed problem where Raven does not connect to Logic if computer has no Ethernet port and WiFi is turned off.  
 * Fixed problem where surface is not updated when connecting to Logic on M1 systems.
 
 ### Version 2.8
@@ -486,13 +486,13 @@ Added support for Pro Control Edit Pack with Pro Tools.
 **VERSION 2.5.6 CHANGES**
 
 Improved V-Window to be compatible with Catalina security and privacy settings.   
-Fixed intermittent bug where an ethernet surface meters and counter freeze for a second.  
+Fixed intermittent bug where an Ethernet surface meters and counter freeze for a second.  
 Fixed zoom control of Cubase with cursor keys on Pro Control, Control|24, and C|24.
 
 **VERSION 2.5.5 CHANGES**
 
 Fixed Control 24 fader touch messaging for strips 9-24.  
-Improved Mac ethernet permissions handling for Catalina-level security.
+Improved Mac Ethernet permissions handling for Catalina-level security.
 
 **VERSION 2.5.4 CHANGES**
 
@@ -528,11 +528,11 @@ Logic Pro X enhancements for Control24 and ProControl.
 
 **IMPORTANT INFO FOR PRO CONTROL / CONTROL 24, C24 USERS**
 
-Windows systems that use ethernet surfaces Pro Control or Control 24 must install a separate utility called Win10Pcap. Please download and install it from here:
+Windows systems that use Ethernet surfaces Pro Control or Control 24 must install a separate utility called Win10Pcap. Please download and install it from here:
 
 http://www.win10pcap.org/download/
 
-Do not use WiFi for the connection between the computer and Pro Control / Control 24\. Connect your computer’s ethernet directly to the surface or use an ethernet switch for multiple surfaces.
+Do not use WiFi for the connection between the computer and Pro Control / Control 24\. Connect your computer’s Ethernet directly to the surface or use an Ethernet switch for multiple surfaces.
 
 **IMPORTANT INFO FOR LOGIC PRO X AND PRO CONTROL / CONTROL 24 / C24 USERS**
 

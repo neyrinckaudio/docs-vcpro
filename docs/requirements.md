@@ -16,7 +16,7 @@ V-Control Pro is compatible across a wide variety of computers and operating sys
     * Native Intel 64-bit
 
 !!! warning "Ethernet Surfaces With Windows - Npcap Utility Required"
-    The Windows OS does not provide for Ethernet 2 connectivity. To use legacy ethernet surfaces, you must install the "Npcap" utility so that V-Control Pro can connect to legacy hardware. V-Control Pro will message you if "Npcap" is not installed and will point you to a free utility for you to install. At the time of this writing, it is available at [NPcap.com](https://npcap.com/#download)
+    The Windows OS does not provide for Ethernet 2 connectivity. To use legacy Ethernet surfaces, you must install the "Npcap" utility so that V-Control Pro can connect to legacy hardware. V-Control Pro will message you if "Npcap" is not installed and will point you to a free utility for you to install. At the time of this writing, it is available at [NPcap.com](https://npcap.com/#download)
 
 ## Firewire Devices
 

@@ -20,7 +20,7 @@ V-Control Pro needs to be licensed for most systems, using either a trial licens
 
 * Launch V-Control Pro
 * Select the <b>About V-Control Pro</b> menu item to open the About window.
-* The About window will indicate "Licensed" or "Not Licensed."
+* The `About` window will indicate "Licensed" or "Not Licensed."
 * If it is licensed, proceed to [Step 2](#step-2).
 
 #### V-Control Pro Is Not Licensed, What Next?
@@ -86,12 +86,12 @@ If the Setups window shows your surface name as "grayed out," then it is indicat
 <a id="ethernet-led"></a>
 
 ##### Ethernet LED Indicator
-Ethernet control surfaces have an LED indicator on the rear panel next to the ethernet cable jack. This LED indicates if an ethernet connection is active.
+Ethernet control surfaces have an LED indicator on the rear panel next to the Ethernet cable jack. This LED indicates if an Ethernet connection is active.
 
-* Check the rear panel of your control surface to make sure an ethernet cable is connected.
-* Check the rear panel of your control surface to make sure the LED indicator at the ethernet connector indicates activity. If the LED does not indicate activity, then there are several possible probelms:
-    * The ethernet cable is faulty. Try using a different cable.
-    * The ethernet cable is not connected at both ends.
+* Check the rear panel of your control surface to make sure an Ethernet cable is connected.
+* Check the rear panel of your control surface to make sure the LED indicator at the Ethernet connector indicates activity. If the LED does not indicate activity, then there are several possible probelms:
+    * The Ethernet cable is faulty. Try using a different cable.
+    * The Ethernet cable is not connected at both ends.
     * The control surface hardware has an issue.
 
 ##### The Add Ethernet Device... Window Does Not Show The Surface
@@ -99,8 +99,8 @@ Ethernet control surfaces have an LED indicator on the rear panel next to the et
 When you select the <b>Add Ethernet Device...</b> option in the <b>Add new...</b> controller window, V-Control Pro monitors a network to detect if a surface is available. If no surface is seen, you will need to check a few things:
 
 * Is the [Ethernet LED Indicator](#ethernet-led) on the surface active?
-* Is the ethernet port enabled in the computer?
-    * For Mac OS, open System Settings / Network. If the ethernet port is colored red, then it is not enabled. Using a low cost network switch between the computer and surface usually solves this. A "self-assigned IP address" is OK because legacy ethernet surfaces do not use TCP/IP networking.
+* Is the Ethernet port enabled in the computer?
+    * For Mac OS, open System Settings / Network. If the Ethernet port is colored red, then it is not enabled. Using a low cost network switch between the computer and surface usually solves this. A "self-assigned IP address" is OK because legacy Ethernet surfaces do not use TCP/IP networking.
     * For Windows, make sure the "Npcap" utility is installed. Learn more about [Mac OS and Windows Networking](./ethernet-controllers.md/#networking)
     * For Windows, make sure the "Win10Pcap" utility is NOT installed.
 * Is a Firewall active?
@@ -138,8 +138,8 @@ Windows OS users have been able to solve problems using one or more of these ste
 !!! warning "V-Control Pro 2.X is incompatible with Windows 11"
     To use Windows 11 you must use the latest V-Control Pro 3.X available at [Installers](https://neyrinck.com/download/v-control-pro/). V-Control Pro 3 is compatible with V-Control Pro 2 Standard licenses.
 
-!!! warning "You must uninstall Win10Pcap to use V-Control Pro 3 with ethernet surfaces on Windows 11. You must install Npcap."
-    If you were using V-Control Pro 2.x with an ethernet surface on Windows 10 and you upgraded to Windows 11, then most likely Win10Pcap is installed and must be uninstalled. And you must install NPcap [available here.](https://npcap.com/#download)
+!!! warning "You must uninstall Win10Pcap to use V-Control Pro 3 with Ethernet surfaces on Windows 11. You must install Npcap."
+    If you were using V-Control Pro 2.x with an Ethernet surface on Windows 10 and you upgraded to Windows 11, then most likely Win10Pcap is installed and must be uninstalled. And you must install NPcap [available here.](https://npcap.com/#download)
 
 Please follow these steps to uninstall everything and re-install if you have upgraded a Windows 10 system to Windows 11.
 
@@ -147,7 +147,7 @@ Please follow these steps to uninstall everything and re-install if you have upg
 * Quit and Uninstall V-Control Pro.
 * Reboot.
 * Delete V-Control Pro preferences by following [these instructions](./troubleshooting.md/#resetting-v-control-pro-on-windows)
-* If you are using an ethernet surface, follow these instructions:
+* If you are using an Ethernet surface, follow these instructions:
     * Uninstall NPcap, if you already installed it.
     * Uninstall Win10Pcap. If you get an error that one or more DLLs are in use then do this:
         * Reboot
