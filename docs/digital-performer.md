@@ -22,7 +22,7 @@ Follow the instructions for 8 Channel setup then add the following:
 
 ## 24 Channel
 
-Follow the instructions for 16 channel then add the following:
+Follow the instructions for 16 channels then add the following:
 
 - Set the control surface as follows.
 - Unit: Expander (XT) Input: V-Control XT3-1 Output: V-Control XT3

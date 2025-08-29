@@ -1,6 +1,6 @@
 #
 
-### Control24 ProTools
+### Control24 Pro Tools
 
 === "Channel Strips"
 

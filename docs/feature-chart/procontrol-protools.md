@@ -1,6 +1,6 @@
 #
 
-### ProControl ProTools
+### ProControl Pro Tools
 
 === "Channel Strips"
 

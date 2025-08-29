@@ -1,6 +1,6 @@
 #
 
-### C24 ProTools
+### C24 Pro Tools
 
 === "Channel Strips"
 
