@@ -1818,6 +1818,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#i-updated-to-windows-11-and-it-stopped-working" class="md-nav__link">
+    <span class="md-ellipsis">
+      I Updated To Windows 11 And It Stopped Working
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#i-updated-from-v-control-pro-2-to-v-control-pro-3-and-it-stopped-working" class="md-nav__link">
     <span class="md-ellipsis">
       I Updated From V-Control Pro 2 To V-Control Pro 3 And It Stopped Working
@@ -2130,6 +2139,42 @@
 <p><a id="windows-os"></a></p>
 <h2 id="windows-os-issues">Windows OS Issues</h2>
 <p>Windows OS users have been able to solve problems using one or more of these steps. If you are using Mac OS, go to <a href="#mac-os">Mac OS Issues</a>.</p>
+<h4 id="i-updated-to-windows-11-and-it-stopped-working">I Updated To Windows 11 And It Stopped Working</h4>
+<div class="admonition warning">
+<p class="admonition-title">V-Control Pro 2.X is incompatible with Windows 11</p>
+<p>To use Windows 11 you must use the latest V-Control Pro 3.X available at <a href="https://neyrinck.com/download/v-control-pro/">Installers</a>. V-Control Pro 3 is compatible with V-Control Pro 2 Standard licenses.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">You must uninstall Win10Pcap to use V-Control Pro 3 with ethernet surfaces on Windows 11. You must install Npcap.</p>
+<p>If you were using V-Control Pro 2.x with an ethernet surface on Windows 10 and you upgraded to Windows 11, then most likely Win10Pcap is installed and must be uninstalled. And you must install NPcap <a href="https://npcap.com/#download">available here.</a></p>
+</div>
+<p>Please follow these steps to uninstall everything and re-install if you have upgraded a Windows 10 system to Windows 11.</p>
+<ul>
+<li>Quit your DAW.</li>
+<li>Quit and Uninstall V-Control Pro.</li>
+<li>Reboot.</li>
+<li>Delete V-Control Pro preferences by following <a href="./#resetting-v-control-pro-on-windows">these instructions</a></li>
+<li>If you are using an ethernet surface, follow these instructions:<ul>
+<li>Uninstall NPcap, if you already installed it.</li>
+<li>Uninstall Win10Pcap. If you get an error that one or more DLLs are in use then do this:<ul>
+<li>Reboot</li>
+<li>Reinstall Win10Pcap</li>
+<li>Uninstall Win10 Pcap.</li>
+</ul>
+</li>
+<li>You must uninstall Win10Pcap completely, without errors, for V-Control Pro to operate on Windows 11.</li>
+<li>After Win10Pcap is uninstalled successfully, install NPcap, <a href="https://npcap.com/#download">available here.</a></li>
+</ul>
+</li>
+<li>Open the Device Manager. Select the View menu and enable "Show Hidden Items."</li>
+<li>If any "V-Control" related midi ports are shown, they must all be uninstalled manually. This is very important. If you don't, DAWs will see these hidden midi ports and not connect properly. Because V-Control Pro is not installed at this point, you should not see any V-Control midi ports in Device Manager.</li>
+<li>Install the latest V-Control Pro available at <a href="https://neyrinck.com/download/v-control-pro/">Installers</a></li>
+<li>Reboot</li>
+<li>Launch V-Control Pro.</li>
+<li>Add you surface to V-Control Pro Setups as described <a href="v-control-pro/controllers-overview/">HERE</a></li>
+<li>If you are using Pro Tools, you must delete the Pro Tools Preferences. If you don't, Pro Tools will not correctly communicate with V-Control Midi ports. <a href="https://www.sweetwater.com/sweetcare/articles/how-do-i-trash-my-pro-tools-preferences/#Trash-Pro-Tools-Preferences-for-PC">See Here.</a></li>
+<li>Launch the DAW and set it up as described <a href="../pro-tools/">HERE</a></li>
+</ul>
 <h4 id="i-updated-from-v-control-pro-2-to-v-control-pro-3-and-it-stopped-working">I Updated From V-Control Pro 2 To V-Control Pro 3 And It Stopped Working</h4>
 <p>Some DAWs, especially Pro Tools on Windows, keep track of MIDI ports by number rather than by name. V-Control Pro 3 changed the ports and Pro Tools can get confused if you are updating V-Control Pro.</p>
 <ul>
@@ -2211,7 +2256,7 @@
 <li>Start Logic and follow the info in the <a href="../logic-pro/">Logic Pro Setup Section</a></li>
 </ul>
 <h2 id="hardware-fader-button-light-and-display-issues">Hardware Fader, Button, Light, And Display Issues</h2>
-<p>If a control surface feature is not operating correctly, there might be a problem with the surface hardware. Some surfaces have built-in diagnostics that acan help diagnose these problems. Please search for the surface user guide online for more information.</p>
+<p>If a control surface feature is not operating correctly, there might be a problem with the surface hardware. Some surfaces have built-in diagnostics that can help diagnose these problems. Please search for the surface user guide online for more information.</p>
 <h4 id="command-8">Command 8</h4>
 <p>Press the F1 Utility switch to enter Utility mode.</p>
 
