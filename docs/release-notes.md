@@ -122,8 +122,8 @@ Fixed crashing that could happen with Studio One and C24.
 
 ### Version 2.11.3
 
-Added Mixbus 32C-9 Support.  
-Fixed mapping for ProControl Main and Mixbus.
+Added MixBus 32C-9 Support.  
+Fixed mapping for ProControl Main and MixBus.
 
 ### Version 2.11.2
 
@@ -450,7 +450,7 @@ Basic Reaper Support for Pro Control, Control24, C24, and Command 8\.
 **VERSION 2.7.0 CHANGES**
 
 Digidesign Command 8 Support  
-	Mixbus  
+	MixBus  
 	Logic Pro X  
 	Ableton Live  
 	Presonus Studio One
@@ -469,7 +469,7 @@ Cubase / Nuendo Improvements For ProControl / Control24, C24
 
 **VERSION 2.6.1 CHANGES**
 
-Added support for Mixbus with Pro Control / Control24, and C24
+Added support for MixBus with Pro Control / Control24, and C24
 
 Added support for Ableton Live with Pro Control / Control24, and C24
 

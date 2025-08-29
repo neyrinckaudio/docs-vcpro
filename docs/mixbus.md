@@ -4,9 +4,9 @@ V-Control Pro must be set up in the Control Surface Preferences window in MixBus
 
 ## 8 Channel
 
-- Launch Mixbus
+- Launch MixBus
 - In the MixBus Audio/MIDI Startup window, make sure a MIDI System is selected. It can not be "None".
-- In the Mixbus top menu bar go to: Mixbus / Preferences
+- In the MixBus top menu bar go to: MixBus / Preferences
 - In the Preferences window, click on Control Surfaces and then click on the box next to  Mackie Control to enable it.
 - Click on Show Protocol Settings with Mackie Control selected to open the protocol setup window.
 - For Device type select Mackie Control and setup the ports as shown:
@@ -17,7 +17,7 @@ V-Control Pro must be set up in the Control Surface Preferences window in MixBus
 
 ## 16 Channel
 
-- In the Mixbus top menu bar go to: Mixbus / Preferences
+- In the MixBus top menu bar go to: MixBus / Preferences
 - In the Preferences window, click on Control Surfaces and then click on the box next to  Mackie Control to enable it.
 - Click on Show Protocol Settings with Mackie Control selected to open the protocol setup window.
 - For Device type select Mackie Control with One Extender and setup the ports as shown:
@@ -28,7 +28,7 @@ V-Control Pro must be set up in the Control Surface Preferences window in MixBus
 
 ## 24 Channel
 
-- In the Mixbus top menu bar go to: Mixbus / Preferences
+- In the MixBus top menu bar go to: MixBus / Preferences
 - In the Preferences window, click on Control Surfaces and then click on the box next to  Mackie Control to enable it.
 - Click on Show Protocol Settings with Mackie Control selected to open the protocol setup window.
 - For Device type select Mackie Control with Two Extenders and setup the ports as shown:

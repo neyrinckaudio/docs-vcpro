@@ -1,6 +1,6 @@
 #
 
-### Control24 Mixbus
+### Control24 MixBus
 
 === "Channel Strips"
 
