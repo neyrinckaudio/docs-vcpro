@@ -133,6 +133,37 @@ If a Midi control surface has been added to the Setups window, but it is "greyed
 
 Windows OS users have been able to solve problems using one or more of these steps. If you are using Mac OS, go to [Mac OS Issues](#mac-os).
 
+#### I Updated To Windows 11 And It Stopped Working
+
+!!! warning "V-Control Pro 2.X is incompatible with Windows 11"
+    To use Windows 11 you must use the latest V-Control Pro 3.X available at [Installers](https://neyrinck.com/download/v-control-pro/). V-Control Pro 3 is compatible with V-Control Pro 2 Standard licenses.
+
+!!! warning "You must uninstall Win10Pcap to use V-Control Pro 3 with ethernet surfaces on Windows 11. You must install Npcap."
+    If you were using V-Control Pro 2.x with an ethernet surface on Windows 10 and you upgraded to Windows 11, then most likely Win10Pcap is installed and must be uninstalled. And you must install NPcap [available here.](https://npcap.com/#download)
+
+Please follow these steps to uninstall everything and re-install if you have upgraded a Windows 10 system to Windows 11.
+
+* Quit your DAW.
+* Quit and Uninstall V-Control Pro.
+* Reboot.
+* Delete V-Control Pro preferences by following [these instructions](./troubleshooting.md/#resetting-v-control-pro-on-windows)
+* If you are using an ethernet surface, follow these instructions:
+    * Uninstall NPcap, if you already installed it.
+    * Uninstall Win10Pcap. If you get an error that one or more DLLs are in use then do this:
+        * Reboot
+        * Reinstall Win10Pcap
+        * Uninstall Win10 Pcap.
+    * You must uninstall Win10Pcap completely, without errors, for V-Control Pro to operate on Windows 11.
+    * After Win10Pcap is uninstalled successfully, install NPcap, [available here.](https://npcap.com/#download)
+* Open the Device Manager. Select the View menu and enable "Show Hidden Items."
+* If any "V-Control" related midi ports are shown, they must all be uninstalled manually. This is very important. If you don't, DAWs will see these hidden midi ports and not connect properly. Because V-Control Pro is not installed at this point, you should not see any V-Control midi ports in Device Manager.
+* Install the latest V-Control Pro available at [Installers](https://neyrinck.com/download/v-control-pro/)
+* Reboot
+* Launch V-Control Pro.
+* Add you surface to V-Control Pro Setups as described [HERE](v-control-pro/controllers-overview/)
+* If you are using Pro Tools, you must delete the Pro Tools Preferences. If you don't, Pro Tools will not correctly communicate with V-Control Midi ports. [See Here.](https://www.sweetwater.com/sweetcare/articles/how-do-i-trash-my-pro-tools-preferences/#Trash-Pro-Tools-Preferences-for-PC)
+* Launch the DAW and set it up as described [HERE](./pro-tools.md)
+
 #### I Updated From V-Control Pro 2 To V-Control Pro 3 And It Stopped Working
 
 Some DAWs, especially Pro Tools on Windows, keep track of MIDI ports by number rather than by name. V-Control Pro 3 changed the ports and Pro Tools can get confused if you are updating V-Control Pro.
@@ -223,7 +254,7 @@ Some users have observed "strange" control behaviors that have been solved by de
 
 ## Hardware Fader, Button, Light, And Display Issues
 
-If a control surface feature is not operating correctly, there might be a problem with the surface hardware. Some surfaces have built-in diagnostics that acan help diagnose these problems. Please search for the surface user guide online for more information.
+If a control surface feature is not operating correctly, there might be a problem with the surface hardware. Some surfaces have built-in diagnostics that can help diagnose these problems. Please search for the surface user guide online for more information.
 
 #### Command 8
 Press the F1 Utility switch to enter Utility mode.
