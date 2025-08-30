@@ -74,3 +74,5 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - js/unsupported-browser.js

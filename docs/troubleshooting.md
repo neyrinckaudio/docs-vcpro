@@ -160,7 +160,7 @@ Please follow these steps to uninstall everything and re-install if you have upg
 * Install the latest V-Control Pro available at [Installers](https://neyrinck.com/download/v-control-pro/)
 * Reboot
 * Launch V-Control Pro.
-* Add you surface to V-Control Pro Setups as described [HERE](v-control-pro/controllers-overview/)
+* Add you surface to V-Control Pro Setups as described [HERE](./controllers-overview.md)
 * If you are using Pro Tools, you must delete the Pro Tools Preferences. If you don't, Pro Tools will not correctly communicate with V-Control MIDI ports. [See Here.](https://www.sweetwater.com/sweetcare/articles/how-do-i-trash-my-pro-tools-preferences/#Trash-Pro-Tools-Preferences-for-PC)
 * Launch the DAW and set it up as described [HERE](./pro-tools.md)
 
