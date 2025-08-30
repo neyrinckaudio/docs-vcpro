@@ -42,7 +42,7 @@
     |  | 3rd parameter is channel input. |
     |  | 4th parameter is pre-gain. |
     |  | 5th parameter is phase invert. |
-    | Softkeys | Assigns knob buttons on Channel strips to be soft key buttons. |
+    | Soft Keys | Assigns knob buttons on Channel strips to be soft key buttons. |
     | Flip | Flips knobs to faders. |
 
 === "Automation"
@@ -161,4 +161,4 @@
     | MIDI Mode |  |
     |---|---|
     | MIDI Mode converts the surfaces faders, knobs, and buttons into assignable MIDI Controls that can be mapped in the DAW. |  |
-    | Mon/0 | Toggles surface between DAW Mode and Midi Mode |
+    | Mon/0 | Toggles surface between DAW Mode and MIDI Mode |

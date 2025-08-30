@@ -131,11 +131,11 @@
     | Solo | While in V-Window Mode, pressing the Solo button will pin the mouse location and revert to that location any time the fader is touched. Once the fader is released, the mouse is also returned to that pin position. This way it is very easy to pin a parameter and instantly control it without having to worry with the mouse cursor is on the screen. |
     | Select | Use the Select button while in V-Window mode to reset the fader position. |
 
-=== "Midi Mode"
+=== "MIDI Mode"
 
-    | Midi Mode | V-Control Midi Mode port connects surface as a Midi controller |
+    | MIDI Mode | V-Control MIDI Mode port connects surface as a MIDI controller |
     |---|---|
-    | MIDI Events List | Toggles surface between DAW Mode and Midi Mode |
-    | EQ Section | All encoders are assigned to Midi Mode |
-    | Dyn Section | All encoders are assigned to Midi Mode |
-    | Top Row Encoders | All encoders are assigned to Midi Mode |
+    | MIDI Events List | Toggles surface between DAW Mode and MIDI Mode |
+    | EQ Section | All encoders are assigned to MIDI Mode |
+    | Dyn Section | All encoders are assigned to MIDI Mode |
+    | Top Row Encoders | All encoders are assigned to MIDI Mode |

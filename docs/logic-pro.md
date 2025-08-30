@@ -6,7 +6,7 @@ Logic Pro will not be detected until it has connected to a control surface suppo
     Logic Pro will not detect V-Control Pro surfaces unless Automatic Installation is enabled.
 
 !!! info "Enable System Settings / Security / Network"
-    Mac OS Sequoia and later require V-Control Pro to be enabled.
+    macOS Sequoia and later require V-Control Pro to be enabled.
 
 !!! info "One Way Communication Issue"
     If Logic Pro has one-way communication with a V-Control Pro surface, try changing the [IPv6 Setting](#ipv6-setting).

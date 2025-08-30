@@ -1,6 +1,6 @@
 # Using MIDI Mode
 
-V-Control Pro provides a virtual MIDI port named "V-Control MIDI Mode" that lets control surfaces send and receive MIDI CC messages to applications and plugins that provide custom MIDI mapping. At the time of this writing, Pro Control, Control 24, C24, and D-Command provide MIDI Mode.
+V-Control Pro provides a virtual MIDI port named "V-Control MIDI Mode" that lets control surfaces send and receive MIDI CC messages to applications and plugins that provide custom MIDI mapping. At the time of this writing, ProControl, Control 24, C24, and D-Command provide MIDI Mode.
 
 ### MIDI Mode Overview
 

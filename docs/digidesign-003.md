@@ -1,9 +1,9 @@
 # Digidesign 003
 
-V-Control Pro supports the Digidesign 003 firewire surface. A compatible 003 driver must be installed on the computer.
+V-Control Pro supports the Digidesign 003 FireWire surface. A compatible 003 driver must be installed on the computer.
 
 !!! warning "V-Control Pro Does Not Provide FireWire Drivers"
-    You must install a 003 firewire driver that allows the Mac or Windows computer to provide audio I/O and MIDI I/O. Last time we looked, Avid's drivers do not work well with modern computers, especially Mac systems.
+    You must install a 003 FireWire driver that allows the Mac or Windows computer to provide audio I/O and MIDI I/O. Last time we looked, Avid's drivers do not work well with modern computers, especially Mac systems.
 
 
 !!! info "Control Features"
@@ -29,4 +29,4 @@ Set up Cubase / Nuendo as described in [Setting Up Cubase/Nuendo](./cubase-nuend
 #### MixBus
 #### Digital Performer
 
-Set up the DAW using 1 Mackie Control banks as described in [Setting Up Mackie Control](./mackie-control.md). Each Pro Control device counts as one 8-channel bank.
+Set up the DAW using 1 Mackie Control banks as described in [Setting Up Mackie Control](./mackie-control.md). Each ProControl device counts as one 8-channel bank.

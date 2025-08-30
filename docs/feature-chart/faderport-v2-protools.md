@@ -48,7 +48,7 @@
     | Fast Focus and Refocus |  |
     |---|---|
     | With V-Control Pro, the FaderPort automatically focuses to any track you select. V-Control Pro can widen the bank up to thirty-two tracks for instant focus, and if it loses focus it immediately blinks the Channel button. Simply tap the blinking button to automatically ReFocus. Now you can select any track at any time for a focused FaderPort. |  |
-    | Channel | When selecting a track outside of the controlled banks, the Channel button will immediately blink on the Faderport. Press it to ReFocus to that track for control. |
+    | Channel | When selecting a track outside of the controlled banks, the Channel button will immediately blink on the FaderPort. Press it to ReFocus to that track for control. |
     |  | When a track is selected within the controlled banks, press the channel button to enable the wheel for navigation. |
 
 === "Transport"

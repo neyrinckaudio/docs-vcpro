@@ -15,14 +15,14 @@ Added menu option to open Troubleshooting Guide
 
 ### Version 3.0.18
 
-Pro Control
+ProControl
 
-* Fixed the mon/phase button to not switch to Mid Mode with Pro Tools  
-* Function 1 button now switches to Midi Mode
+* Fixed the `mon/phase` button to not switch to MIDI Mode with Pro Tools  
+* Function 1 button now switches to MIDI Mode
 
 ### Version 3.0.17
 
-Pro Control
+ProControl
 
 * Basic control for DaVinci Resolve
 
@@ -40,28 +40,28 @@ C24
 
 ### Version 3.0.14
 
-Pro Control Main
+ProControl Main
 
 * Fixed fader 8 operation with Cubase/Nuendo when device was assigned to bank 2, 3, or 4\.
 
 ### Version 3.0.13
 
-Presonus Faderport V2 / ioStation 24c
+PreSonus FaderPort V2 / ioStation 24c
 
 * Improved Link Mode so that when mouse moves back to its starting point, it does not affect the control being adjusted.
 
 ### Version 3.0.12
 
-RME Totalmix \- fixed connection  
-Midi Mode Improvements  
+RME TotalMix \- fixed connection  
+MIDI Mode Improvements  
 	Added meter mappings for D-Command Main  
-Added meter mappings for Pro Control Main
+Added meter mappings for ProControl Main
 
 ### Version 3.0.11
 
-Midi Mode Fixes  
+MIDI Mode Fixes  
 	Missing scribbles on D-Command Main  
-	Pro Control Fader Pack encoder scribble address was wrong
+	ProControl Fader Pack encoder scribble address was wrong
 
 ### Version 3.0.10
 
@@ -101,8 +101,8 @@ Improved D-Command metering speed.
 
 ### Version 3.0.2
 
-Fixed D-Command Faderpack scribble strips for Live and other Mackie Control based DAWs.  
-Improved Midi Mode switching to switch all devices in a setup.  
+Fixed D-Command Fader Pack scribble strips for Live and other Mackie Control based DAWs.  
+Improved MIDI Mode switching to switch all devices in a setup.  
 Added FL Studio support for C|24, Control|24, ProControl, Command|8  
 Added Adobe Audition support for C|24, Control|24, ProControl, Command|8
 
@@ -114,7 +114,7 @@ Fixed Activate License… menu option to look for all types of licenses.
 
 ### Version 3.0
 
-Added support for Faderport 8 / 16..
+Added support for FaderPort 8 / 16..
 
 ### Version 2.11.4
 
@@ -137,15 +137,15 @@ Added a first-time launch message to help users locate the application menu.
 
 C24
 
-* Added support for Pro Tools for use with Pro Tools on Mac OS Apple Silicon systems.
+* Added support for Pro Tools for use with Pro Tools on macOS Apple Silicon systems.
 
 Command 8
 
-* Added support for Pro Tools for use with Pro Tools on Mac OS Apple Silicon systems.
+* Added support for Pro Tools for use with Pro Tools on macOS Apple Silicon systems.
 
 ### Version 2.10.1
 
-Mac OS Ventura
+macOS Ventura
 
 * Fix OS version detection to allow Ethernet features
 
@@ -190,7 +190,7 @@ Command|8
 
 ProControl
 
-* Fixed Pro Control and Live automatic mapping.
+* Fixed ProControl and Live automatic mapping.
 
 Steinberg
 
@@ -210,7 +210,7 @@ Command|8
 
 * Fixed Automapping with Digital Performer
 
-Faderport V2
+FaderPort V2
 
 * Added Redo Button for Pro Tools (Shift+Next)  
 * Added Mix/Edit Window Toggle Button for Pro Tools (Shift+Master)
@@ -249,26 +249,26 @@ Merged v 2.8 fixes
 D-Command
 
 * DAW Support for Logic, Steinberg, Mackie Control Compatible applications  
-* Added D-Command Softkeys section to MIDI Mode 
+* Added D-Command Soft Keys section to MIDI Mode 
 
-Pro Control Main
+ProControl Main
 
 * Fixes with Digital Performer
 
 ### Version 2.9.3
 
-Pro Control Edit Pack
+ProControl Edit Pack
 
 * Fixed crash
 
-Pro Control Main
+ProControl Main
 
 * Fixed matrix ordering with Pro Tools
 
 
-Presonus Faderport V2, ioStation 24c
+PreSonus FaderPort V2, ioStation 24c
 
-* Changed footswitch to control Pro Tools Record
+* Changed foot switch to control Pro Tools Record
 
 ### Version 2.9.2
 
@@ -277,13 +277,13 @@ D-Command
 * Improved Cubase / Nuendo to access EQ (toggle with Inserts button on channel strip).  
 * Added Resolve support. Use Resolve 17.4.6 or later. Connect with HUI. Features are very limited.
 
-Pro Control with Pro Tools
+ProControl with Pro Tools
 
-* Fixed Midi Mode on Fader Pack
+* Fixed MIDI Mode on Fader Pack
 
-Presonus Faderport V2 ioStation 24c
+PreSonus FaderPort V2 ioStation 24c
 
-* Implemented footswitch to control Pro Tools Quickpunch
+* Implemented foot switch to control Pro Tools QuickPunch
 
 ### Version 2.9.1
 
@@ -293,9 +293,9 @@ D-Command
 
 ### Version 2.9
 
-Midi Mode
+MIDI Mode
 
-* Added Midi Mode feature for surfaces.
+* Added MIDI Mode feature for surfaces.
 
 V-Window
 
@@ -304,7 +304,7 @@ V-Window
 D-Command
 
 * Added DAW support for D-Command Main and one Fader Module  
-* Added Midi Mode. Press “Midi Events List” to toggle Midi Mode  
+* Added MIDI Mode. Press “Midi Events List” to toggle MIDI Mode  
 * Added V-Window mouse control for all supported DAWs  
 * See [Compatibility Chart](https://neyrinck.com/vcpro-compatibility) for supported DAWs  
 * Learn more [HERE](https://neyrinck.com/dcommand).
@@ -314,7 +314,7 @@ C24
 * Improved fader accuracy for Pro Tools  
 * Improved fader accuracy for Logic Pro  
 * Added V-Window mouse control for all supported DAWs  
-* Added Midi Mode. Press “Focus” to toggle Midi Mode.  
+* Added MIDI Mode. Press “Focus” to toggle MIDI Mode.  
 * See [Compatibility Chart](https://neyrinck.com/vcpro-compatibility) for supported DAWs
 
 Control 24
@@ -323,15 +323,15 @@ Control 24
 * Improved fader accuracy for Logic Pro  
 * Command modifier for fine-mode encoder control  
 * Added V-Window mouse control for all supported DAWs  
-* Added Midi Mode. Press “Mon 0” to toggle Midi Mode.  
+* Added MIDI Mode. Press “Mon 0” to toggle MIDI Mode.  
 * See [Compatibility Chart](https://neyrinck.com/vcpro-compatibility) for supported DAWs
 
-Pro Control
+ProControl
 
 * Improved fader accuracy for Pro Tools  
 * Improved fader accuracy for Logic Pro  
 * Added V-Window mouse control for all supported DAWs  
-* Added Midi Mode. Press “Mon 0” to toggle Midi Mode.  
+* Added MIDI Mode. Press “Mon 0” to toggle MIDI Mode.  
 * See [Compatibility Chart](https://neyrinck.com/vcpro-compatibility) for supported DAWs
 
 Command 8
@@ -339,7 +339,7 @@ Command 8
 * Added V-Window mouse control for all supported DAWs  
 * See [Compatibility Chart](https://neyrinck.com/vcpro-compatibility) for supported DAWs
 
-Mac OS
+macOS
 
 * Apple Silicon Native Compatibility
 
@@ -355,7 +355,7 @@ ProControl for Reaper
 
 ### Version 2.8.3
 
-Faderport For Pro Tools
+FaderPort For Pro Tools
 
 * Fixed RTZ function when pressing rewind and fast forward buttons simultaneously.
 
@@ -363,7 +363,7 @@ Digital Performer
 
 * Basic control with C24
 * Basic control with Control 24
-* Basic control with Pro Control
+* Basic control with ProControl
 
 Improved Support For Multiple HUI / Mackie Control Applications
 
@@ -373,7 +373,7 @@ Improved Support For Multiple HUI / Mackie Control Applications
 
 V-Window
 
-* Fixed to support Mac OS Monterey and V-Console  
+* Fixed to support macOS Monterey and V-Console  
 * Fixed issue where V-Window control from V-Console iPad did not control Pro Tools popup menus correctly.
 
 Windows OS
@@ -385,12 +385,12 @@ Windows OS
 LUNA
 
 * Added LUNA Support  
-* C24, Control 24, Pro Control, Command 8, V-Console
+* C24, Control 24, ProControl, Command 8, V-Console
 
-Control 24, C24, Pro Control
+Control 24, C24, ProControl
 
 * Added V-Window Fader Mode For Pro Tools  
-* Control 24, C24, Pro Control \- Tap Master Fader
+* Control 24, C24, ProControl \- Tap Master Fader
 
 FaderPort / ioStation24C
 
@@ -398,23 +398,23 @@ FaderPort / ioStation24C
 
 Logic Pro
 
-* Fixed problem where Raven does not connect to Logic if computer has no Ethernet port and WiFi is turned off.  
+* Fixed problem where Raven does not connect to Logic if computer has no Ethernet port and Wi-Fi is turned off.  
 * Fixed problem where surface is not updated when connecting to Logic on M1 systems.
 
 ### Version 2.8
 
-Presonus ioStation 24c
+PreSonus ioStation 24c
 
-* Added direct support for Presonus ioStation 24c
+* Added direct support for PreSonus ioStation 24c
 
-Faderport / ioStation 24c
+FaderPort / ioStation 24c
 
 * Added V-Window mode to control plugin parameters  
 * Changed Send A-D select to use Master, Click, Section, Shift+Section
 
 ### Version 2.7.5 CHANGES
 
-Added supercharging Presonus Faderport with Pro Tools. neyrinck.com/faderport
+Added supercharging PreSonus FaderPort with Pro Tools. neyrinck.com/faderport
 
 **VERSION 2.7.4 CHANGES**
 
@@ -431,7 +431,7 @@ Logic Pro X users must delete their old surfaces in Control Surfaces / Setups…
 
 V-Control Pro 2.7.3 is compatible with Logic Pro X 10.6 and later only. If you are using version 10.5 or earlier, please install V-Control Pro 2.7.2.
 
-For Logic Pro X, V-Control Pro 2.7.3 does not support multiple Pro Control Fader Pack devices at this time. If you have multiple Fader Packs, you must use V-Control Pro 2.7.2, which will only work on Intel Macs. At this time, multiple Fader Pack units are not supported on Apple M1 Mac systems.
+For Logic Pro X, V-Control Pro 2.7.3 does not support multiple ProControl Fader Pack devices at this time. If you have multiple Fader Packs, you must use V-Control Pro 2.7.2, which will only work on Intel Macs. At this time, multiple Fader Pack units are not supported on Apple M1 Mac systems.
 
 Add support for Logic Pro X on Apple M1-based systems.  
 Fix hanging problem on Mac when computer name is long.
@@ -445,7 +445,7 @@ Compatibility with Mixbus32C Version 7 .
 
 **VERSION 2.7.1 CHANGES**
 
-Basic Reaper Support for Pro Control, Control24, C24, and Command 8\.
+Basic Reaper Support for ProControl, Control24, C24, and Command 8\.
 
 **VERSION 2.7.0 CHANGES**
 
@@ -453,27 +453,27 @@ Digidesign Command 8 Support
 	MixBus  
 	Logic Pro X  
 	Ableton Live  
-	Presonus Studio One
+	PreSonus Studio One
 
 Issues Fixed  
 	Cubase hanging with C24  
-	Windows Uninstaller not removing virtual Midi ports
+	Windows Uninstaller not removing virtual MIDI ports
 
 **VERSION 2.6.2 CHANGES**
 
 Cubase / Nuendo Improvements For ProControl / Control24, C24  
 	Master Fader Control  
 	Output Metering \- Stereo and 5.1  
-	Auto-Bank Follow Function \- Use Focus button for C24, Shuffle button for Control24, F1 button for Pro Control  
+	Auto-Bank Follow Function \- Use Focus button for C24, Shuffle button for Control24, F1 button for ProControl  
 	F1 \- F10 Programmable Buttons For Control24
 
 **VERSION 2.6.1 CHANGES**
 
-Added support for MixBus with Pro Control / Control24, and C24
+Added support for MixBus with ProControl / Control24, and C24
 
-Added support for Ableton Live with Pro Control / Control24, and C24
+Added support for Ableton Live with ProControl / Control24, and C24
 
-Improvements for Logic Pro X and Pro Control / Control24, and C24.  
+Improvements for Logic Pro X and ProControl / Control24, and C24.  
 	Assignable inserts  
 	Improved assignment of inputs, outputs, and sends  
 	Soft keys assignable in Logic Pro X controller assignments window.  
@@ -481,13 +481,13 @@ Improvements for Logic Pro X and Pro Control / Control24, and C24.
 
 **VERSION 2.6 CHANGES**
 
-Added support for Pro Control Edit Pack with Pro Tools. 
+Added support for ProControl Edit Pack with Pro Tools. 
 
 **VERSION 2.5.6 CHANGES**
 
 Improved V-Window to be compatible with Catalina security and privacy settings.   
 Fixed intermittent bug where an Ethernet surface meters and counter freeze for a second.  
-Fixed zoom control of Cubase with cursor keys on Pro Control, Control|24, and C|24.
+Fixed zoom control of Cubase with cursor keys on ProControl, Control|24, and C|24.
 
 **VERSION 2.5.5 CHANGES**
 
@@ -508,7 +508,7 @@ Added support for Nuendo 10.0
 
 **VERSION 2.5.1 CHANGES**
 
-Mac OS installer improved to be compatible with Catalina Gatekeeper.  
+macOS installer improved to be compatible with Catalina Gatekeeper.  
 Control improvements for Logic Pro X, Cubase/Nuendo, and Studio One.
 
 Website Page Listings Of Control Features:  
@@ -522,23 +522,23 @@ Added support for the Digidesign C|24 control surface. Compatible DAWs are Logic
 
 **VERSION 2.4 CHANGES**
 
-Support for Presonus Studio One on Control24 and ProControl.  
+Support for PreSonus Studio One on Control24 and ProControl.  
 Pro Tools plug-in editing on Control24.  
 Logic Pro X enhancements for Control24 and ProControl.
 
 **IMPORTANT INFO FOR PRO CONTROL / CONTROL 24, C24 USERS**
 
-Windows systems that use Ethernet surfaces Pro Control or Control 24 must install a separate utility called Win10Pcap. Please download and install it from here:
+Windows systems that use Ethernet surfaces ProControl or Control 24 must install a separate utility called Win10Pcap. Please download and install it from here:
 
 http://www.win10pcap.org/download/
 
-Do not use WiFi for the connection between the computer and Pro Control / Control 24\. Connect your computer’s Ethernet directly to the surface or use an Ethernet switch for multiple surfaces.
+Do not use Wi-Fi for the connection between the computer and ProControl / Control 24\. Connect your computer’s Ethernet directly to the surface or use an Ethernet switch for multiple surfaces.
 
 **IMPORTANT INFO FOR LOGIC PRO X AND PRO CONTROL / CONTROL 24 / C24 USERS**
 
 V-Control Pro 2.7.3 is compatible with Logic 10.6 and later only. If you are using Logic 10.5 or earlier, please install V-Control Pro 2.7.2.
 
-V-Control Pro 2.7.3 does not support multiple Pro Control Fader Pack devices at this time. If you have multiple Fader Packs, you must use V-Control Pro 2.7.2, which will only work on Intel Macs. At this time, multiple Fader Pack units are not supported on M1 Mac systems.
+V-Control Pro 2.7.3 does not support multiple ProControl Fader Pack devices at this time. If you have multiple Fader Packs, you must use V-Control Pro 2.7.2, which will only work on Intel Macs. At this time, multiple Fader Pack units are not supported on M1 Mac systems.
 
 If you are installing over a previous version of V-Control Pro, please delete the surfaces in in Logic Pro X / Control Surfaces / Setup...  
 Then QUIT Logic.  
@@ -564,7 +564,7 @@ If you want to use the new V-Control Pro 2 features, only then do you need to pu
 \* multiple controllers  
 \* supports smartphones
 
-**QuickStart Instructions**
+**Quick Start Instructions**
 
 1\. Run the installer.
 

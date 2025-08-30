@@ -93,4 +93,4 @@
     | MIDI Mode |  |
     |---|---|
     | MIDI Mode converts the surfaces faders, knobs, and buttons into assignable MIDI Controls that can be mapped in the DAW. |  |
-    | Mon/0 | Toggles surface between DAW Mode and Midi Mode |
+    | Mon/0 | Toggles surface between DAW Mode and MIDI Mode |

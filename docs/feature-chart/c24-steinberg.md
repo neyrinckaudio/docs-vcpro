@@ -42,7 +42,7 @@
     |  | 3rd parameter is channel input. |
     |  | 4th parameter is pre-gain. |
     |  | 5th parameter is phase invert. |
-    | Softkeys | Assigns knob buttons on Channel strips to be soft key buttons. |
+    | Soft Keys | Assigns knob buttons on Channel strips to be soft key buttons. |
     | Flip | Flips knobs to faders. |
     | Master Faders | Enables Master Fader control on the 24th channel of C24. |
     | Output Meters | Displays the Master Meter. |
@@ -130,11 +130,11 @@
     | Zoom+Option | Enables Wave Zoom for the wheel and cursor keys. Wave zoom increases waveform view in region. |
     | Trim | Enables Nudge trim mode for the wheel and cursor keys. Use Left/Right cursor keys to change between start/end of region.  Use Up/Down cursor keys or wheel to trim. |
 
-=== "Softkeys Button"
+=== "Soft Keys Button"
 
-    | Softkeys Button |  |
+    | Soft Keys Button |  |
     |---|---|
-    | Softkeys | Enables the knob buttons on the channel strips to become softkeys.  Softkeys can be mapped in the Studio Setups window of Cubase when the C24 is selected. |
+    | Soft Keys | Enables the knob buttons on the channel strips to become softkeys.  Soft Keys can be mapped in the Studio Setups window of Cubase when the C24 is selected. |
 
 === "View Buttons"
 
@@ -163,4 +163,4 @@
     | MIDI Mode |  |
     |---|---|
     | MIDI Mode converts the surfaces faders, knobs, and buttons into assignable MIDI Controls that can be mapped in the DAW. |  |
-    | Focus | Toggles surface between DAW Mode and Midi Mode |
+    | Focus | Toggles surface between DAW Mode and MIDI Mode |

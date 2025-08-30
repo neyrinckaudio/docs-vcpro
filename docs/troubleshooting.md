@@ -89,7 +89,7 @@ If the Setups window shows your surface name as "grayed out," then it is indicat
 Ethernet control surfaces have an LED indicator on the rear panel next to the Ethernet cable jack. This LED indicates if an Ethernet connection is active.
 
 * Check the rear panel of your control surface to make sure an Ethernet cable is connected.
-* Check the rear panel of your control surface to make sure the LED indicator at the Ethernet connector indicates activity. If the LED does not indicate activity, then there are several possible probelms:
+* Check the rear panel of your control surface to make sure the LED indicator at the Ethernet connector indicates activity. If the LED does not indicate activity, then there are several possible problems:
     * The Ethernet cable is faulty. Try using a different cable.
     * The Ethernet cable is not connected at both ends.
     * The control surface hardware has an issue.
@@ -98,40 +98,40 @@ Ethernet control surfaces have an LED indicator on the rear panel next to the Et
 
 When you select the <b>Add Ethernet Device...</b> option in the <b>Add new...</b> controller window, V-Control Pro monitors a network to detect if a surface is available. If no surface is seen, you will need to check a few things:
 
-* Is the [Ethernet LED Indicator](#ethernet-led) on the surface active?
+* Is the [Ethernet LED Indicator](#ethernet-led) active on the surface?
 * Is the Ethernet port enabled in the computer?
-    * For Mac OS, open System Settings / Network. If the Ethernet port is colored red, then it is not enabled. Using a low cost network switch between the computer and surface usually solves this. A "self-assigned IP address" is OK because legacy Ethernet surfaces do not use TCP/IP networking.
-    * For Windows, make sure the "Npcap" utility is installed. Learn more about [Mac OS and Windows Networking](./ethernet-controllers.md/#networking)
+    * For macOS, open System Settings / Network. If the Ethernet port is colored red, then it is not enabled. Using a low cost network switch between the computer and surface usually solves this. A "self-assigned IP address" is OK because legacy Ethernet surfaces do not use TCP/IP networking.
+    * For Windows, make sure the "Npcap" utility is installed. Learn more about [macOS and Windows Networking](./ethernet-controllers.md/#networking)
     * For Windows, make sure the "Win10Pcap" utility is NOT installed.
 * Is a Firewall active?
     * Open System Settings / Network / Firewall
     * Disable Firewall if it is enabled.
     * If you need to use a Firewall you will need to set options to allow your surface to operate on the network.
         * Legacy Ethernet surfaces use Ethernet 2 packets with MAC hardware addressing.
-        * iPad apps use IP networking and zero configuration networking.
+        * iPad Apps use IP networking and zero configuration networking.
 
 !!! warning "Symantec Endpoint Protection"
     Some Windows users have seen problems if Symantec Endpoint Protection is enabled. 
 
-#### Troubleshooting Midi Controllers
+#### Troubleshooting MIDI Controllers
 
-If a Midi control surface has been added to the Setups window, but it is "greyed out," then V-Control Pro is not detecting it. PLease check the Midi ports assigned to connect to the surface.
+If a MIDI control surface has been added to the Setups window, but it is "greyed out," then V-Control Pro is not detecting it. Please check the MIDI ports assigned to connect to the surface.
 
-##### Check The Midi Ports Assigned To The Midi Controller
+##### Check The MIDI Ports Assigned To The MIDI Controller
 
 * Launch V-Control Pro.
 * Select the V-Control Pro <b>Setups...</b> menu item to open the Setups window.
 * Look at the Controllers section of the Setups window
     * If the control surface name is "grayed out," then it is not connected.
         * Click the surface name to see the configuration details.
-        * Check the Midi Input and Midi Output popup menus to confirm the correct ports are selected.
+        * Check the MIDI Input and MIDI Output popup menus to confirm the correct ports are selected.
     * If the control surface name is "bold," then it is connected 
 
 <a id="windows-os"></a>
 
 ## Windows OS Issues
 
-Windows OS users have been able to solve problems using one or more of these steps. If you are using Mac OS, go to [Mac OS Issues](#mac-os).
+Windows OS users have been able to solve problems using one or more of these steps. If you are using macOS, go to [macOS Issues](#mac-os).
 
 #### I Updated To Windows 11 And It Stopped Working
 
@@ -139,7 +139,7 @@ Windows OS users have been able to solve problems using one or more of these ste
     To use Windows 11 you must use the latest V-Control Pro 3.X available at [Installers](https://neyrinck.com/download/v-control-pro/). V-Control Pro 3 is compatible with V-Control Pro 2 Standard licenses.
 
 !!! warning "You must uninstall Win10Pcap to use V-Control Pro 3 with Ethernet surfaces on Windows 11. You must install Npcap."
-    If you were using V-Control Pro 2.x with an Ethernet surface on Windows 10 and you upgraded to Windows 11, then most likely Win10Pcap is installed and must be uninstalled. And you must install NPcap [available here.](https://npcap.com/#download)
+    If you were using V-Control Pro 2.x with an Ethernet surface on Windows 10 and you upgraded to Windows 11, then most likely Win10Pcap is installed and must be uninstalled. And you must install Npcap [available here.](https://npcap.com/#download)
 
 Please follow these steps to uninstall everything and re-install if you have upgraded a Windows 10 system to Windows 11.
 
@@ -148,20 +148,20 @@ Please follow these steps to uninstall everything and re-install if you have upg
 * Reboot.
 * Delete V-Control Pro preferences by following [these instructions](./troubleshooting.md/#resetting-v-control-pro-on-windows)
 * If you are using an Ethernet surface, follow these instructions:
-    * Uninstall NPcap, if you already installed it.
+    * Uninstall Npcap, if you already installed it.
     * Uninstall Win10Pcap. If you get an error that one or more DLLs are in use then do this:
         * Reboot
         * Reinstall Win10Pcap
-        * Uninstall Win10 Pcap.
+        * Uninstall Win10Pcap.
     * You must uninstall Win10Pcap completely, without errors, for V-Control Pro to operate on Windows 11.
-    * After Win10Pcap is uninstalled successfully, install NPcap, [available here.](https://npcap.com/#download)
+    * After Win10Pcap is uninstalled successfully, install Npcap, [available here.](https://npcap.com/#download)
 * Open the Device Manager. Select the View menu and enable "Show Hidden Items."
 * If any "V-Control" related midi ports are shown, they must all be uninstalled manually. This is very important. If you don't, DAWs will see these hidden midi ports and not connect properly. Because V-Control Pro is not installed at this point, you should not see any V-Control midi ports in Device Manager.
 * Install the latest V-Control Pro available at [Installers](https://neyrinck.com/download/v-control-pro/)
 * Reboot
 * Launch V-Control Pro.
 * Add you surface to V-Control Pro Setups as described [HERE](v-control-pro/controllers-overview/)
-* If you are using Pro Tools, you must delete the Pro Tools Preferences. If you don't, Pro Tools will not correctly communicate with V-Control Midi ports. [See Here.](https://www.sweetwater.com/sweetcare/articles/how-do-i-trash-my-pro-tools-preferences/#Trash-Pro-Tools-Preferences-for-PC)
+* If you are using Pro Tools, you must delete the Pro Tools Preferences. If you don't, Pro Tools will not correctly communicate with V-Control MIDI ports. [See Here.](https://www.sweetwater.com/sweetcare/articles/how-do-i-trash-my-pro-tools-preferences/#Trash-Pro-Tools-Preferences-for-PC)
 * Launch the DAW and set it up as described [HERE](./pro-tools.md)
 
 #### I Updated From V-Control Pro 2 To V-Control Pro 3 And It Stopped Working
@@ -169,10 +169,10 @@ Please follow these steps to uninstall everything and re-install if you have upg
 Some DAWs, especially Pro Tools on Windows, keep track of MIDI ports by number rather than by name. V-Control Pro 3 changed the ports and Pro Tools can get confused if you are updating V-Control Pro.
 
 * Quit Pro Tools
-* Trash Pro Tools Prefs
+* Trash Pro Tools Preferences
 * Launch Pro Tools
-* Reset Pro Tools Midi Input Enables.
-* Reset Pro Tools Midi Peripherals.
+* Reset Pro Tools MIDI Input Enables.
+* Reset Pro Tools MIDI Peripherals.
 
 #### V-Control Pro Is Not Launching
 
@@ -183,7 +183,7 @@ Some DAWs, especially Pro Tools on Windows, keep track of MIDI ports by number r
  * Did you update the BIOS?
     * Open the <b>Device Manager</b> and select <b>Sound Video And Game Controllers</b>
     * Select <b>Show Hidden Devices</b>
-    * Delete any V-Control Midi ports that were hidden.
+    * Delete any V-Control MIDI ports that were hidden.
     * Restart your computer and verify the hidden ports have been deleted.
 
 #### Resetting V-Control Pro on Windows:
@@ -199,21 +199,21 @@ Some issues with Setup or mapping configuration can be resolved by deleting the 
 * Launch V-Control Pro.
 * Open the Setups window.
 * Add your surface(s) again.
-* launch the DAW.
+* Launch the DAW.
 
 <a id="mac-os"></a>
 
-## Mac OS Issues
+## macOS Issues
 
-Mac OS users have been able to solve problems using one or more of these steps. If you are using Windowd OS, go to [Windows OS Issues](#windows-os).
+macOS users have been able to solve problems using one or more of these steps. If you are using Windows OS, go to [Windows OS Issues](#windows-os).
 
-#### V-Control Pro Is Not Launching On Mac OS
+#### V-Control Pro Is Not Launching On macOS
 
 * Remove V-Control Pro As A Startup Item.
 * Restart the computer.
 * Launch V-Control Pro manually.
 
-#### Resetting V-Control Pro on Mac OS:
+#### Resetting V-Control Pro on macOS:
 
 Some issues with Setup or mapping configuration can be resolved by deleting the V-Control Pro Preference files. Follow the steps to reset the V-Control Pro Settings.
 

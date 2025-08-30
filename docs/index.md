@@ -1,6 +1,6 @@
 
 # Welcome To V-Control Pro
-V-Control Pro is a Mac OS / Windows application that connects control surfaces to digital audio and video workstation applications.
+V-Control Pro is a macOS / Windows application that connects control surfaces to digital audio and video workstation applications.
 
 [Release Notes](https://neyrinck.com/help/v-control-pro-release-notes/){ .md-button }
 [Installers](https://neyrinck.com/download/v-control-pro/){ .md-button }
@@ -12,15 +12,15 @@ Digidesign and Avid manufactured superb control surfaces that connected to Pro T
 * [D-Command](./d-command.md)
 * [C24](./c24.md)
 * [Control 24](./control-24.md)
-* [Pro Control](./pro-control.md)
+* [ProControl](./pro-control.md)
 * [Command 8](./command8.md)
 
 ## Supercharged For Pro Tools
 V-Control Pro connects modern surfaces to Pro Tools for much better control than is normally provided.
 
-* [Presonus FaderPort V2](./faderport-v2.md)
-* [Presonus ioStation 24c](./faderport-v2.md)
-* [Presonus FaderPort 8 / 16](./faderport-8-16.md)
+* [PreSonus FaderPort V2](./faderport-v2.md)
+* [PreSonus ioStation 24c](./faderport-v2.md)
+* [PreSonus FaderPort 8 / 16](./faderport-8-16.md)
 
 ## iPad Apps
 V-Control Pro connects modern surfaces to Pro Tools for much better control than is normally provided.

@@ -11,7 +11,7 @@ Windows systems require a Command 8 driver to be installed. A driver can be down
 
 #### Add Command 8 To The Setups Window
 
-First, you must add Command 8 as a controller in the V-Control Pro Setups window as described in [Setting Up Midi Controllers](./midi-controllers.md).
+First, you must add Command 8 as a controller in the V-Control Pro Setups window as described in [Setting Up MIDI Controllers](./midi-controllers.md).
 
 #### Pro Tools
 Set up Pro Tools for one HUI bank as described in [Setting Up Pro Tools](./pro-tools.md).

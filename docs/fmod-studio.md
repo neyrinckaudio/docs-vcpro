@@ -10,7 +10,7 @@
     * Output Port: V-Control
     * FMOD Mackie 1
 
-![FMOD Studio - 8 channel](./images/fmod1.png "FMOD Studio - 8 channel")
+![FMOD Studio - 8 Channels](./images/fmod1.png "FMOD Studio - 8 Channels")
 
 ## 16 Channel
 
@@ -23,4 +23,4 @@ Select the following for an 16 channel surface:
 * Output Port 2: V-Control XT2
 * FMOD Mackie 1
 
-![FMOD Studio - 16 channel](./images/fmod2.png "FMOD Studio - 16 channel")
+![FMOD Studio - 16 Channels](./images/fmod2.png "FMOD Studio - 16 Channels")

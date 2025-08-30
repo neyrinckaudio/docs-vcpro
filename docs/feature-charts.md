@@ -51,7 +51,7 @@
     === "LUNA"
         {% include './feature-chart/control24-luna.md' %}
 
-=== "Pro Control"
+=== "ProControl"
     ###
     === "Pro Tools"
         {% include './feature-chart/procontrol-protools.md' %}
@@ -70,10 +70,10 @@
     === "LUNA"
         {% include './feature-chart/procontrol-luna.md' %}
         
-=== "Faderport V2 / ioStation24c"
+=== "FaderPort V2 / ioStation24c"
     {% include './feature-chart/faderport-v2-protools.md' %}
 
-=== "Faderport 8 / 16"
+=== "FaderPort 8 / 16"
     ###
     === "Pro Tools 2022 and earlier"
         {% include './feature-chart/tbd.md' %}
