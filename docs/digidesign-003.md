@@ -2,7 +2,7 @@
 
 V-Control Pro supports the Digidesign 003 firewire surface. A compatible 003 driver must be installed on the computer.
 
-!!! warning "V-Control Pro Does Not Provide Firewire Drivers"
+!!! warning "V-Control Pro Does Not Provide FireWire Drivers"
     You must install a 003 firewire driver that allows the Mac or Windows computer to provide audio I/O and MIDI I/O. Last time we looked, Avid's drivers do not work well with modern computers, especially Mac systems.
 
 
@@ -12,7 +12,7 @@ V-Control Pro supports the Digidesign 003 firewire surface. A compatible 003 dri
 
 ### Setup
 
-First, you must add 003 as a controller in the V-Control Pro Setups window as described in [Setting Up Firewire Controllers](./firewire-controllers.md).
+First, you must add 003 as a controller in the V-Control Pro Setups window as described in [Setting Up FireWire Controllers](./firewire-controllers.md).
 
 #### Pro Tools
 Set up Pro Tools for 1 HUI banks as described in [Setting Up Pro Tools](./pro-tools.md). The 003 counts as one 8-channel bank.

@@ -43,7 +43,7 @@ Follow the instructions for 8 Channel and do the following:
 
 Follow the instructions for 8 Channel and 16 Channel and do the following.
 
-- Setup the following for the Control Surface Setup:
+- Set up the following for the Control Surface Setup:
     - Control Surface: Mackie Control XT
     - Input: V-Control XT3
     - Output: V-Control XT3
