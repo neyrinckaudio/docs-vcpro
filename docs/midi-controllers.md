@@ -6,7 +6,7 @@ For surfaces that use MIDI to connect to a computer, follow these instructions t
 
 * Connect the surface to the computer with a USB cable.
 * Open the V-Control Pro Setups window.
-* Click on <b>+ Add New</b> text button in the <b>Controllers</b> section. This will display a popup menu with several choices.
+* Click on `+ Add New` text button in the `Controllers` section. This will display a popup menu with several choices.
 * Select the name of the MIDI controller you are using to add it to your setups.
 * Now your surface should be shown in the Controllers section of Setups.
 * Set the MIDI ports for the surface.

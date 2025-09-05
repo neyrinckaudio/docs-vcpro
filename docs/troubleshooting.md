@@ -5,6 +5,9 @@
 
 If you are using an old version of V-Control Pro, it might not support the surface you are trying to use. Installer downloads are available at the [Neyrinck Downloads Page](https://neyrinck.com/downloads/v-control-pro).
 
+!!! warning "V-Control Pro 2.X is incompatible with Windows 11"
+    To use Windows 11 you must use the latest V-Control Pro 3.X available at [Installers](https://neyrinck.com/download/v-control-pro/). V-Control Pro 3 is compatible with V-Control Pro 2 Standard licenses.
+
 <a id="step-1"></a>
 ## Verify The License
 
@@ -19,7 +22,7 @@ V-Control Pro needs to be licensed for most systems, using either a trial licens
 #### Check If V-Control Pro Is Licensed
 
 * Launch V-Control Pro
-* Select the <b>About V-Control Pro</b> menu item to open the About window.
+* Select the `About V-Control Pro` menu item to open the About window.
 * The `About` window will indicate "Licensed" or "Not Licensed."
 * If it is licensed, proceed to [Step 2](#step-2).
 
@@ -45,8 +48,8 @@ V-Control Pro will only work if your control surface is added to the Setups wind
 #### Check If Your Control Surface Is Added
 
 * Launch V-Control Pro.
-* Select the V-Control Pro <b>Setups...</b> menu item to open the Setups window.
-* Look at the <b>Controllers</b> section at the lower left.
+* Select the V-Control Pro `Setups...` menu item to open the Setups window.
+* Look at the `Controllers` section at the lower left.
     * If your surface is already added, [verify it is connected](#verify-connected)
     * If your surface is not added, [add your control surface](#add-surface)
 
@@ -55,8 +58,8 @@ V-Control Pro will only work if your control surface is added to the Setups wind
 #### Add Your Control Surface
 
 * Launch V-Control Pro.
-* Select the V-Control Pro <b>Setups...</b> menu item to open the Setups window.
-* Click the <b>Add new...</b> button in the Controllers section at the lower left of the Setups window.
+* Select the V-Control Pro `Setups...` menu item to open the Setups window.
+* Click the `Add new...` button in the `Controllers` section at the lower left of the Setups window.
 * Select the type of surface you are adding. For more information see 
 
 <a id="verify-connected"></a>
@@ -66,8 +69,8 @@ V-Control Pro will only work if your control surface is added to the Setups wind
 #### Check If Your Control Surface Is Connected
 
 * Launch V-Control Pro.
-* Select the V-Control Pro <b>Setups...</b> menu item to open the Setups window.
-* Look at the Controllers section of the Setups window
+* Select the V-Control Pro `Setups...` menu item to open the Setups window.
+* Look at the `Controllers` section of the Setups window
     * If the control surface name is "grayed out," then it is not connected.
         *  Try looking at 
     * If the control surface name is "bold," then it is connected 
@@ -96,7 +99,7 @@ Ethernet control surfaces have an LED indicator on the rear panel next to the Et
 
 ##### The Add Ethernet Device... Window Does Not Show The Surface
 
-When you select the <b>Add Ethernet Device...</b> option in the <b>Add new...</b> controller window, V-Control Pro monitors a network to detect if a surface is available. If no surface is seen, you will need to check a few things:
+When you select the `Add Ethernet Device...` option in the `Add new...` controller window, V-Control Pro monitors a network to detect if a surface is available. If no surface is seen, you will need to check a few things:
 
 * Is the [Ethernet LED Indicator](#ethernet-led) active on the surface?
 * Is the Ethernet port enabled in the computer?
@@ -120,8 +123,8 @@ If a MIDI control surface has been added to the Setups window, but it is "greyed
 ##### Check The MIDI Ports Assigned To The MIDI Controller
 
 * Launch V-Control Pro.
-* Select the V-Control Pro <b>Setups...</b> menu item to open the Setups window.
-* Look at the Controllers section of the Setups window
+* Select the V-Control Pro `Setups...` menu item to open the Setups window.
+* Look at the `Controllers` section of the Setups window
     * If the control surface name is "grayed out," then it is not connected.
         * Click the surface name to see the configuration details.
         * Check the MIDI Input and MIDI Output popup menus to confirm the correct ports are selected.
@@ -181,8 +184,8 @@ Some DAWs, especially Pro Tools on Windows, keep track of MIDI ports by number r
 #### The Control Surface Is Not Controlling The DAW
 
  * Did you update the BIOS?
-    * Open the <b>Device Manager</b> and select <b>Sound Video And Game Controllers</b>
-    * Select <b>Show Hidden Devices</b>
+    * Open the `Device Manager` and select `Sound Video And Game Controllers`
+    * Select `Show Hidden Devices`
     * Delete any V-Control MIDI ports that were hidden.
     * Restart your computer and verify the hidden ports have been deleted.
 
@@ -247,7 +250,7 @@ For these common issues, please review the [Logic Pro Setup Section](./logic-pro
 
 Some users have observed "strange" control behaviors that have been solved by deleting all surfaces set up in Logic and setting it up again.
 
-* Open Logic Pro <b>Control Surfaces / Setup</b> window.
+* Open Logic Pro `Control Surfaces / Setup` window.
 * Delete all surfaces.
 * Quit Logic.
 * Start Logic and follow the info in the [Logic Pro Setup Section](./logic-pro.md)

@@ -11,8 +11,8 @@ V-Control Pro uses the HUI protocol with Pro Tools Studio/Ultimate to provide fo
 ## Enable V-Control Pro Virtual MIDI Ports
 
 * In Pro Tools, select the menu Setup / MIDI / MIDI Input Devices
-* Enable the <b>V-Control, V-Control XT-2, V-Control XT-3, V-Control XT-4</b> and <b>V-Pan</b> ports.
-* Do not enable the <b>V-Control MIDI Mode</b> port.
+* Enable the `V-Control, V-Control XT-2, V-Control XT-3, V-Control XT-4` and `V-Pan` ports.
+* Do not enable the `V-Control MIDI Mode` port.
 
 ## Setting the MIDI Peripherals
 
@@ -32,7 +32,7 @@ V-Control Pro must be set up in the Pro Tools peripherals window. Depending on h
 
 ### 16 Channel Surfaces
 
-* ProControl Main & ProControl FaderBank
+* ProControl Main & ProControl Fader Pack
 * FaderPort 16 (Pro Tools 2023+)
 * V-Console (set for 16 channels)
 ![16 Channel Surfaces](./images/ptmidi2.png "16 Channel Surfaces")
@@ -42,12 +42,12 @@ V-Control Pro must be set up in the Pro Tools peripherals window. Depending on h
 * D-Command Main & D-Command Fader Module
 * Control 24
 * C24
-* ProControl Main & Two ProControl FaderBanks
+* ProControl Main & Two ProControl Fader Packs
 * RAVEN 24
 ![24 Channel Surfaces](./images/ptmidi3.png "24 Channel Surfaces")
 
 ### 32 Channel Surfaces
-* ProControl Main & Three ProControl FaderBanks
+* ProControl Main & Three ProControl Fader Packs
 * FaderPort V2 / ioStation 24c
 * RAVEN 32
 ![32 Channel Surfaces](./images/ptmidi4.png "32 Channel Surfaces")
