@@ -1,264 +1,232 @@
 # Troubleshooting
 
-<a id="step-0"></a>
-## Update Your Old Version
+This guide will help you resolve common V-Control Pro issues. Start with the [Quick Checklist](#quick-checklist) for immediate help, then follow the detailed sections as needed.
 
-If you are using an old version of V-Control Pro, it might not support the surface you are trying to use. Installer downloads are available at the [Neyrinck Downloads Page](https://neyrinck.com/downloads/v-control-pro).
+## Quick Checklist {#quick-checklist}
 
-!!! warning "V-Control Pro 2.X is incompatible with Windows 11"
-    To use Windows 11 you must use the latest V-Control Pro 3.X available at [Installers](https://neyrinck.com/download/v-control-pro/). V-Control Pro 3 is compatible with V-Control Pro 2 Standard licenses.
+Before diving into detailed troubleshooting, try these common solutions:
 
-<a id="step-1"></a>
-## Verify The License
+1. **Update to Latest Version**: [Download V-Control Pro 3.X](https://neyrinck.com/download/v-control-pro/)
+2. **Verify License**: Check `About V-Control Pro` shows "Licensed"
+3. **Check Surface Connection**: Surface should appear "bold" (connected) not "grayed out" (disconnected) in Setups
+4. **Restart Both Apps**: Quit both V-Control Pro and your DAW, then relaunch
+5. **Review Setup Guide**: Verify your [controller setup](./controllers-overview.md) and [DAW configuration](./pro-tools.md)
 
-V-Control Pro needs to be licensed for most systems, using either a trial license or a purchased license. [Learn more about Licensing](./v-control-pro-licensing.md)
+---
 
-!!! note "RAVEN Info"
-    RAVEN users do not need to use a V-Control Pro license.
+## Step-by-Step Troubleshooting
 
-!!! note "Legacy iPad App V 1.9 Info"
-    The original V-Control Pro iPad app (version 1.9) users do not need to use a V-Control Pro license.
+### Step 1: Update V-Control Pro {#step-1-update}
 
-#### Check If V-Control Pro Is Licensed
+Older versions may not support your control surface or operating system.
 
-* Launch V-Control Pro
-* Select the `About V-Control Pro` menu item to open the About window.
-* The `About` window will indicate "Licensed" or "Not Licensed."
-* If it is licensed, proceed to [Step 2](#step-2).
+**Check Your Version:**
+1. Launch V-Control Pro
+2. Select `About V-Control Pro` from the menu
+3. Verify you're running V-Control Pro 3.X
 
-#### V-Control Pro Is Not Licensed, What Next?
+**Download Updates:**
+- Get the latest version: [Neyrinck Downloads](https://neyrinck.com/download/v-control-pro/)
 
-* Get A License
+!!! warning "Windows 11 Compatibility"
+    V-Control Pro 2.X is **incompatible** with Windows 11. You must use V-Control Pro 3.X. Existing V-Control Pro 2 Standard licenses work with V-Control Pro 3.
 
-    * You can get a trial license at the [Neyrinck Trial License Page](https://neyrinck.com/v-control-pro-trial/).
-    * You can purchase a license at the [Neyrinck Store](https://neyrinck.com/store/).
-    
-* Activating A License
-    * After getting a license deposited to your iLok user account, you must [activate the license](./v-control-pro-licensing.md/#license-activate).
-    * After activating, verify that V-Control Pro is licensed.
-        * Quit V-Control Pro.
-        * Go back to [Step 1 - Verify The License](#step-1)
+### Step 2: Verify Licensing {#step-2-license}
 
-<a id="step-2"></a>
+V-Control Pro requires a valid license for most systems.
 
-## Make Sure Your Surface Is Added To Setups
+**Check License Status:**
+1. Launch V-Control Pro
+2. Select `About V-Control Pro`
+3. Look for "Licensed" or "Not Licensed"
 
-V-Control Pro will only work if your control surface is added to the Setups window. and is detected to be in the Setups window.
+**If Not Licensed:**
+- **Trial License**: [Get 14-day trial](https://neyrinck.com/v-control-pro-trial/)
+- **Purchase**: [Neyrinck Store](https://neyrinck.com/store/)
+- **Activate**: Follow the [licensing guide](./v-control-pro-licensing.md#license-activate)
 
-#### Check If Your Control Surface Is Added
+!!! note "License Exceptions"
+    - **RAVEN users**: No V-Control Pro license required
+    - **Legacy iPad App v1.9**: No license required
 
-* Launch V-Control Pro.
-* Select the V-Control Pro `Setups...` menu item to open the Setups window.
-* Look at the `Controllers` section at the lower left.
-    * If your surface is already added, [verify it is connected](#verify-connected)
-    * If your surface is not added, [add your control surface](#add-surface)
+### Step 3: Add and Connect Your Surface {#step-3-surface}
 
-<a id="add-surface"></a>
+Your control surface must be properly added and connected in V-Control Pro.
 
-#### Add Your Control Surface
+**Check Surface Status:**
+1. Launch V-Control Pro
+2. Open `Setups...` menu
+3. Look at the `Controllers` section (lower left)
+   - **Bold text** = Connected ✓
+   - **Grayed out** = Not connected ✗
 
-* Launch V-Control Pro.
-* Select the V-Control Pro `Setups...` menu item to open the Setups window.
-* Click the `Add new...` button in the `Controllers` section at the lower left of the Setups window.
-* Select the type of surface you are adding. For more information see 
+**Add a New Surface:**
+1. Click `Add new...` button in Controllers section
+2. Select your surface type
+3. Follow the setup prompts
+4. See [Controllers Overview](./controllers-overview.md) for detailed instructions
 
-<a id="verify-connected"></a>
+---
 
-## Make Sure Your Surface Is Connected
+## Connection Issues by Controller Type
 
-#### Check If Your Control Surface Is Connected
+### Ethernet Controllers {#ethernet-troubleshooting}
 
-* Launch V-Control Pro.
-* Select the V-Control Pro `Setups...` menu item to open the Setups window.
-* Look at the `Controllers` section of the Setups window
-    * If the control surface name is "grayed out," then it is not connected.
-        *  Try looking at 
-    * If the control surface name is "bold," then it is connected 
+**Visual Connection Check:**
+1. Verify Ethernet cable is connected at both ends
+2. Check the LED indicator next to the Ethernet port on your surface
+3. LED should show activity - if not, try a different cable
 
-#### Troubleshooting Controllers That Are Not Connected
+**Network Configuration:**
 
-If the Setups window shows your surface name as "grayed out," then it is indicating the surface is not detected.
+=== "Windows"
+    - **Required**: Install [Npcap](https://npcap.com/#download)
+    - **Remove**: Uninstall Win10Pcap if present
+    - **Firewall**: Temporarily disable to test
 
-* Try [Troubleshooting Ethernet Issues](#ethernet-issues)
-* Review the [Ethernet Controllers Section](./ethernet-controllers.md)
+=== "macOS"
+    - **Network Settings**: System Settings → Network
+    - **Red Ethernet port**: Use a network switch between computer and surface
+    - **Self-assigned IP**: This is normal and OK
+    - **Firewall**: System Settings → Network → Firewall (disable to test)
 
-<a id="ethernet-issues"></a>
-
-#### Troubleshooting Ethernet
-
-<a id="ethernet-led"></a>
-
-##### Ethernet LED Indicator
-Ethernet control surfaces have an LED indicator on the rear panel next to the Ethernet cable jack. This LED indicates if an Ethernet connection is active.
-
-* Check the rear panel of your control surface to make sure an Ethernet cable is connected.
-* Check the rear panel of your control surface to make sure the LED indicator at the Ethernet connector indicates activity. If the LED does not indicate activity, then there are several possible problems:
-    * The Ethernet cable is faulty. Try using a different cable.
-    * The Ethernet cable is not connected at both ends.
-    * The control surface hardware has an issue.
-
-##### The Add Ethernet Device... Window Does Not Show The Surface
-
-When you select the `Add Ethernet Device...` option in the `Add new...` controller window, V-Control Pro monitors a network to detect if a surface is available. If no surface is seen, you will need to check a few things:
-
-* Is the [Ethernet LED Indicator](#ethernet-led) active on the surface?
-* Is the Ethernet port enabled in the computer?
-    * For macOS, open System Settings / Network. If the Ethernet port is colored red, then it is not enabled. Using a low cost network switch between the computer and surface usually solves this. A "self-assigned IP address" is OK because legacy Ethernet surfaces do not use TCP/IP networking.
-    * For Windows, make sure the "Npcap" utility is installed. Learn more about [macOS and Windows Networking](./ethernet-controllers.md/#networking)
-    * For Windows, make sure the "Win10Pcap" utility is NOT installed.
-* Is a Firewall active?
-    * Open System Settings / Network / Firewall
-    * Disable Firewall if it is enabled.
-    * If you need to use a Firewall you will need to set options to allow your surface to operate on the network.
-        * Legacy Ethernet surfaces use Ethernet 2 packets with MAC hardware addressing.
-        * iPad Apps use IP networking and zero configuration networking.
+**If Surface Not Detected:**
+- Confirm Ethernet LED is active (see Visual Connection Check above)
+- Check computer's Ethernet port is enabled
+- Temporarily disable firewall/antivirus
+- Review [Ethernet Controllers guide](./ethernet-controllers.md#networking)
 
 !!! warning "Symantec Endpoint Protection"
-    Some Windows users have seen problems if Symantec Endpoint Protection is enabled. 
+    Known to cause issues on Windows. Temporarily disable for testing.
 
-#### Troubleshooting MIDI Controllers
+### MIDI Controllers {#midi-troubleshooting}
 
-If a MIDI control surface has been added to the Setups window, but it is "greyed out," then V-Control Pro is not detecting it. Please check the MIDI ports assigned to connect to the surface.
+**Check MIDI Port Assignment:**
+1. Open V-Control Pro `Setups...`
+2. Click your grayed-out MIDI surface
+3. Verify correct MIDI Input/Output ports are selected
+4. Ports should match your interface's MIDI connections
 
-##### Check The MIDI Ports Assigned To The MIDI Controller
+**Common MIDI Issues:**
+- Wrong ports selected
+- MIDI interface driver not installed
+- Ports in use by another application
 
-* Launch V-Control Pro.
-* Select the V-Control Pro `Setups...` menu item to open the Setups window.
-* Look at the `Controllers` section of the Setups window
-    * If the control surface name is "grayed out," then it is not connected.
-        * Click the surface name to see the configuration details.
-        * Check the MIDI Input and MIDI Output popup menus to confirm the correct ports are selected.
-    * If the control surface name is "bold," then it is connected 
+---
 
-<a id="windows-os"></a>
+## Operating System Specific Issues
 
-## Windows OS Issues
+### Windows Issues {#windows-troubleshooting}
 
-Windows OS users have been able to solve problems using one or more of these steps. If you are using macOS, go to [macOS Issues](#mac-os).
+#### Windows 11 Upgrade Problems
 
-#### I Updated To Windows 11 And It Stopped Working
+If you upgraded from Windows 10 to Windows 11 and V-Control Pro stopped working:
 
-!!! warning "V-Control Pro 2.X is incompatible with Windows 11"
-    To use Windows 11 you must use the latest V-Control Pro 3.X available at [Installers](https://neyrinck.com/download/v-control-pro/). V-Control Pro 3 is compatible with V-Control Pro 2 Standard licenses.
+**Complete Reinstallation Process:**
+1. Quit your DAW and V-Control Pro
+2. Uninstall V-Control Pro
+3. Restart computer
+4. [Reset V-Control Pro preferences](#reset-windows-prefs)
+5. **For Ethernet surfaces only:**
+   - Uninstall Npcap (if installed)
+   - Uninstall Win10Pcap completely
+   - If uninstall fails: Restart → Reinstall Win10Pcap → Uninstall again
+   - Install [Npcap](https://npcap.com/#download)
+6. Open Device Manager → View → Show Hidden Items
+7. Remove any hidden "V-Control" MIDI ports
+8. Install latest [V-Control Pro](https://neyrinck.com/download/v-control-pro/)
+9. Restart computer
+10. Launch V-Control Pro and add your surface
 
-!!! warning "You must uninstall Win10Pcap to use V-Control Pro 3 with Ethernet surfaces on Windows 11. You must install Npcap."
-    If you were using V-Control Pro 2.x with an Ethernet surface on Windows 10 and you upgraded to Windows 11, then most likely Win10Pcap is installed and must be uninstalled. And you must install Npcap [available here.](https://npcap.com/#download)
+#### V-Control Pro Won't Launch
+- Remove V-Control Pro from Windows startup items
+- Some users required a clean Windows 11 installation
 
-Please follow these steps to uninstall everything and re-install if you have upgraded a Windows 10 system to Windows 11.
+#### Updating from V-Control Pro 2 to 3
+Pro Tools may lose MIDI port connections:
+1. Quit Pro Tools
+2. [Delete Pro Tools preferences](https://www.sweetwater.com/sweetcare/articles/how-do-i-trash-my-pro-tools-preferences/#Trash-Pro-Tools-Preferences-for-PC)
+3. Restart Pro Tools
+4. Reconfigure MIDI settings
 
-* Quit your DAW.
-* Quit and Uninstall V-Control Pro.
-* Reboot.
-* Delete V-Control Pro preferences by following [these instructions](./troubleshooting.md/#resetting-v-control-pro-on-windows)
-* If you are using an Ethernet surface, follow these instructions:
-    * Uninstall Npcap, if you already installed it.
-    * Uninstall Win10Pcap. If you get an error that one or more DLLs are in use then do this:
-        * Reboot
-        * Reinstall Win10Pcap
-        * Uninstall Win10Pcap.
-    * You must uninstall Win10Pcap completely, without errors, for V-Control Pro to operate on Windows 11.
-    * After Win10Pcap is uninstalled successfully, install Npcap, [available here.](https://npcap.com/#download)
-* Open the Device Manager. Select the View menu and enable "Show Hidden Items."
-* If any "V-Control" related midi ports are shown, they must all be uninstalled manually. This is very important. If you don't, DAWs will see these hidden midi ports and not connect properly. Because V-Control Pro is not installed at this point, you should not see any V-Control midi ports in Device Manager.
-* Install the latest V-Control Pro available at [Installers](https://neyrinck.com/download/v-control-pro/)
-* Reboot
-* Launch V-Control Pro.
-* Add you surface to V-Control Pro Setups as described [HERE](./controllers-overview.md)
-* If you are using Pro Tools, you must delete the Pro Tools Preferences. If you don't, Pro Tools will not correctly communicate with V-Control MIDI ports. [See Here.](https://www.sweetwater.com/sweetcare/articles/how-do-i-trash-my-pro-tools-preferences/#Trash-Pro-Tools-Preferences-for-PC)
-* Launch the DAW and set it up as described [HERE](./pro-tools.md)
+#### Reset V-Control Pro Preferences {#reset-windows-prefs}
+1. Quit V-Control Pro and any DAW
+2. Open Windows Explorer
+3. Enable "Show hidden files and folders"
+4. Navigate to: `C:\Users\{YourUsername}\AppData\Roaming\Application Support`
+5. Delete the "V-Control Pro" folder
+6. Empty Recycle Bin
+7. Launch V-Control Pro and reconfigure
 
-#### I Updated From V-Control Pro 2 To V-Control Pro 3 And It Stopped Working
+### macOS Issues {#macos-troubleshooting}
 
-Some DAWs, especially Pro Tools on Windows, keep track of MIDI ports by number rather than by name. V-Control Pro 3 changed the ports and Pro Tools can get confused if you are updating V-Control Pro.
+#### V-Control Pro Won't Launch
+1. Remove V-Control Pro from Login Items
+2. Restart computer
+3. Launch V-Control Pro manually
 
-* Quit Pro Tools
-* Trash Pro Tools Preferences
-* Launch Pro Tools
-* Reset Pro Tools MIDI Input Enables.
-* Reset Pro Tools MIDI Peripherals.
+#### Reset V-Control Pro Preferences {#reset-macos-prefs}
+1. Quit V-Control Pro and any DAW
+2. Open Finder
+3. Hold Alt/Option → Go menu → Library
+4. Navigate to Application Support
+5. Delete "V-Control Pro" folder
+6. Empty Trash
+7. Launch V-Control Pro and reconfigure
 
-#### V-Control Pro Is Not Launching
+---
 
-* Some users have seen an issue where V-Control Pro is unable to launch when updating a Windows 10 system to Windows 11. At least one user fixed it by installing Windows 11 from scratch.
+## DAW-Specific Issues
 
-#### The Control Surface Is Not Controlling The DAW
+### Logic Pro Problems {#logic-troubleshooting}
 
- * Did you update the BIOS?
-    * Open the `Device Manager` and select `Sound Video And Game Controllers`
-    * Select `Show Hidden Devices`
-    * Delete any V-Control MIDI ports that were hidden.
-    * Restart your computer and verify the hidden ports have been deleted.
+!!! info "Critical Setting"
+    Logic Pro requires **Automatic Installation** enabled to detect V-Control Pro surfaces.
 
-#### Resetting V-Control Pro on Windows:
+**Common Issues:**
+- Surface not detected by Logic Pro
+- One-way communication (surface receives but doesn't send)
 
-Some issues with Setup or mapping configuration can be resolved by deleting the V-Control Pro Preference files. Follow the steps to reset the V-Control Pro Settings.
+**Solutions:**
+1. Review [Logic Pro Setup](./logic-pro.md) guide
+2. Enable Automatic Installation in Logic preferences
+3. **For corrupt surface configurations:**
+   - Open Logic Pro Control Surfaces Setup
+   - Delete all surfaces
+   - Quit Logic
+   - Restart and reconfigure
 
-* Quit V-Control Pro and any DAW currently open.
-* Open the Windows Explorer
-* Enable to view hidden files and folders in Explorer.
-* Navigate to C:\Users\{User Account}\AppData\Roaming\Application Support
-* Find the V-Control Pro folder send it to the trash bin.
-* Empty Trash.
-* Launch V-Control Pro.
-* Open the Setups window.
-* Add your surface(s) again.
-* Launch the DAW.
+### Pro Tools Issues
+- See [Pro Tools Setup](./pro-tools.md) guide
+- After Windows upgrades, delete Pro Tools preferences
+- Reconfigure MIDI Input Enables and Peripherals
 
-<a id="mac-os"></a>
+---
 
-## macOS Issues
+## Hardware Diagnostics
 
-macOS users have been able to solve problems using one or more of these steps. If you are using Windows OS, go to [Windows OS Issues](#windows-os).
+If buttons, faders, or displays aren't working properly, the issue may be hardware-related.
 
-#### V-Control Pro Is Not Launching On macOS
+### Command 8 Diagnostics
+Press the **F1 Utility** switch to enter diagnostic mode.
 
-* Remove V-Control Pro As A Startup Item.
-* Restart the computer.
-* Launch V-Control Pro manually.
+### General Hardware Troubleshooting
+1. Check all cable connections
+2. Try different cables
+3. Test on another computer if possible
+4. Consult your surface's user manual for built-in diagnostics
 
-#### Resetting V-Control Pro on macOS:
+---
 
-Some issues with Setup or mapping configuration can be resolved by deleting the V-Control Pro Preference files. Follow the steps to reset the V-Control Pro Settings.
+## Still Need Help?
 
-* Quit V-Control Pro and any DAW currently open.
-* Go to the Finder Application
-* Click on Go in the top menu bar for the Finder and with the Alt/Option key held down select Library.
-* In the Finder window navigate to Application Support.
-* Find the V-Control Pro folder send it to the trash bin.
-* Empty Trash.
-* Launch V-Control Pro.
-* Open the Setups window.
-* Add your surface(s) again.
-* launch the DAW.
+If these steps don't resolve your issue:
 
-
-## Logic Pro Issues
-
-!!! info "Automatic Installation Must Be Enabled"
-    Logic Pro will not detect V-Control Pro surfaces unless Automatic Installation is enabled.
-
-#### Common Logic Pro Issues
-
-* Surface not detected by Logic Pro
-* One-way communication
-
-For these common issues, please review the [Logic Pro Setup Section](./logic-pro.md)
-
-#### Other Logic Pro Issues
-
-##### Corrupt Surface Configuration
-
-Some users have observed "strange" control behaviors that have been solved by deleting all surfaces set up in Logic and setting it up again.
-
-* Open Logic Pro `Control Surfaces / Setup` window.
-* Delete all surfaces.
-* Quit Logic.
-* Start Logic and follow the info in the [Logic Pro Setup Section](./logic-pro.md)
-
-## Hardware Fader, Button, Light, And Display Issues
-
-If a control surface feature is not operating correctly, there might be a problem with the surface hardware. Some surfaces have built-in diagnostics that can help diagnose these problems. Please search for the surface user guide online for more information.
-
-#### Command 8
-Press the F1 Utility switch to enter Utility mode.
+1. **Check Documentation**: Review setup guides for your specific [controller](./controllers-overview.md) and [DAW](./pro-tools.md)
+2. **Get Support**: Contact [Neyrinck Support](https://neyrinck.com/support/) with:
+   - Your V-Control Pro version
+   - Operating system details
+   - Control surface model
+   - DAW application and version
+   - Specific symptoms you're experiencing
 
