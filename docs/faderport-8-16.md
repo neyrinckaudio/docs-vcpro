@@ -55,6 +55,10 @@ Version History
 
 The new Track Browser makes it fast and easy to bank to any track in your Pro Tools session. No more hunting and pecking. Patent pending.
 
+Tired of banking through dozens of channels to find that one vocal track? The Track Browser puts your entire Pro Tools session at your fingertips. Instead of endless button pressing to hunt down tracks, you get a smart overview that lets you jump directly to any track in seconds.
+
+Here's how simple it is: Press the Track button twice to enter Track Browser mode, and suddenly your control surface becomes a session navigator. Your track displays transform into organized lists showing all your tracks by banks, with Select buttons glowing in their actual Pro Tools colors. Just spin the navigation knob to scroll through your session, spot the track you need by its color, and press its Select button—boom, you're there instantly.
+
 * Start in Track Mode.
 * Press Track button to change to Track Browser mode (Track button will blink)
 * Now the track displays will show lists of tracks, organized by banks.
