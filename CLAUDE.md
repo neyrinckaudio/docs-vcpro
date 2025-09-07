@@ -52,3 +52,32 @@ Uses Material theme with:
 - Images stored in `docs/images/`
 - Feature charts are generated from Excel files in `original-feature-charts/`
 - Uses Material for MkDocs extensions (admonition, tabbed content, etc.)
+
+### Content Guidelines
+
+**Writing Style:**
+- Use clear, concise language appropriate for technical users
+- Structure content with logical flow from basic to advanced topics
+- Include step-by-step procedures for complex tasks
+- Use consistent formatting (numbered lists for procedures, bullet points for features/options)
+
+**Troubleshooting Documentation:**
+- Always start with a Quick Checklist for immediate help
+- Organize by logical troubleshooting flow: update → licensing → connection → OS-specific → DAW-specific
+- Use tabbed content (=== "Platform") for OS-specific instructions
+- Include visual indicators (✓ ✗) to show connection status
+- Cross-reference related setup guides
+- End with "Still Need Help?" section for escalation
+
+**MkDocs Material Features to Use:**
+- Admonitions (!!! info, !!! warning, !!! note) for important callouts
+- Tabbed content for platform-specific instructions
+- Anchor links with descriptive IDs for easy navigation
+- Code blocks with proper syntax highlighting
+- Cross-references to related documentation sections
+
+## Important Files
+
+- `docs/troubleshooting.md` - Comprehensive troubleshooting guide with quick checklist and step-by-step procedures
+- `docs/controllers-overview.md` - Controller setup reference
+- `docs/v-control-pro-licensing.md` - Licensing information and procedures
