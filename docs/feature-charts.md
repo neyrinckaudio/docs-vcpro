@@ -69,16 +69,16 @@
         {% include './feature-chart/procontrol-ableton-live.md' %}
     === "LUNA"
         {% include './feature-chart/procontrol-luna.md' %}
-        
-=== "FaderPort V2 / ioStation24c"
-    {% include './feature-chart/faderport-v2-protools.md' %}
 
 === "FaderPort 8 / 16"
     ###
+    === "Pro Tools 2023 and later"
+        {% include './feature-chart/faderport-8-16-protools-2023.md' %}
     === "Pro Tools 2022 and earlier"
         {% include './feature-chart/tbd.md' %}
-    === "Pro Tools 2023 and later"
-        {% include './feature-chart/tbd.md' %}
+        
+=== "FaderPort V2 / ioStation24c"
+    {% include './feature-chart/faderport-v2-protools.md' %}
 
 === "Command 8"
     ###
