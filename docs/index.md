@@ -3,9 +3,48 @@
 
 V-Control Pro is a powerful macOS/Windows application that bridges professional control surfaces with modern digital audio and video workstation applications. Whether you're working with legacy Digidesign/Avid surfaces or modern controllers, V-Control Pro provides seamless integration and enhanced functionality.
 
-[Release Notes](https://neyrinck.com/help/v-control-pro-release-notes/){ .md-button }
+[Release Notes](./release-notes.md){ .md-button }
 [Installers](https://neyrinck.com/download/v-control-pro/){ .md-button }
 [Compatibility Chart](https://neyrinck.com/vcpro-compatibility/){ .md-button }
+
+**IMPORTANT INFO FOR PRO CONTROL / CONTROL 24, C24 USERS**
+
+Windows systems that use Ethernet surfaces ProControl or Control 24 must install a separate utility called NPcap. Please download and install it from here:
+
+http://www.npcap.org/
+
+Do not use Wi-Fi for the connection between the computer and ProControl / Control 24\. Connect your computer’s Ethernet directly to the surface or use an Ethernet switch for multiple surfaces.
+
+**IMPORTANT INFO FOR LOGIC PRO X AND PRO CONTROL / CONTROL 24 / C24 USERS**
+
+V-Control Pro 2.7.3 is compatible with Logic 10.6 and later only. If you are using Logic 10.5 or earlier, please install V-Control Pro 2.7.2.
+
+V-Control Pro 2.7.3 does not support multiple ProControl Fader Pack devices at this time. If you have multiple Fader Packs, you must use V-Control Pro 2.7.2, which will only work on Intel Macs. At this time, multiple Fader Pack units are not supported on M1 Mac systems.
+
+If you are installing over a previous version of V-Control Pro, please delete the surfaces in in Logic Pro X / Control Surfaces / Setup...  
+Then QUIT Logic.  
+Then run this installer.
+
+**IMPORTANT INFO FOR CUBASE / NUENDO AND PRO CONTROL / CONTROL 24 C24 USERS**
+
+If you are installing over a previous version of V-Control Pro, please delete the surfaces in in Studio / Studio Setup...  
+Then QUIT Cubase / Nuendo.  
+Then run this installer.
+
+**IMPORTANT INFO FOR OWNERS OF V-CONTROL PRO 1 FOR IPAD**
+
+Ney-Fi has been renamed to “V-Control Pro” which runs on your computer instead of Ney-Fi. Launch “V-Control Pro” on your computer instead of Ney-Fi and continue to use V-Control Pro 1 for iPad.
+
+You do not need to purchase anything new to get the same features you had previously.
+
+If you want to use the new V-Control Pro 2 features, only then do you need to purchase a license. The initial new features are:
+
+\* V-Console is a new app for mix and edit control  
+\* V-Console supports 16 tracks of control on a single device  
+\* V-Console controls up to 32 tracks  
+\* multiple controllers  
+\* supports smartphones
+
 
 ## Quick Start
 

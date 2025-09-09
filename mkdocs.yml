@@ -12,7 +12,6 @@ nav:
   - Home:
     - ./index.md
     - Additional Resources: './getting-help.md'
-    - Release Notes: './release-notes.md'
   - Getting started:
     - Quick Start Guide: './quick-start-guide.md'
     - Install And Run V-Control Pro : './install-and-run-v-control-pro.md'
@@ -59,7 +58,8 @@ nav:
   - V-Window: './v-window.md'
   - Feature Charts: './feature-charts.md'
   - Troubleshooting: './troubleshooting.md'
-
+  - Release Notes: './release-notes.md'
+  
 markdown_extensions:
   - attr_list
   - meta
