@@ -7,52 +7,77 @@ V-Control Pro is a powerful macOS/Windows application that bridges professional 
 [Installers](https://neyrinck.com/download/v-control-pro/){ .md-button }
 [Compatibility Chart](https://neyrinck.com/vcpro-compatibility/){ .md-button }
 
-**IMPORTANT INFO FOR PRO CONTROL / CONTROL 24, C24 USERS**
+---
 
-Windows systems that use Ethernet surfaces ProControl or Control 24 must install a separate utility called NPcap. Please download and install it from here:
+## Important Setup Information
 
-http://www.npcap.org/
+### Windows Ethernet Surface Users
 
-Do not use Wi-Fi for the connection between the computer and ProControl / Control 24\. Connect your computer’s Ethernet directly to the surface or use an Ethernet switch for multiple surfaces.
+!!! warning "Required: Npcap Installation"
+    Windows systems using Ethernet surfaces (ProControl, Control 24, C|24) **must** install Npcap:
+    
+    **Download**: [Npcap.org](https://npcap.com/#download)
+    
+    **Network Requirements**:
+    
+    - Connect computer's Ethernet directly to surface OR use an Ethernet switch
+    - **Do NOT use Wi-Fi** for the connection
 
-**IMPORTANT INFO FOR LOGIC PRO X AND PRO CONTROL / CONTROL 24 / C24 USERS**
+### Logic Pro Users
 
-V-Control Pro 2.7.3 is compatible with Logic 10.6 and later only. If you are using Logic 10.5 or earlier, please install V-Control Pro 2.7.2.
+!!! info "Version Compatibility"
+    **V-Control Pro 2.7.3**: Compatible with Logic 10.6 and later only
+    
+    **V-Control Pro 2.7.2**: Required for Logic 10.5 or earlier
 
-V-Control Pro 2.7.3 does not support multiple ProControl Fader Pack devices at this time. If you have multiple Fader Packs, you must use V-Control Pro 2.7.2, which will only work on Intel Macs. At this time, multiple Fader Pack units are not supported on M1 Mac systems.
+!!! warning "Multiple Fader Packs Limitation"
+    V-Control Pro 2.7.3 does **not** support multiple ProControl Fader Pack devices. For multiple Fader Packs:
+    
+    - Use V-Control Pro 2.7.2 (Intel Macs only)
+    - M1 Mac systems do not support multiple Fader Pack units
 
-If you are installing over a previous version of V-Control Pro, please delete the surfaces in in Logic Pro X / Control Surfaces / Setup...  
-Then QUIT Logic.  
-Then run this installer.
+**Upgrading V-Control Pro with Logic:**
+1. Delete surfaces in Logic Pro → Control Surfaces → Setup
+2. Quit Logic completely
+3. Run V-Control Pro installer
+4. Reconfigure surfaces
 
-**IMPORTANT INFO FOR CUBASE / NUENDO AND PRO CONTROL / CONTROL 24 C24 USERS**
+### Cubase/Nuendo Users
 
-If you are installing over a previous version of V-Control Pro, please delete the surfaces in in Studio / Studio Setup...  
-Then QUIT Cubase / Nuendo.  
-Then run this installer.
+**Upgrading V-Control Pro with Cubase/Nuendo:**
+1. Delete surfaces in Studio → Studio Setup
+2. Quit Cubase/Nuendo completely  
+3. Run V-Control Pro installer
+4. Reconfigure surfaces
 
-**IMPORTANT INFO FOR OWNERS OF V-CONTROL PRO 1 FOR IPAD**
+### Legacy iPad App Users
 
-Ney-Fi has been renamed to “V-Control Pro” which runs on your computer instead of Ney-Fi. Launch “V-Control Pro” on your computer instead of Ney-Fi and continue to use V-Control Pro 1 for iPad.
+!!! note "Ney-Fi Migration"
+    **Ney-Fi has been renamed to "V-Control Pro"**
+    
+    - Launch "V-Control Pro" on your computer (not Ney-Fi)
+    - Continue using V-Control Pro 1 for iPad
+    - **No new purchase required** for existing features
 
-You do not need to purchase anything new to get the same features you had previously.
-
-If you want to use the new V-Control Pro 2 features, only then do you need to purchase a license. The initial new features are:
-
-\* V-Console is a new app for mix and edit control  
-\* V-Console supports 16 tracks of control on a single device  
-\* V-Console controls up to 32 tracks  
-\* multiple controllers  
-\* supports smartphones
+**V-Control Pro 2 New Features** (license required):
+- V-Console app for mix and edit control
+- 16 tracks of control on single device
+- Up to 32 tracks total control
+- Multiple controller support
+- Smartphone compatibility
 
 
 ## Quick Start
 
-New to V-Control Pro? Start here for the fastest path to getting your control surface working:
+New to V-Control Pro? Follow this path for the fastest setup:
 
-- **[Quick Start Guide](./quick-start-guide.md)** - Essential setup steps for immediate results
-- **[System Requirements](./requirements.md)** - Compatibility and technical requirements
-- **[Installation Guide](./install-and-run-v-control-pro.md)** - Download, install, and initial configuration
+1. **[System Requirements](./requirements.md)** - Verify compatibility first
+2. **[Installation Guide](./install-and-run-v-control-pro.md)** - Download, install, and configure
+3. **[Quick Start Guide](./quick-start-guide.md)** - Get your surface working immediately
+4. **[Troubleshooting](./troubleshooting.md)** - If you encounter any issues
+
+!!! tip "Need Help Right Away?"
+    Having problems? Check our [Quick Troubleshooting Checklist](./troubleshooting.md#quick-checklist) for immediate solutions.
 
 ## Control Surfaces
 
@@ -105,15 +130,19 @@ V-Control Pro supports an extensive range of applications across audio, video, a
 
 ## Essential Resources
 
+### Planning Your Setup
 - **[Feature Charts](./feature-charts.md)** - Detailed compatibility matrices showing exactly which features work with each controller/DAW combination
+- **[Controllers Overview](./controllers-overview.md)** - Complete guide to adding and configuring control surfaces
+
+### Advanced Features
 - **[MIDI Mode](./midi-mode.md)** - Direct MIDI control for unsupported applications
-- **[Troubleshooting](./troubleshooting.md)** - Solutions to common setup and operational issues
 - **[V-Window](./v-window.md)** - Visual feedback system for enhanced workflow
 
-## Getting Help
-
-Need assistance? We provide comprehensive support resources:
-
+### Support & Troubleshooting
+- **[Troubleshooting Guide](./troubleshooting.md)** - Comprehensive solutions with [Quick Checklist](./troubleshooting.md#quick-checklist)
 - **[Getting Help](./getting-help.md)** - Support channels and community resources
 - **[Release Notes](./release-notes.md)** - Latest updates and feature additions
+
+!!! info "Can't Find What You Need?"
+    Start with the [Troubleshooting Quick Checklist](./troubleshooting.md#quick-checklist) or visit our comprehensive [Getting Help](./getting-help.md) section for support options.
 
