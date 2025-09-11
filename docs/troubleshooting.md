@@ -161,11 +161,20 @@ Pro Tools may lose MIDI port connections:
 ### macOS Issues {#macos-troubleshooting}
 
 #### V-Control Pro Won't Launch
+
+Some users have seen a problem when V-Control Pro is set up to be automatically launched when the computer restarts. These steps will typically solve the problem.
+
 1. Remove V-Control Pro from Login Items
+    * Open System Settings and select General
+    * Select `Login Items`
+    * Locate `V-Control Pro` and disable it as a login item
 2. Restart computer
 3. Launch V-Control Pro manually
 
 #### Reset V-Control Pro Preferences {#reset-macos-prefs}
+
+When upgrading to a new version of V-Control Pro, some issues have been solved by resetting V-Control Pro.
+
 1. Quit V-Control Pro and any DAW
 2. Open Finder
 3. Hold Alt/Option → Go menu → Library

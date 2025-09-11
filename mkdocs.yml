@@ -13,6 +13,7 @@ nav:
     - ./index.md
     - Additional Resources: './getting-help.md'
   - Getting started:
+    - Important Information: './important-info.md'
     - Quick Start Guide: './quick-start-guide.md'
     - Install And Run V-Control Pro : './install-and-run-v-control-pro.md'
     - System Requirements: './requirements.md'
@@ -59,7 +60,7 @@ nav:
   - Feature Charts: './feature-charts.md'
   - Troubleshooting: './troubleshooting.md'
   - Release Notes: './release-notes.md'
-  
+
 markdown_extensions:
   - attr_list
   - meta
