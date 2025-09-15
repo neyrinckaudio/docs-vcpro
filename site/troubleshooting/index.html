@@ -1863,6 +1863,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Logic Pro Problems">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#common-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      Common Issues
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
           <li class="md-nav__item">
@@ -2140,17 +2155,30 @@
 <p class="admonition-title">Critical Setting</p>
 <p>Logic Pro requires <strong>Automatic Installation</strong> enabled to detect V-Control Pro surfaces.</p>
 </div>
-<p><strong>Common Issues:</strong>
-- Surface not detected by Logic Pro
-- One-way communication (surface receives but doesn't send)</p>
-<p><strong>Solutions:</strong>
-1. Review <a href="../logic-pro/">Logic Pro Setup</a> guide
-2. Enable Automatic Installation in Logic preferences
-3. <strong>For corrupt surface configurations:</strong>
-   - Open Logic Pro Control Surfaces Setup
-   - Delete all surfaces
-   - Quit Logic
-   - Restart and reconfigure</p>
+<h4 id="common-issues">Common Issues</h4>
+<p>The most common Logic Pro issue is that Logic Pro control becomes erratic and inconsistent. Typically, this can be solved by "resetting" the control surface setup.</p>
+<ul>
+<li>Reset Logic Pro Control Surface Setup<ul>
+<li>Open Logic Pro Control Surfaces / Setup window</li>
+<li>Delete all surfaces</li>
+<li>Quit Logic Pro</li>
+<li>Launch Logic Pro and set up your surface as described in <a href="../logic-pro/">Logic Pro Setup</a> guide</li>
+</ul>
+</li>
+</ul>
+<p>Aother common problem is that Logic Pro does not detect your surface.</p>
+<ul>
+<li>Surface not detected by Logic Pro<ul>
+<li>Review <a href="../logic-pro/">Logic Pro Setup</a> guide</li>
+<li>Enable Automatic Installation in Logic preferences</li>
+<li>Disable local network firewall.</li>
+</ul>
+</li>
+</ul>
+<p>Another common problem is one-way communication. We have demonstrated this to Apple that but they have not acknowledged it.</p>
+<ul>
+<li>To fix one-way communication, see the instructions <a href="../logic-pro/#ipv6-settings">HERE</a></li>
+</ul>
 <h3 id="pro-tools-issues">Pro Tools Issues</h3>
 <ul>
 <li>See <a href="../pro-tools/">Pro Tools Setup</a> guide</li>
