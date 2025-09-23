@@ -13,12 +13,12 @@ V-Control Pro supercharges the single fader FaderPort V2 / ioStation 24c for use
 
 ### Setup
 
-* Set FaderPort to Native Mode using the Select Control menu.
-    * Power off the FaderPort 8/16
-    * Hold the first and second "Select" buttons on the FaderPort 8/16
-    * Power the FaderPort 8/16 back on
-    * Once the unit has powered up and displays "Select Control Mode" across the top of the scribble strips you can release the Select buttons
-    * Select Native Mode (Studio One)
+* Set FaderPort V2 / ioStation 24c to Native Mode
+    * Power off the FaderPort V2 / ioStation 24c
+    * Hold the "Next" button on the FaderPort
+    * Power the FaderPort back on.
+    * Once the unit has powered up several buttons will blink. 
+    * Press SOLO to enable Native Mode (Studio One)
 
 * Add the device as a controller in the V-Control Pro Setups window as described in [Setting Up MIDI Controllers](./midi-controllers.md).
 
@@ -35,7 +35,7 @@ V-Control Pro supercharges the single fader FaderPort V2 / ioStation 24c for use
 
 With V-Control Pro, the FaderPort automatically focuses to any track you select. V-Control Pro can widen the bank up to thirty-two tracks for instant focus, and if it loses focus it immediately blinks the Channel button. Simply tap the blinking button to automatically ReFocus. Now you can select any track at any time for a focused FaderPort.
 When selecting a track within the controlled bank range, the FaderPort will Fast Focus to the selected track for control.
-When selecting a track outside of the controlled banks, the Channel button will immediately blink on the FaderPort. Press it to ReFocus to that track for control.
+When selecting a track outside of the controlled banks, the Channel button will immediately blink on the FaderPort. Press it to Re-Focus to that track for control.
 When a track is selected within the controlled banks, press the channel button to enable the wheel for navigation.
 
 

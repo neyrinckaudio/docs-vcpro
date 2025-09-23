@@ -202,14 +202,14 @@ The most common Logic Pro issue is that Logic Pro control becomes erratic and in
     * Quit Logic Pro
     * Launch Logic Pro and set up your surface as described in [Logic Pro Setup](./logic-pro.md) guide
 
-Aother common problem is that Logic Pro does not detect your surface.
+Another common problem is that Logic Pro does not detect your surface.
 
 * Surface not detected by Logic Pro
     * Review [Logic Pro Setup](./logic-pro.md) guide
     * Enable Automatic Installation in Logic preferences
     * Disable local network firewall.
 
-Another common problem is one-way communication. We have demonstrated this to Apple that but they have not acknowledged it.
+Another common problem is one-way communication. We have demonstrated this to Apple, but they have not acknowledged it.
 
 * To fix one-way communication, see the instructions [HERE](./logic-pro.md/#ipv6-settings)
 
