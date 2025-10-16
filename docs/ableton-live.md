@@ -13,19 +13,6 @@ V-Control Pro must be set up in the MIDI Section of the Preferences Window.  Dep
 - Toggle On for Remote for the following:
     - Input: Mackie Control Input (V-Control)
     - Output: Mackie Control Output (V-Control)
-    - Control Surface: Mackie Control XT
-    - Input: V-Control XT2
-    - Output: V-Control XT2
-    - Control Surface: Mackie Control XT
-    - Input: V-Control XT3
-    - Output: V-Control XT3
-- Toggle On for Remote for the following:
-    - Input: Mackie Control Input (V-Control)
-    - Input: Mackie Control XT Input (V-Control XT2)
-    - Input: Mackie Control XT Input (V-Control XT3)
-    - Output: Mackie Control Output (V-Control)
-    - Output: Mackie Control XT Output (V-Control XT2)
-    - Output: Mackie Control XT Output (V-Control XT3)
 
 ## 16 Channel
 
