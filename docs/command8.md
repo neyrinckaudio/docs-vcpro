@@ -26,7 +26,7 @@ Set up Cubase / Nuendo for Command 8 as described in [Setting Up Cubase/Nuendo](
 
 #### Mackie Control DAWs
 
-Set up the DAW for C24 using three Mackie Control banks as described in [Setting Up Mackie Control](./mackie-control.md).
+Set up the DAW for Command 8 using one Mackie Control bank as described in [Setting Up Mackie Control](./mackie-control.md).
 
 * [Adobe Audition](./adobe-audition.md)
 * [Ableton Live](./ableton-live.md)
