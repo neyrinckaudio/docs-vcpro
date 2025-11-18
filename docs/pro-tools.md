@@ -25,6 +25,7 @@ V-Control Pro must be set up in the Pro Tools peripherals window. Depending on h
 * D-Command Main
 * ProControl Main
 * FaderPort 8 (Pro Tools 2023+)
+* Command 8
 * Digidesign 003
 * V-Console (set for 8 channels)
 * Legacy V-Control Pro iPad App

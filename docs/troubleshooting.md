@@ -79,16 +79,16 @@ Your control surface must be properly added and connected in V-Control Pro.
 
 **Network Configuration:**
 
-=== "Windows"
-    - **Required**: Install [Npcap](https://npcap.com/#download)
-    - **Remove**: Uninstall Win10Pcap if present
-    - **Firewall**: Temporarily disable to test
-
 === "macOS"
     - **Network Settings**: System Settings → Network
     - **Red Ethernet port**: Use a network switch between computer and surface
     - **Self-assigned IP**: This is normal and OK
     - **Firewall**: System Settings → Network → Firewall (disable to test)
+
+=== "Windows"
+    - **Required**: Install [Npcap](https://npcap.com/#download)
+    - **Remove**: Uninstall Win10Pcap if present
+    - **Firewall**: Temporarily disable to test
 
 **If Surface Not Detected:**
 - Confirm Ethernet LED is active (see Visual Connection Check above)
