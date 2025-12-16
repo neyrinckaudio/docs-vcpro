@@ -47,6 +47,25 @@ When you purchase a license or you request a trial license, a license will be de
 
 The V-Control Pro license will now be activated and V-Control Pro will operate with all supported features and functions.
 
+<a id="license-deactivate"></a>
+## Deactivating A License
+If you want to move an activated license to a different computer or iLok USB key, you must first deactivate the license.
+
+* Launch the iLok License Manager application on the host computer.
+
+* Log in to your iLok user account.
+
+* Locate the V-Control Pro license on your computer or iLok USB key.
+
+* Drag the license to your account.
+
+## Moving A License
+If you are upgrading your DAW to a new computer or new hard drive, you should carefully move your license so that your work will not be interrupted.
+
+* Deactivate the license as described in the [Deactivating A License](./v-control-pro-licensing.md#license-deactivate) section.
+
+* Activate the license as described in the [Activating A License](./v-control-pro-licensing.md#license-activate) section.
+
 ## Subscription Licenses
 A V-Control Pro subscription license must be refreshed annually. The refresh is an automatic process that is done through an internet connection. If your computer does not have an internet connection, you must place the license on a computer that has an internet connection for it to be refreshed for the next monthly period. This has to be done once a year if your license is not on a computer that is connected to the internet. 
 You can use the iLok License Manager or log in to your account on ilok.com to check on the expiration date for the license.
