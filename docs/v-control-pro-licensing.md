@@ -6,16 +6,20 @@ V-Control Pro supports different licenses depending on your system requirements.
 
 [See the license option list](https://neyrinck.com/vcpro-compatibility/){ .md-button }
 
-* Get A License
-
-    * You can get a trial license at the [Neyrinck Trial License Page](https://neyrinck.com/v-control-pro-trial/).
-    * You can purchase a license at the [Neyrinck Store](https://neyrinck.com/store/).
-
 !!! note "RAVEN Info"
     RAVEN users do not need to use a V-Control Pro license.
 
 !!! note "Legacy iPad App V 1.9 Info"
     The original V-Control Pro iPad app (version 1.9) users do not need to use a V-Control Pro license.
+
+## iLok Account
+
+To use an iLok license you must have an iLok account so that you have an iLok User ID. When you get a trial license of purchase a license, the license is deposited to your iLok account using your iLok User ID. You can create an account at https://ilok.com.
+
+## Get A License
+
+* You can get a trial license at the [Neyrinck Trial License Page](https://neyrinck.com/v-control-pro-trial/).
+* You can purchase a license at the [Neyrinck Store](https://neyrinck.com/store/).
 
 <a id="license-activate"></a>
 ## Activating A License
@@ -60,7 +64,9 @@ If you want to move an activated license to a different computer or iLok USB key
 * Drag the license to your account.
 
 ## Moving A License
-If you are upgrading your DAW to a new computer or new hard drive, you should carefully move your license so that your work will not be interrupted.
+You can move a license between iLok USB keys or computers using your iLok account credentials. You can not move a license to a different iLok user account. If a different user needs to use the license you can give them an iLok USB key that has an activated license on it or you can use the iLok License Manager on their computer to activate the license using your credentials.
+
+If you are upgrading your DAW to a new computer or new hard drive, you should carefully move your license so that your work will not be interrupted. 
 
 * Deactivate the license as described in the [Deactivating A License](./v-control-pro-licensing.md#license-deactivate) section.
 
