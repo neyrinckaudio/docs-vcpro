@@ -64,7 +64,7 @@ If you want to move an activated license to a different computer or iLok USB key
 * Drag the license to your account.
 
 ## Moving A License
-You can move a license between iLok USB keys or computers using your iLok account credentials. You can not move a license to a different iLok user account. If a different user needs to use the license you can give them an iLok USB key that has an activated license on it or you can use the iLok License Manager on their computer to activate the license using your credentials.
+You can move a license between iLok USB keys registered to your account or to any computer using your iLok account credentials. You can not move a license to a different iLok user account. If a different user needs to use the license you can give them an iLok USB key that has an activated license on it or you can use the iLok License Manager on their computer to activate the license using your credentials.
 
 If you are upgrading your DAW to a new computer or new hard drive, you should carefully move your license so that your work will not be interrupted. 
 
