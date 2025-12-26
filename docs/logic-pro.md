@@ -9,7 +9,7 @@ Logic Pro will not be detected until it has connected to a control surface suppo
     macOS Sequoia and later require V-Control Pro to be enabled.
 
 !!! info "One Way Communication Issue"
-    If Logic Pro has one-way communication with a V-Control Pro surface, try changing the [IPv6 Setting](#ipv6-setting).
+    If Logic Pro has one-way communication with a V-Control Pro surface, try changing the [Logic Protocol Setting](#ipv6-setting).
 
 * Open the V-Control Pro Setups window and make sure your surface has been added to the `Controllers...` section and is actively detected.
 * Launch Logic Pro
@@ -24,16 +24,21 @@ Logic Pro will not be detected until it has connected to a control surface suppo
 
 <a id="ipv6-setting"></a>
 
-#### IPv6 Settings
+#### Logic Protocol Settings (new in v 3.0.22)
 
-V-Control Pro uses UDP networking to communicate with Logic Pro. Users sometime see an issue where communication operates in one direction only. Typically, Logic Pro operates perfectly using IPv4 protocol. Other times it works perfectly using IPv6 protocol. 
+V-Control Pro uses UDP networking to communicate with Logic Pro. Users sometime see an issue where communication operates in one direction only. Typically, Logic Pro operates perfectly using IPv4 protocol with the Localhost IP address. Other times it works perfectly using IPv6 protocol with the Localhost IP address. With macOS Tahoe, it typically works perfectly using IPv4 protocol with the WiFi IP address. We have contacted Apple about this but they have not responded.
 
 ##### If You Experience One-Way Communication With Logic Pro
 
 * Quit Logic Pro.
 * Select the V-Control Pro Preferences... menu item.
-* Toggle the `Logic Pro - Use IPv6` item.
+* Select the `Logic Pro Protocol` popup menu.
+    * For macOS Tahoe and later, select `Default`
+    * For macOS Sequoia and earlier, select `IPv6`
+    * If the other selections do not work, try `IPv4 Localhost`
 * Click OK
+* Quit V-Control Pro
+* Launch V-Control Pro
 * Launch Logic Pro
 
 We have demonstrated this problem to the Logic Pro team, and they have not acknowledged it.

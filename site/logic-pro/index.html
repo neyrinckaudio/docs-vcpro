@@ -1110,13 +1110,13 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#ipv6-settings" class="md-nav__link">
+  <a href="#logic-protocol-settings-new-in-v-3022" class="md-nav__link">
     <span class="md-ellipsis">
-      IPv6 Settings
+      Logic Protocol Settings (new in v 3.0.22)
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="IPv6 Settings">
+    <nav class="md-nav" aria-label="Logic Protocol Settings (new in v 3.0.22)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1750,7 +1750,7 @@
 </div>
 <div class="admonition info">
 <p class="admonition-title">One Way Communication Issue</p>
-<p>If Logic Pro has one-way communication with a V-Control Pro surface, try changing the <a href="#ipv6-setting">IPv6 Setting</a>.</p>
+<p>If Logic Pro has one-way communication with a V-Control Pro surface, try changing the <a href="#ipv6-setting">Logic Protocol Setting</a>.</p>
 </div>
 <ul>
 <li>Open the V-Control Pro Setups window and make sure your surface has been added to the <code>Controllers...</code> section and is actively detected.</li>
@@ -1767,14 +1767,21 @@
 </li>
 </ul>
 <p><a id="ipv6-setting"></a></p>
-<h4 id="ipv6-settings">IPv6 Settings</h4>
-<p>V-Control Pro uses UDP networking to communicate with Logic Pro. Users sometime see an issue where communication operates in one direction only. Typically, Logic Pro operates perfectly using IPv4 protocol. Other times it works perfectly using IPv6 protocol. </p>
+<h4 id="logic-protocol-settings-new-in-v-3022">Logic Protocol Settings (new in v 3.0.22)</h4>
+<p>V-Control Pro uses UDP networking to communicate with Logic Pro. Users sometime see an issue where communication operates in one direction only. Typically, Logic Pro operates perfectly using IPv4 protocol with the Localhost IP address. Other times it works perfectly using IPv6 protocol with the Localhost IP address. With macOS Tahoe, it typically works perfectly using IPv4 protocol with the WiFi IP address. We have contacted Apple about this but they have not responded.</p>
 <h5 id="if-you-experience-one-way-communication-with-logic-pro">If You Experience One-Way Communication With Logic Pro</h5>
 <ul>
 <li>Quit Logic Pro.</li>
 <li>Select the V-Control Pro Preferences... menu item.</li>
-<li>Toggle the <code>Logic Pro - Use IPv6</code> item.</li>
+<li>Select the <code>Logic Pro Protocol</code> popup menu.<ul>
+<li>For macOS Tahoe and later, select <code>Default</code></li>
+<li>For macOS Sequoia and earlier, select <code>IPv6</code></li>
+<li>If the other selections do not work, try <code>IPv4 Localhost</code></li>
+</ul>
+</li>
 <li>Click OK</li>
+<li>Quit V-Control Pro</li>
+<li>Launch V-Control Pro</li>
 <li>Launch Logic Pro</li>
 </ul>
 <p>We have demonstrated this problem to the Logic Pro team, and they have not acknowledged it.</p>
