@@ -24,6 +24,9 @@ Most Ethernet hardware automatically detects the type of cable. But older ports 
 
 We recommend you use an Ethernet switch in your control surface network. They work with any Ethernet cable and provide fast, efficient connections with both types of Ethernet cables. The original Ethernet hardware in the 1990s used simple Ethernet "hubs" to connect multiple devices to a network. But these hubs were very inefficient because all the devices were physically connected to each other and the computer had to tell devices to "retry" when data "collisions" happened and the type of cable was very important. Ethernet "switches" were invented that solve these problems. The switch automatically connects one device at a time to the network so that no collisions happen with any type of cable. Modern Ethernet switches are very low cost and fast. Internet routers also act as switches.
 
+!!! info "Low Cost Switches Work Great"
+    If you are purchasing an Ethernet switch, we recommend you save money and buy the lowest cost one you can find. Most legacy Ethernet surfaces use a speed of just 10 Mbps.
+
 <a id="networking"></a>
 
 ## macOS and Windows Networking
