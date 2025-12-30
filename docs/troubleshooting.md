@@ -20,7 +20,7 @@ Before diving into detailed troubleshooting, try these common solutions:
 
 Older versions may not support your control surface or operating system.
 
-**Check Your Version:**
+####Check Your Version:
 1. Launch V-Control Pro
 2. Select `About V-Control Pro` from the menu
 3. Verify you're running V-Control Pro 3.X
@@ -35,12 +35,12 @@ Older versions may not support your control surface or operating system.
 
 V-Control Pro requires a valid license for most systems.
 
-**Check License Status:**
+####Check License Status:
 1. Launch V-Control Pro
 2. Select `About V-Control Pro`
 3. Look for "Licensed" or "Not Licensed"
 
-**If Not Licensed:**
+####If Not Licensed:
 - **Trial License**: [Get 14-day trial](https://neyrinck.com/v-control-pro-trial/)
 - **Purchase**: [Neyrinck Store](https://neyrinck.com/store/)
 - **Activate**: Follow the [licensing guide](./v-control-pro-licensing.md#license-activate)
@@ -53,14 +53,14 @@ V-Control Pro requires a valid license for most systems.
 
 Your control surface must be properly added and connected in V-Control Pro.
 
-**Check Surface Status:**
+####Check Surface Status:
 1. Launch V-Control Pro
 2. Open `Setups...` menu
 3. Look at the `Controllers` section (lower left)
    - **Bold text** = Connected ✓
    - **Grayed out** = Not connected ✗
 
-**Add a New Surface:**
+####Add a New Surface:
 1. Click `Add new...` button in Controllers section
 2. Select your surface type
 3. Follow the setup prompts
@@ -72,16 +72,18 @@ Your control surface must be properly added and connected in V-Control Pro.
 
 ### Ethernet Controllers {#ethernet-troubleshooting}
 
-**Visual Connection Check:**
+####Visual Connection Check
 1. Verify Ethernet cable is connected at both ends
 2. Check the LED indicator next to the Ethernet port on your surface
 3. LED should show activity - if not, try a different cable
 
-**Network Configuration:**
+####Network Configuration
 
 === "macOS"
-    - **Network Settings**: System Settings → Network
-    - **Red Ethernet port**: Use a network switch between computer and surface
+    It is important that the Ethernet port is configured in System Settings -> Network.
+
+    - Open System Settings → Network and locate the ethernet port you are using.
+    - **Red Ethernet port (Not Connected)**: If the ethernet port is displayed in a red color and/or indicates that it is not connected, use a network switch between computer and surface as described in [Ethernet Switches](./ethernet-controllers.md#ethernet-switches-not-hubs)
     - **Self-assigned IP**: This is normal and OK
     - **Firewall**: System Settings → Network → Firewall (disable to test)
 
@@ -90,7 +92,7 @@ Your control surface must be properly added and connected in V-Control Pro.
     - **Remove**: Uninstall Win10Pcap if present
     - **Firewall**: Temporarily disable to test
 
-**If Surface Not Detected:**
+####If Surface Not Detected
 - Confirm Ethernet LED is active (see Visual Connection Check above)
 - Check computer's Ethernet port is enabled
 - Temporarily disable firewall/antivirus

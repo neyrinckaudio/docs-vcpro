@@ -8,6 +8,9 @@ Ethernet is a common networking system for connecting devices to a computer's Et
 !!! warning "Disable Or Configure Firewall"
     Legacy Ethernet surfaces will not be able to connect if a firewall is enabled on your computer. If you need to use a firewall it must be configured to allow Ethernet 2 messages to the hardware MAC address of the surface.
 
+!!! warning "Ethernet switch needed for newer Macs with Apple Silicon"
+    Newer Macs do not work correctly with an Ethernet cable directly between the surface and Mac. Please use any low-cost Ethernet switch or router between the surface to enable connectivity.
+
 ## Ethernet Cables
 
 One confusing thing about Ethernet is that an Ethernet cable connector uses one wire for transmitting data and one for receiving data. There are two types of Ethernet cables.
