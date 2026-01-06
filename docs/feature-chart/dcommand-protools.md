@@ -2,6 +2,9 @@
 
 ### D-Command Pro Tools
 
+!!! warning "Important HUI Metering Information"
+    The HUI protocol provides for stereo track metering. It does not provide for output metering.
+
 === "Channel Strips"
 
     | Channel Strips |  |

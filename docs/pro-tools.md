@@ -1,5 +1,10 @@
 # Setting Up Pro Tools
 
+!!! warning "Important HUI Metering Information"
+    The HUI protocol provides for stereo track metering. It does not provide for output metering. Surfaces that have output meters will not display any output metering when connected to Pro Tools.
+
+    Pro Tools will not provide track metering if Eucon is enabled. Disable Eucon for track metering.
+
 V-Control Pro uses the HUI protocol with Pro Tools Studio/Ultimate to provide for 8, 16, 24, or 32 channels of control. The Pro Tools MIDI Peripherals window must be configured to use V-Control Pro's virtual MIDI ports for Pro Tools to communicate with V-Control Pro.
 
 !!! warning "Enable MIDI Ports In Pro Tools"
@@ -7,6 +12,7 @@ V-Control Pro uses the HUI protocol with Pro Tools Studio/Ultimate to provide fo
 
 !!! warning "FaderPort 8/16 With Pro Tools 2022 And Earlier"
     FaderPort 8/16 setup depends upon which version of Pro Tools you are using. Please see the special setup information for FaderPort 8/16 with Pro Tools 2022 and earlier.
+
 
 ## Enable V-Control Pro Virtual MIDI Ports
 
