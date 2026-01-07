@@ -141,8 +141,54 @@ If you upgraded from Windows 10 to Windows 11 and V-Control Pro stopped working:
 10. Launch V-Control Pro and add your surface
 
 #### V-Control Pro Won't Launch
-- Remove V-Control Pro from Windows startup items
-- Some users required a clean Windows 11 installation
+
+If V-Control Pro fails to launch on Windows, try these solutions:
+
+**Check Startup Items:**
+
+V-Control Pro may not launch correctly when set as a startup item.
+
+1. Open Task Manager (Ctrl+Shift+Esc)
+2. Select the `Startup` tab
+3. Look for V-Control Pro in the list
+4. If present, right-click it and select `Disable`
+5. Restart your computer
+6. Launch V-Control Pro manually
+
+**Upgraded from Windows 10 to Windows 11:**
+
+If you upgraded from Windows 10 to Windows 11 and V-Control Pro no longer launches:
+
+1. Uninstall V-Control Pro completely
+2. Restart your computer
+3. Install the latest [V-Control Pro](https://neyrinck.com/download/v-control-pro/)
+4. Restart your computer
+5. Launch V-Control Pro
+
+**Check if V-Control Pro is Hanging or Crashing:**
+
+If V-Control Pro appears to launch but doesn't show a window, it may be hanging or crashing.
+
+=== "Check for Hanging Process"
+    1. Launch Task Manager (Ctrl+Shift+Esc)
+    2. Select `More details` if the Processes tab is not showing
+    3. Look for "V-Control Pro" under Background processes
+    4. If found, right-click it and select `Create dump file`
+    5. Send the generated .dmp file to [support@neyrinck.com](mailto:support@neyrinck.com)
+
+=== "Check for Crash"
+    If V-Control Pro does not appear in Task Manager, it may be crashing on startup:
+
+    1. Download and configure crash dump generation:
+        - Download: [EnableCrashDumps.reg.zip](https://neyrinck.sfo2.digitaloceanspaces.com/EnableCrashDumps.reg.zip)
+        - Unzip the file
+        - Double-click `EnableCrashDumps.reg` to configure Windows
+    2. Launch V-Control Pro and confirm it does not launch correctly
+    3. Press `Windows+R` to open the Run dialog
+    4. Enter: `%LOCALAPPDATA%` and press Enter
+    5. Locate the `CrashDumps` folder
+    6. Find the .dmp file for V-Control Pro (most recent file)
+    7. Send the .dmp file to [support@neyrinck.com](mailto:support@neyrinck.com)
 
 #### Updating from V-Control Pro 2 to 3
 Pro Tools may lose MIDI port connections:

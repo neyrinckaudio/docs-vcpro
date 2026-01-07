@@ -2215,10 +2215,58 @@
 9. Restart computer
 10. Launch V-Control Pro and add your surface</p>
 <h4 id="v-control-pro-wont-launch">V-Control Pro Won't Launch</h4>
-<ul>
-<li>Remove V-Control Pro from Windows startup items</li>
-<li>Some users required a clean Windows 11 installation</li>
+<p>If V-Control Pro fails to launch on Windows, try these solutions:</p>
+<p><strong>Check Startup Items:</strong></p>
+<p>V-Control Pro may not launch correctly when set as a startup item.</p>
+<ol>
+<li>Open Task Manager (Ctrl+Shift+Esc)</li>
+<li>Select the <code>Startup</code> tab</li>
+<li>Look for V-Control Pro in the list</li>
+<li>If present, right-click it and select <code>Disable</code></li>
+<li>Restart your computer</li>
+<li>Launch V-Control Pro manually</li>
+</ol>
+<p><strong>Upgraded from Windows 10 to Windows 11:</strong></p>
+<p>If you upgraded from Windows 10 to Windows 11 and V-Control Pro no longer launches:</p>
+<ol>
+<li>Uninstall V-Control Pro completely</li>
+<li>Restart your computer</li>
+<li>Install the latest <a href="https://neyrinck.com/download/v-control-pro/">V-Control Pro</a></li>
+<li>Restart your computer</li>
+<li>Launch V-Control Pro</li>
+</ol>
+<p><strong>Check if V-Control Pro is Hanging or Crashing:</strong></p>
+<p>If V-Control Pro appears to launch but doesn't show a window, it may be hanging or crashing.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="check-for-hanging-process" name="__tabbed_2" type="radio" /><input id="check-for-crash" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="check-for-hanging-process">Check for Hanging Process</label><label for="check-for-crash">Check for Crash</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ol>
+<li>Launch Task Manager (Ctrl+Shift+Esc)</li>
+<li>Select <code>More details</code> if the Processes tab is not showing</li>
+<li>Look for "V-Control Pro" under Background processes</li>
+<li>If found, right-click it and select <code>Create dump file</code></li>
+<li>Send the generated .dmp file to <a href="mailto:support@neyrinck.com">support@neyrinck.com</a></li>
+</ol>
+</div>
+<div class="tabbed-block">
+<p>If V-Control Pro does not appear in Task Manager, it may be crashing on startup:</p>
+<ol>
+<li>Download and configure crash dump generation:<ul>
+<li>Download: <a href="https://neyrinck.sfo2.digitaloceanspaces.com/EnableCrashDumps.reg.zip">EnableCrashDumps.reg.zip</a></li>
+<li>Unzip the file</li>
+<li>Double-click <code>EnableCrashDumps.reg</code> to configure Windows</li>
 </ul>
+</li>
+<li>Launch V-Control Pro and confirm it does not launch correctly</li>
+<li>Press <code>Windows+R</code> to open the Run dialog</li>
+<li>Enter: <code>%LOCALAPPDATA%</code> and press Enter</li>
+<li>Locate the <code>CrashDumps</code> folder</li>
+<li>Find the .dmp file for V-Control Pro (most recent file)</li>
+<li>Send the .dmp file to <a href="mailto:support@neyrinck.com">support@neyrinck.com</a></li>
+</ol>
+</div>
+</div>
+</div>
 <h4 id="updating-from-v-control-pro-2-to-3">Updating from V-Control Pro 2 to 3</h4>
 <p>Pro Tools may lose MIDI port connections:
 1. Quit Pro Tools
