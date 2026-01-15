@@ -235,14 +235,14 @@ When upgrading to a new version of V-Control Pro, some issues have been solved b
 
 ## DAW-Specific Issues
 
-### Logic Pro Problems {#logic-troubleshooting}
+### Logic Pro Issues {#logic-troubleshooting}
 
 !!! info "Critical Setting"
     Logic Pro requires **Automatic Installation** enabled to detect V-Control Pro surfaces.
 
-#### Common Issues
+#### Erratic / Inconsistent Control
 
-The most common Logic Pro issue is that Logic Pro control becomes erratic and inconsistent. Typically, this can be solved by "resetting" the control surface setup.
+Logic Pro has issues where its control assignments for a surface can get corrupted and control partially works, but does work in both directions. This can happen when a V-Control Pro update is installed or a different surface is added. Typically, this can be solved by "resetting" the control surface setup.
 
 * Reset Logic Pro Control Surface Setup
     * Open Logic Pro Control Surfaces / Setup window
@@ -250,16 +250,23 @@ The most common Logic Pro issue is that Logic Pro control becomes erratic and in
     * Quit Logic Pro
     * Launch Logic Pro and set up your surface as described in [Logic Pro Setup](./logic-pro.md) guide
 
-Another common problem is that Logic Pro does not detect your surface.
+#### Not Detecting Your Surface
+
+Logic Pro should detect your V-Control Pro surface automatically and add it to the Logic Pro Control Surfaces / Setup... window. If it is not being detected, check the following items.
 
 * Surface not detected by Logic Pro
-    * Review [Logic Pro Setup](./logic-pro.md) guide
+    * Review the [Logic Pro Setup](./logic-pro.md) guide
     * Enable Automatic Installation in Logic preferences
     * Disable local network firewall.
+    * macOS Sequoia and later require V-Control Pro to be enabled in `System Settings / Security / Network`
+    * Review the [Logic Pro Protocol](./logic-pro.md#ipv6-setting) settings guide.
 
+#### One-Way Or No Surface Communication
+
+macOS Sonoma and later started to exhibit a problem where Logic Pro automatically adds the surface to its setup, but there is one-way or no communication between the surface and Logic Pro.
 Another common problem is one-way communication. We have demonstrated this to Apple, but they have not acknowledged it.
 
-* To fix one-way communication, see the instructions [HERE](./logic-pro.md/#ipv6-settings)
+* Review the [Logic Pro Protocol](./logic-pro.md#ipv6-setting) settings guide.
 
 
 ### Pro Tools Issues

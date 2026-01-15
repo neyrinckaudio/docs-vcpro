@@ -23,8 +23,7 @@ Logic Pro will not be detected until it has connected to a control surface suppo
     * Launch Logic Pro.
 
 <a id="ipv6-setting"></a>
-
-#### Logic Protocol Settings (new in v 3.0.22)
+#### Logic Pro Protocol Settings (new in v 3.0.22)
 
 V-Control Pro uses UDP networking to communicate with Logic Pro. Users sometime see an issue where communication operates in one direction only. Typically, Logic Pro operates perfectly using IPv4 protocol with the Localhost IP address. Other times it works perfectly using IPv6 protocol with the Localhost IP address. With macOS Tahoe, it typically works perfectly using IPv4 protocol with the WiFi IP address. We have contacted Apple about this but they have not responded.
 
