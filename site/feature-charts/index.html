@@ -16607,8 +16607,8 @@
 <div class="tabbed-content">
 <div class="tabbed-block">
 <h1 id="_38"></h1>
-<h3 id="command8-pro-tools">Command8 Pro Tools</h3>
-<div class="tabbed-set tabbed-alternate" data-tabs="39:8"><input checked="checked" id="channel-strips_30" name="__tabbed_39" type="radio" /><input id="bank-mode_25" name="__tabbed_39" type="radio" /><input id="transport_30" name="__tabbed_39" type="radio" /><input id="utility_30" name="__tabbed_39" type="radio" /><input id="modifiers_9" name="__tabbed_39" type="radio" /><input id="navigation_30" name="__tabbed_39" type="radio" /><input id="window-buttons_13" name="__tabbed_39" type="radio" /><input id="v-window-mode_30" name="__tabbed_39" type="radio" /><div class="tabbed-labels"><label for="channel-strips_30">Channel Strips</label><label for="bank-mode_25">Bank Mode</label><label for="transport_30">Transport</label><label for="utility_30">Utility</label><label for="modifiers_9">Modifiers</label><label for="navigation_30">Navigation</label><label for="window-buttons_13">Window Buttons</label><label for="v-window-mode_30">V-Window Mode</label></div>
+<h3 id="command-8-pro-tools">Command 8 - Pro Tools</h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="39:9"><input checked="checked" id="channel-strips_30" name="__tabbed_39" type="radio" /><input id="bank-modes" name="__tabbed_39" type="radio" /><input id="transport_30" name="__tabbed_39" type="radio" /><input id="display" name="__tabbed_39" type="radio" /><input id="memory-locations_1" name="__tabbed_39" type="radio" /><input id="utility_30" name="__tabbed_39" type="radio" /><input id="modifiers_9" name="__tabbed_39" type="radio" /><input id="navigation_30" name="__tabbed_39" type="radio" /><input id="v-window-mode_30" name="__tabbed_39" type="radio" /><div class="tabbed-labels"><label for="channel-strips_30">Channel Strips</label><label for="bank-modes">Bank Modes</label><label for="transport_30">Transport</label><label for="display">Display</label><label for="memory-locations_1">Memory Locations</label><label for="utility_30">Utility</label><label for="modifiers_9">Modifiers</label><label for="navigation_30">Navigation</label><label for="v-window-mode_30">V-Window Mode</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <table>
@@ -16620,28 +16620,68 @@
 </thead>
 <tbody>
 <tr>
-<td>Record</td>
-<td>Arms the assigned audio track of the Channel.</td>
-</tr>
-<tr>
 <td>Solo</td>
-<td>Solos the Channel.</td>
+<td>Solo track</td>
 </tr>
 <tr>
 <td>Mute</td>
-<td>Mutes the Channel.</td>
+<td>Pan Mode - Mute track</td>
+</tr>
+<tr>
+<td></td>
+<td>Send A-E Mode - Mute track</td>
+</tr>
+<tr>
+<td></td>
+<td>Flip Send A-E Mode - Mute send for track</td>
 </tr>
 <tr>
 <td>Select</td>
-<td>Sets the Channel to the Select state.</td>
+<td>Pan Mode - Select track</td>
+</tr>
+<tr>
+<td></td>
+<td>Send A-E Mode - Pre/post send mode for track</td>
+</tr>
+<tr>
+<td></td>
+<td>Record Mode - Pre/post record enable for track</td>
+</tr>
+<tr>
+<td></td>
+<td>Insert Channel Mode - Select track to edit inserts</td>
+</tr>
+<tr>
+<td></td>
+<td>Insert Select Mode - Select 1-4 to select Insert A-E</td>
+</tr>
+<tr>
+<td></td>
+<td>Insert Edit Mode - Select 1-4 to toggle Params 1-4</td>
 </tr>
 <tr>
 <td>Knob</td>
-<td>Changes the assigned parameter.</td>
+<td>Pan/PanR Mode - Pan for mono/stereo tracks</td>
 </tr>
 <tr>
-<td>Knob Button</td>
-<td>Sets assign selection/Toggles insert parameters/Toggles prepost/Toggles Send Mute</td>
+<td></td>
+<td>Send A-E Mode - Send level</td>
+</tr>
+<tr>
+<td></td>
+<td>Flip Send A-E Mode - Send pan</td>
+</tr>
+<tr>
+<td></td>
+<td>Insert Edit Mode - Adjust Params 1-4</td>
+</tr>
+<tr>
+<td>Fader</td>
+<td>Pan, Record, Send A-E Mode - Track volume</td>
+</tr>
+<tr>
+<td></td>
+<td>Flip Send A-E Mode - Send level</td>
 </tr>
 <tr>
 <td>Track Meters</td>
@@ -16654,42 +16694,34 @@
 <table>
 <thead>
 <tr>
-<th>Bank Mode</th>
+<th>Bank Modes</th>
 <th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>The assignment buttons are used to assign controls to the Knobs.</td>
+<td>Assign controls to the Knobs and Select buttons.</td>
 <td></td>
 </tr>
 <tr>
-<td>Pan (Default)</td>
+<td>Pan / PanR</td>
 <td>Assigns knobs to control pan position. For stereo tracks, press pan button again to access other side.</td>
 </tr>
 <tr>
-<td>Send A</td>
-<td>Assigns Send A to knobs.</td>
+<td>Send A-E</td>
+<td>Send mode for all tracks.</td>
 </tr>
 <tr>
-<td>Send B</td>
-<td>Assigns Send B to knobs.</td>
-</tr>
-<tr>
-<td>Send C</td>
-<td>Assigns Send C to knobs.</td>
-</tr>
-<tr>
-<td>Send D</td>
-<td>Assigns Send D to knobs.</td>
-</tr>
-<tr>
-<td>Send E</td>
-<td>Assigns Send E to knobs.</td>
+<td>Record</td>
+<td>Record mode for all tracks.</td>
 </tr>
 <tr>
 <td>Flip</td>
-<td>Flips knobs to faders.</td>
+<td>Flips Send A-E send level to faders.</td>
+</tr>
+<tr>
+<td>Insert (top)</td>
+<td>Insert Channel Mode, Insert Select Mode, Insert Edit Mode</td>
 </tr>
 </tbody>
 </table>
@@ -16754,6 +16786,74 @@
 <table>
 <thead>
 <tr>
+<th>Display Buttons</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dyn</td>
+<td>No function at this time</td>
+</tr>
+<tr>
+<td>EQ</td>
+<td>No function at this time</td>
+</tr>
+<tr>
+<td>Insert</td>
+<td>Insert Bank Modes</td>
+</tr>
+<tr>
+<td>Pan/Sen/Pre</td>
+<td>No function at this time</td>
+</tr>
+<tr>
+<td>Page L/R</td>
+<td>Insert Select Mode - Inserts A-D, E</td>
+</tr>
+<tr>
+<td></td>
+<td>Insert Edit Mode - Params Page</td>
+</tr>
+<tr>
+<td>Master Bypass</td>
+<td>Plug-in Bypass for selected insert</td>
+</tr>
+<tr>
+<td>Esc</td>
+<td>Cancel Pro Tools dialog</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Memory Locations</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mem Loc</td>
+<td>Press to create new location. Press again to confirm.</td>
+</tr>
+<tr>
+<td>Esc</td>
+<td>Press to cancel.</td>
+</tr>
+<tr>
+<td>Enter</td>
+<td>Press to confirm new location</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
 <th>Utility</th>
 <th></th>
 </tr>
@@ -16768,8 +16868,28 @@
 <td>Press to undo the last edit.</td>
 </tr>
 <tr>
-<td>Cancel</td>
+<td>Esc</td>
 <td>Cancel selection</td>
+</tr>
+<tr>
+<td>Enter</td>
+<td>Enter / OK</td>
+</tr>
+<tr>
+<td>Windows Buttons</td>
+<td></td>
+</tr>
+<tr>
+<td>Mix</td>
+<td>Displays Mixer Window.</td>
+</tr>
+<tr>
+<td>Edit</td>
+<td>Displays Edit Window.</td>
+</tr>
+<tr>
+<td>Plug-In</td>
+<td>Displays Plug-In Window.</td>
 </tr>
 </tbody>
 </table>
@@ -16850,30 +16970,6 @@
 <table>
 <thead>
 <tr>
-<th>Window Buttons</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Mix</td>
-<td>Displays Mixer Window.</td>
-</tr>
-<tr>
-<td>Edit</td>
-<td>Displays Edit Window.</td>
-</tr>
-<tr>
-<td>Plug-In</td>
-<td>Displays Plug-In Window.</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="tabbed-block">
-<table>
-<thead>
-<tr>
 <th>V-Window Mode</th>
 <th></th>
 </tr>
@@ -16928,7 +17024,7 @@
 <div class="tabbed-block">
 <h1 id="_39"></h1>
 <h3 id="command8-logic">Command8 Logic</h3>
-<div class="tabbed-set tabbed-alternate" data-tabs="40:7"><input checked="checked" id="channel-strips_31" name="__tabbed_40" type="radio" /><input id="bank-mode_26" name="__tabbed_40" type="radio" /><input id="transport_31" name="__tabbed_40" type="radio" /><input id="utility_31" name="__tabbed_40" type="radio" /><input id="navigation_31" name="__tabbed_40" type="radio" /><input id="window-buttons_14" name="__tabbed_40" type="radio" /><input id="modifiers_10" name="__tabbed_40" type="radio" /><div class="tabbed-labels"><label for="channel-strips_31">Channel Strips</label><label for="bank-mode_26">Bank Mode</label><label for="transport_31">Transport</label><label for="utility_31">Utility</label><label for="navigation_31">Navigation</label><label for="window-buttons_14">Window Buttons</label><label for="modifiers_10">Modifiers</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="40:7"><input checked="checked" id="channel-strips_31" name="__tabbed_40" type="radio" /><input id="bank-mode_25" name="__tabbed_40" type="radio" /><input id="transport_31" name="__tabbed_40" type="radio" /><input id="utility_31" name="__tabbed_40" type="radio" /><input id="navigation_31" name="__tabbed_40" type="radio" /><input id="window-buttons_13" name="__tabbed_40" type="radio" /><input id="modifiers_10" name="__tabbed_40" type="radio" /><div class="tabbed-labels"><label for="channel-strips_31">Channel Strips</label><label for="bank-mode_25">Bank Mode</label><label for="transport_31">Transport</label><label for="utility_31">Utility</label><label for="navigation_31">Navigation</label><label for="window-buttons_13">Window Buttons</label><label for="modifiers_10">Modifiers</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <table>
@@ -17212,7 +17308,7 @@
 <div class="tabbed-block">
 <h1 id="_40"></h1>
 <h3 id="command8-ableton-live">Command8 Ableton Live</h3>
-<div class="tabbed-set tabbed-alternate" data-tabs="41:9"><input checked="checked" id="channel-strips_32" name="__tabbed_41" type="radio" /><input id="bank-mode_27" name="__tabbed_41" type="radio" /><input id="transport_32" name="__tabbed_41" type="radio" /><input id="utility_32" name="__tabbed_41" type="radio" /><input id="group-buttons_9" name="__tabbed_41" type="radio" /><input id="navigation_32" name="__tabbed_41" type="radio" /><input id="window-buttons_15" name="__tabbed_41" type="radio" /><input id="edit_12" name="__tabbed_41" type="radio" /><input id="modifiers_11" name="__tabbed_41" type="radio" /><div class="tabbed-labels"><label for="channel-strips_32">Channel Strips</label><label for="bank-mode_27">Bank Mode</label><label for="transport_32">Transport</label><label for="utility_32">Utility</label><label for="group-buttons_9">Group Buttons</label><label for="navigation_32">Navigation</label><label for="window-buttons_15">Window Buttons</label><label for="edit_12">Edit</label><label for="modifiers_11">Modifiers</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="41:9"><input checked="checked" id="channel-strips_32" name="__tabbed_41" type="radio" /><input id="bank-mode_26" name="__tabbed_41" type="radio" /><input id="transport_32" name="__tabbed_41" type="radio" /><input id="utility_32" name="__tabbed_41" type="radio" /><input id="group-buttons_9" name="__tabbed_41" type="radio" /><input id="navigation_32" name="__tabbed_41" type="radio" /><input id="window-buttons_14" name="__tabbed_41" type="radio" /><input id="edit_12" name="__tabbed_41" type="radio" /><input id="modifiers_11" name="__tabbed_41" type="radio" /><div class="tabbed-labels"><label for="channel-strips_32">Channel Strips</label><label for="bank-mode_26">Bank Mode</label><label for="transport_32">Transport</label><label for="utility_32">Utility</label><label for="group-buttons_9">Group Buttons</label><label for="navigation_32">Navigation</label><label for="window-buttons_14">Window Buttons</label><label for="edit_12">Edit</label><label for="modifiers_11">Modifiers</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <table>
@@ -17620,7 +17716,7 @@
 <div class="tabbed-block">
 <h1 id="_41"></h1>
 <h3 id="command8-studio-one">Command8 Studio One</h3>
-<div class="tabbed-set tabbed-alternate" data-tabs="42:9"><input checked="checked" id="channel-strips_33" name="__tabbed_42" type="radio" /><input id="bank-mode_28" name="__tabbed_42" type="radio" /><input id="channel-type-selection-mode" name="__tabbed_42" type="radio" /><input id="automation-mode" name="__tabbed_42" type="radio" /><input id="soft-keys-mode" name="__tabbed_42" type="radio" /><input id="transport_33" name="__tabbed_42" type="radio" /><input id="navigation_33" name="__tabbed_42" type="radio" /><input id="utility_33" name="__tabbed_42" type="radio" /><input id="v-window-mode_31" name="__tabbed_42" type="radio" /><div class="tabbed-labels"><label for="channel-strips_33">Channel Strips</label><label for="bank-mode_28">Bank Mode</label><label for="channel-type-selection-mode">Channel Type Selection Mode</label><label for="automation-mode">Automation Mode</label><label for="soft-keys-mode">Soft Keys Mode</label><label for="transport_33">Transport</label><label for="navigation_33">Navigation</label><label for="utility_33">Utility</label><label for="v-window-mode_31">V-Window Mode</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="42:9"><input checked="checked" id="channel-strips_33" name="__tabbed_42" type="radio" /><input id="bank-mode_27" name="__tabbed_42" type="radio" /><input id="channel-type-selection-mode" name="__tabbed_42" type="radio" /><input id="automation-mode" name="__tabbed_42" type="radio" /><input id="soft-keys-mode" name="__tabbed_42" type="radio" /><input id="transport_33" name="__tabbed_42" type="radio" /><input id="navigation_33" name="__tabbed_42" type="radio" /><input id="utility_33" name="__tabbed_42" type="radio" /><input id="v-window-mode_31" name="__tabbed_42" type="radio" /><div class="tabbed-labels"><label for="channel-strips_33">Channel Strips</label><label for="bank-mode_27">Bank Mode</label><label for="channel-type-selection-mode">Channel Type Selection Mode</label><label for="automation-mode">Automation Mode</label><label for="soft-keys-mode">Soft Keys Mode</label><label for="transport_33">Transport</label><label for="navigation_33">Navigation</label><label for="utility_33">Utility</label><label for="v-window-mode_31">V-Window Mode</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <table>
@@ -18036,7 +18132,7 @@
 <div class="tabbed-block">
 <h1 id="_42"></h1>
 <h3 id="command8-steinberg">Command8 Steinberg</h3>
-<div class="tabbed-set tabbed-alternate" data-tabs="43:6"><input checked="checked" id="channel-strips_34" name="__tabbed_43" type="radio" /><input id="bank-mode_29" name="__tabbed_43" type="radio" /><input id="transport_34" name="__tabbed_43" type="radio" /><input id="utility_34" name="__tabbed_43" type="radio" /><input id="window-buttons_16" name="__tabbed_43" type="radio" /><input id="navigation_34" name="__tabbed_43" type="radio" /><div class="tabbed-labels"><label for="channel-strips_34">Channel Strips</label><label for="bank-mode_29">Bank Mode</label><label for="transport_34">Transport</label><label for="utility_34">Utility</label><label for="window-buttons_16">Window Buttons</label><label for="navigation_34">Navigation</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="43:6"><input checked="checked" id="channel-strips_34" name="__tabbed_43" type="radio" /><input id="bank-mode_28" name="__tabbed_43" type="radio" /><input id="transport_34" name="__tabbed_43" type="radio" /><input id="utility_34" name="__tabbed_43" type="radio" /><input id="window-buttons_15" name="__tabbed_43" type="radio" /><input id="navigation_34" name="__tabbed_43" type="radio" /><div class="tabbed-labels"><label for="channel-strips_34">Channel Strips</label><label for="bank-mode_28">Bank Mode</label><label for="transport_34">Transport</label><label for="utility_34">Utility</label><label for="window-buttons_15">Window Buttons</label><label for="navigation_34">Navigation</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <table>
@@ -18316,7 +18412,7 @@
 <div class="tabbed-block">
 <h1 id="_43"></h1>
 <h3 id="command8-luna">Command8 Luna</h3>
-<div class="tabbed-set tabbed-alternate" data-tabs="44:7"><input checked="checked" id="bank-mode_30" name="__tabbed_44" type="radio" /><input id="channel-strips_35" name="__tabbed_44" type="radio" /><input id="track-view" name="__tabbed_44" type="radio" /><input id="transport_35" name="__tabbed_44" type="radio" /><input id="navigation_35" name="__tabbed_44" type="radio" /><input id="utility_35" name="__tabbed_44" type="radio" /><input id="v-window-mode_32" name="__tabbed_44" type="radio" /><div class="tabbed-labels"><label for="bank-mode_30">Bank Mode</label><label for="channel-strips_35">Channel Strips</label><label for="track-view">Track View</label><label for="transport_35">Transport</label><label for="navigation_35">Navigation</label><label for="utility_35">Utility</label><label for="v-window-mode_32">V-Window Mode</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="44:7"><input checked="checked" id="bank-mode_29" name="__tabbed_44" type="radio" /><input id="channel-strips_35" name="__tabbed_44" type="radio" /><input id="track-view" name="__tabbed_44" type="radio" /><input id="transport_35" name="__tabbed_44" type="radio" /><input id="navigation_35" name="__tabbed_44" type="radio" /><input id="utility_35" name="__tabbed_44" type="radio" /><input id="v-window-mode_32" name="__tabbed_44" type="radio" /><div class="tabbed-labels"><label for="bank-mode_29">Bank Mode</label><label for="channel-strips_35">Channel Strips</label><label for="track-view">Track View</label><label for="transport_35">Transport</label><label for="navigation_35">Navigation</label><label for="utility_35">Utility</label><label for="v-window-mode_32">V-Window Mode</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <table>
@@ -18595,7 +18691,7 @@
 <div class="tabbed-block">
 <h1 id="_45"></h1>
 <h3 id="logic-pro-x-control-with-003">Logic Pro X Control With 003</h3>
-<div class="tabbed-set tabbed-alternate" data-tabs="46:8"><input checked="checked" id="channel-strips_36" name="__tabbed_46" type="radio" /><input id="bank-mode_31" name="__tabbed_46" type="radio" /><input id="transport_36" name="__tabbed_46" type="radio" /><input id="utility_36" name="__tabbed_46" type="radio" /><input id="navigation_36" name="__tabbed_46" type="radio" /><input id="automation_26" name="__tabbed_46" type="radio" /><input id="window-buttons_17" name="__tabbed_46" type="radio" /><input id="modifiers_12" name="__tabbed_46" type="radio" /><div class="tabbed-labels"><label for="channel-strips_36">Channel Strips</label><label for="bank-mode_31">Bank Mode</label><label for="transport_36">Transport</label><label for="utility_36">Utility</label><label for="navigation_36">Navigation</label><label for="automation_26">Automation</label><label for="window-buttons_17">Window Buttons</label><label for="modifiers_12">Modifiers</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="46:8"><input checked="checked" id="channel-strips_36" name="__tabbed_46" type="radio" /><input id="bank-mode_30" name="__tabbed_46" type="radio" /><input id="transport_36" name="__tabbed_46" type="radio" /><input id="utility_36" name="__tabbed_46" type="radio" /><input id="navigation_36" name="__tabbed_46" type="radio" /><input id="automation_26" name="__tabbed_46" type="radio" /><input id="window-buttons_16" name="__tabbed_46" type="radio" /><input id="modifiers_12" name="__tabbed_46" type="radio" /><div class="tabbed-labels"><label for="channel-strips_36">Channel Strips</label><label for="bank-mode_30">Bank Mode</label><label for="transport_36">Transport</label><label for="utility_36">Utility</label><label for="navigation_36">Navigation</label><label for="automation_26">Automation</label><label for="window-buttons_16">Window Buttons</label><label for="modifiers_12">Modifiers</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <table>
@@ -18919,7 +19015,7 @@
 <div class="tabbed-block">
 <h1 id="_46"></h1>
 <h3 id="003-ableton-live">003 Ableton Live</h3>
-<div class="tabbed-set tabbed-alternate" data-tabs="47:9"><input checked="checked" id="channel-strips_37" name="__tabbed_47" type="radio" /><input id="bank-mode_32" name="__tabbed_47" type="radio" /><input id="transport_37" name="__tabbed_47" type="radio" /><input id="utility_37" name="__tabbed_47" type="radio" /><input id="group-buttons_10" name="__tabbed_47" type="radio" /><input id="navigation_37" name="__tabbed_47" type="radio" /><input id="window-buttons_18" name="__tabbed_47" type="radio" /><input id="edit_13" name="__tabbed_47" type="radio" /><input id="modifiers_13" name="__tabbed_47" type="radio" /><div class="tabbed-labels"><label for="channel-strips_37">Channel Strips</label><label for="bank-mode_32">Bank Mode</label><label for="transport_37">Transport</label><label for="utility_37">Utility</label><label for="group-buttons_10">Group Buttons</label><label for="navigation_37">Navigation</label><label for="window-buttons_18">Window Buttons</label><label for="edit_13">Edit</label><label for="modifiers_13">Modifiers</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="47:9"><input checked="checked" id="channel-strips_37" name="__tabbed_47" type="radio" /><input id="bank-mode_31" name="__tabbed_47" type="radio" /><input id="transport_37" name="__tabbed_47" type="radio" /><input id="utility_37" name="__tabbed_47" type="radio" /><input id="group-buttons_10" name="__tabbed_47" type="radio" /><input id="navigation_37" name="__tabbed_47" type="radio" /><input id="window-buttons_17" name="__tabbed_47" type="radio" /><input id="edit_13" name="__tabbed_47" type="radio" /><input id="modifiers_13" name="__tabbed_47" type="radio" /><div class="tabbed-labels"><label for="channel-strips_37">Channel Strips</label><label for="bank-mode_31">Bank Mode</label><label for="transport_37">Transport</label><label for="utility_37">Utility</label><label for="group-buttons_10">Group Buttons</label><label for="navigation_37">Navigation</label><label for="window-buttons_17">Window Buttons</label><label for="edit_13">Edit</label><label for="modifiers_13">Modifiers</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <table>
@@ -19327,7 +19423,7 @@
 <div class="tabbed-block">
 <h1 id="_47"></h1>
 <h3 id="studio-one-control-with-003">Studio One Control With 003</h3>
-<div class="tabbed-set tabbed-alternate" data-tabs="48:7"><input checked="checked" id="channel-strips_38" name="__tabbed_48" type="radio" /><input id="bank-mode_33" name="__tabbed_48" type="radio" /><input id="automation_27" name="__tabbed_48" type="radio" /><input id="transport_38" name="__tabbed_48" type="radio" /><input id="navigation_38" name="__tabbed_48" type="radio" /><input id="utility_38" name="__tabbed_48" type="radio" /><input id="v-window-mode_33" name="__tabbed_48" type="radio" /><div class="tabbed-labels"><label for="channel-strips_38">Channel Strips</label><label for="bank-mode_33">Bank Mode</label><label for="automation_27">Automation</label><label for="transport_38">Transport</label><label for="navigation_38">Navigation</label><label for="utility_38">Utility</label><label for="v-window-mode_33">V-Window Mode</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="48:7"><input checked="checked" id="channel-strips_38" name="__tabbed_48" type="radio" /><input id="bank-mode_32" name="__tabbed_48" type="radio" /><input id="automation_27" name="__tabbed_48" type="radio" /><input id="transport_38" name="__tabbed_48" type="radio" /><input id="navigation_38" name="__tabbed_48" type="radio" /><input id="utility_38" name="__tabbed_48" type="radio" /><input id="v-window-mode_33" name="__tabbed_48" type="radio" /><div class="tabbed-labels"><label for="channel-strips_38">Channel Strips</label><label for="bank-mode_32">Bank Mode</label><label for="automation_27">Automation</label><label for="transport_38">Transport</label><label for="navigation_38">Navigation</label><label for="utility_38">Utility</label><label for="v-window-mode_33">V-Window Mode</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <table>
@@ -19655,7 +19751,7 @@
 <div class="tabbed-block">
 <h1 id="_48"></h1>
 <h3 id="cubase_nuendo-control-with-003">Cubase_Nuendo Control With 003</h3>
-<div class="tabbed-set tabbed-alternate" data-tabs="49:7"><input checked="checked" id="channel-strips_39" name="__tabbed_49" type="radio" /><input id="bank-mode_34" name="__tabbed_49" type="radio" /><input id="automation_28" name="__tabbed_49" type="radio" /><input id="transport_39" name="__tabbed_49" type="radio" /><input id="utility_39" name="__tabbed_49" type="radio" /><input id="window-buttons_19" name="__tabbed_49" type="radio" /><input id="navigation_39" name="__tabbed_49" type="radio" /><div class="tabbed-labels"><label for="channel-strips_39">Channel Strips</label><label for="bank-mode_34">Bank Mode</label><label for="automation_28">Automation</label><label for="transport_39">Transport</label><label for="utility_39">Utility</label><label for="window-buttons_19">Window Buttons</label><label for="navigation_39">Navigation</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="49:7"><input checked="checked" id="channel-strips_39" name="__tabbed_49" type="radio" /><input id="bank-mode_33" name="__tabbed_49" type="radio" /><input id="automation_28" name="__tabbed_49" type="radio" /><input id="transport_39" name="__tabbed_49" type="radio" /><input id="utility_39" name="__tabbed_49" type="radio" /><input id="window-buttons_18" name="__tabbed_49" type="radio" /><input id="navigation_39" name="__tabbed_49" type="radio" /><div class="tabbed-labels"><label for="channel-strips_39">Channel Strips</label><label for="bank-mode_33">Bank Mode</label><label for="automation_28">Automation</label><label for="transport_39">Transport</label><label for="utility_39">Utility</label><label for="window-buttons_18">Window Buttons</label><label for="navigation_39">Navigation</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <table>
@@ -19971,7 +20067,7 @@
 <div class="tabbed-block">
 <h1 id="_49"></h1>
 <h3 id="003-luna">003 Luna</h3>
-<div class="tabbed-set tabbed-alternate" data-tabs="50:7"><input checked="checked" id="bank-mode_35" name="__tabbed_50" type="radio" /><input id="track-buttons" name="__tabbed_50" type="radio" /><input id="automation-buttons" name="__tabbed_50" type="radio" /><input id="transport_40" name="__tabbed_50" type="radio" /><input id="cursor-buttons" name="__tabbed_50" type="radio" /><input id="utility_40" name="__tabbed_50" type="radio" /><input id="v-window-mode_34" name="__tabbed_50" type="radio" /><div class="tabbed-labels"><label for="bank-mode_35">Bank Mode</label><label for="track-buttons">Track Buttons</label><label for="automation-buttons">Automation Buttons</label><label for="transport_40">Transport</label><label for="cursor-buttons">Cursor Buttons</label><label for="utility_40">Utility</label><label for="v-window-mode_34">V-Window Mode</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="50:7"><input checked="checked" id="bank-mode_34" name="__tabbed_50" type="radio" /><input id="track-buttons" name="__tabbed_50" type="radio" /><input id="automation-buttons" name="__tabbed_50" type="radio" /><input id="transport_40" name="__tabbed_50" type="radio" /><input id="cursor-buttons" name="__tabbed_50" type="radio" /><input id="utility_40" name="__tabbed_50" type="radio" /><input id="v-window-mode_34" name="__tabbed_50" type="radio" /><div class="tabbed-labels"><label for="bank-mode_34">Bank Mode</label><label for="track-buttons">Track Buttons</label><label for="automation-buttons">Automation Buttons</label><label for="transport_40">Transport</label><label for="cursor-buttons">Cursor Buttons</label><label for="utility_40">Utility</label><label for="v-window-mode_34">V-Window Mode</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <table>

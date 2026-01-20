@@ -1702,8 +1702,8 @@
 
 
 <h1 id="_1"></h1>
-<h3 id="command8-pro-tools">Command8 Pro Tools</h3>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:8"><input checked="checked" id="channel-strips" name="__tabbed_1" type="radio" /><input id="bank-mode" name="__tabbed_1" type="radio" /><input id="transport" name="__tabbed_1" type="radio" /><input id="utility" name="__tabbed_1" type="radio" /><input id="modifiers" name="__tabbed_1" type="radio" /><input id="navigation" name="__tabbed_1" type="radio" /><input id="window-buttons" name="__tabbed_1" type="radio" /><input id="v-window-mode" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="channel-strips">Channel Strips</label><label for="bank-mode">Bank Mode</label><label for="transport">Transport</label><label for="utility">Utility</label><label for="modifiers">Modifiers</label><label for="navigation">Navigation</label><label for="window-buttons">Window Buttons</label><label for="v-window-mode">V-Window Mode</label></div>
+<h3 id="command-8-pro-tools">Command 8 - Pro Tools</h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:9"><input checked="checked" id="channel-strips" name="__tabbed_1" type="radio" /><input id="bank-modes" name="__tabbed_1" type="radio" /><input id="transport" name="__tabbed_1" type="radio" /><input id="display" name="__tabbed_1" type="radio" /><input id="memory-locations" name="__tabbed_1" type="radio" /><input id="utility" name="__tabbed_1" type="radio" /><input id="modifiers" name="__tabbed_1" type="radio" /><input id="navigation" name="__tabbed_1" type="radio" /><input id="v-window-mode" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="channel-strips">Channel Strips</label><label for="bank-modes">Bank Modes</label><label for="transport">Transport</label><label for="display">Display</label><label for="memory-locations">Memory Locations</label><label for="utility">Utility</label><label for="modifiers">Modifiers</label><label for="navigation">Navigation</label><label for="v-window-mode">V-Window Mode</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <table>
@@ -1715,28 +1715,68 @@
 </thead>
 <tbody>
 <tr>
-<td>Record</td>
-<td>Arms the assigned audio track of the Channel.</td>
-</tr>
-<tr>
 <td>Solo</td>
-<td>Solos the Channel.</td>
+<td>Solo track</td>
 </tr>
 <tr>
 <td>Mute</td>
-<td>Mutes the Channel.</td>
+<td>Pan Mode - Mute track</td>
+</tr>
+<tr>
+<td></td>
+<td>Send A-E Mode - Mute track</td>
+</tr>
+<tr>
+<td></td>
+<td>Flip Send A-E Mode - Mute send for track</td>
 </tr>
 <tr>
 <td>Select</td>
-<td>Sets the Channel to the Select state.</td>
+<td>Pan Mode - Select track</td>
+</tr>
+<tr>
+<td></td>
+<td>Send A-E Mode - Pre/post send mode for track</td>
+</tr>
+<tr>
+<td></td>
+<td>Record Mode - Pre/post record enable for track</td>
+</tr>
+<tr>
+<td></td>
+<td>Insert Channel Mode - Select track to edit inserts</td>
+</tr>
+<tr>
+<td></td>
+<td>Insert Select Mode - Select 1-4 to select Insert A-E</td>
+</tr>
+<tr>
+<td></td>
+<td>Insert Edit Mode - Select 1-4 to toggle Params 1-4</td>
 </tr>
 <tr>
 <td>Knob</td>
-<td>Changes the assigned parameter.</td>
+<td>Pan/PanR Mode - Pan for mono/stereo tracks</td>
 </tr>
 <tr>
-<td>Knob Button</td>
-<td>Sets assign selection/Toggles insert parameters/Toggles prepost/Toggles Send Mute</td>
+<td></td>
+<td>Send A-E Mode - Send level</td>
+</tr>
+<tr>
+<td></td>
+<td>Flip Send A-E Mode - Send pan</td>
+</tr>
+<tr>
+<td></td>
+<td>Insert Edit Mode - Adjust Params 1-4</td>
+</tr>
+<tr>
+<td>Fader</td>
+<td>Pan, Record, Send A-E Mode - Track volume</td>
+</tr>
+<tr>
+<td></td>
+<td>Flip Send A-E Mode - Send level</td>
 </tr>
 <tr>
 <td>Track Meters</td>
@@ -1749,42 +1789,34 @@
 <table>
 <thead>
 <tr>
-<th>Bank Mode</th>
+<th>Bank Modes</th>
 <th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>The assignment buttons are used to assign controls to the Knobs.</td>
+<td>Assign controls to the Knobs and Select buttons.</td>
 <td></td>
 </tr>
 <tr>
-<td>Pan (Default)</td>
+<td>Pan / PanR</td>
 <td>Assigns knobs to control pan position. For stereo tracks, press pan button again to access other side.</td>
 </tr>
 <tr>
-<td>Send A</td>
-<td>Assigns Send A to knobs.</td>
+<td>Send A-E</td>
+<td>Send mode for all tracks.</td>
 </tr>
 <tr>
-<td>Send B</td>
-<td>Assigns Send B to knobs.</td>
-</tr>
-<tr>
-<td>Send C</td>
-<td>Assigns Send C to knobs.</td>
-</tr>
-<tr>
-<td>Send D</td>
-<td>Assigns Send D to knobs.</td>
-</tr>
-<tr>
-<td>Send E</td>
-<td>Assigns Send E to knobs.</td>
+<td>Record</td>
+<td>Record mode for all tracks.</td>
 </tr>
 <tr>
 <td>Flip</td>
-<td>Flips knobs to faders.</td>
+<td>Flips Send A-E send level to faders.</td>
+</tr>
+<tr>
+<td>Insert (top)</td>
+<td>Insert Channel Mode, Insert Select Mode, Insert Edit Mode</td>
 </tr>
 </tbody>
 </table>
@@ -1849,6 +1881,74 @@
 <table>
 <thead>
 <tr>
+<th>Display Buttons</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dyn</td>
+<td>No function at this time</td>
+</tr>
+<tr>
+<td>EQ</td>
+<td>No function at this time</td>
+</tr>
+<tr>
+<td>Insert</td>
+<td>Insert Bank Modes</td>
+</tr>
+<tr>
+<td>Pan/Sen/Pre</td>
+<td>No function at this time</td>
+</tr>
+<tr>
+<td>Page L/R</td>
+<td>Insert Select Mode - Inserts A-D, E</td>
+</tr>
+<tr>
+<td></td>
+<td>Insert Edit Mode - Params Page</td>
+</tr>
+<tr>
+<td>Master Bypass</td>
+<td>Plug-in Bypass for selected insert</td>
+</tr>
+<tr>
+<td>Esc</td>
+<td>Cancel Pro Tools dialog</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Memory Locations</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mem Loc</td>
+<td>Press to create new location. Press again to confirm.</td>
+</tr>
+<tr>
+<td>Esc</td>
+<td>Press to cancel.</td>
+</tr>
+<tr>
+<td>Enter</td>
+<td>Press to confirm new location</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
 <th>Utility</th>
 <th></th>
 </tr>
@@ -1863,8 +1963,28 @@
 <td>Press to undo the last edit.</td>
 </tr>
 <tr>
-<td>Cancel</td>
+<td>Esc</td>
 <td>Cancel selection</td>
+</tr>
+<tr>
+<td>Enter</td>
+<td>Enter / OK</td>
+</tr>
+<tr>
+<td>Windows Buttons</td>
+<td></td>
+</tr>
+<tr>
+<td>Mix</td>
+<td>Displays Mixer Window.</td>
+</tr>
+<tr>
+<td>Edit</td>
+<td>Displays Edit Window.</td>
+</tr>
+<tr>
+<td>Plug-In</td>
+<td>Displays Plug-In Window.</td>
 </tr>
 </tbody>
 </table>
@@ -1937,30 +2057,6 @@
 <tr>
 <td>Right</td>
 <td>Scrolls Right in Edit Window.</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="tabbed-block">
-<table>
-<thead>
-<tr>
-<th>Window Buttons</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Mix</td>
-<td>Displays Mixer Window.</td>
-</tr>
-<tr>
-<td>Edit</td>
-<td>Displays Edit Window.</td>
-</tr>
-<tr>
-<td>Plug-In</td>
-<td>Displays Plug-In Window.</td>
 </tr>
 </tbody>
 </table>

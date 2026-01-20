@@ -1,31 +1,39 @@
 #
 
-### Command8 Pro Tools
+### Command 8 - Pro Tools
 
 === "Channel Strips"
 
     | Channel Strips |  |
     |---|---|
-    | Record | Arms the assigned audio track of the Channel. |
-    | Solo | Solos the Channel. |
-    | Mute | Mutes the Channel. |
-    | Select | Sets the Channel to the Select state. |
-    | Knob | Changes the assigned parameter. |
-    | Knob Button | Sets assign selection/Toggles insert parameters/Toggles prepost/Toggles Send Mute |
+    | Solo | Solo track |
+    | Mute | Pan Mode - Mute track |
+    |        | Send A-E Mode - Mute track |
+    |        | Flip Send A-E Mode - Mute send for track |
+    | Select | Pan Mode - Select track |
+    |        | Send A-E Mode - Pre/post send mode for track |
+    |        | Record Mode - Pre/post record enable for track |
+    |        | Insert Channel Mode - Select track to edit inserts |
+    |        | Insert Select Mode - Select 1-4 to select Insert A-E |
+    |        | Insert Edit Mode - Select 1-4 to toggle Params 1-4 |
+    | Knob | Pan/PanR Mode - Pan for mono/stereo tracks|
+    |      | Send A-E Mode - Send level |
+    |      | Flip Send A-E Mode - Send pan |
+    |      | Insert Edit Mode - Adjust Params 1-4 |
+    | Fader | Pan, Record, Send A-E Mode - Track volume|
+    |       | Flip Send A-E Mode - Send level |
     | Track Meters | Displays Stereo metering for tracks. |
 
-=== "Bank Mode"
+=== "Bank Modes"
 
-    | Bank Mode |  |
+    | Bank Modes |  |
     |---|---|
-    | The assignment buttons are used to assign controls to the Knobs. |  |
-    | Pan (Default) | Assigns knobs to control pan position. For stereo tracks, press pan button again to access other side. |
-    | Send A | Assigns Send A to knobs. |
-    | Send B | Assigns Send B to knobs. |
-    | Send C | Assigns Send C to knobs. |
-    | Send D | Assigns Send D to knobs. |
-    | Send E | Assigns Send E to knobs. |
-    | Flip | Flips knobs to faders. |
+    | Assign controls to the Knobs and Select buttons. |  |
+    | Pan / PanR | Assigns knobs to control pan position. For stereo tracks, press pan button again to access other side. |
+    | Send A-E | Send mode for all tracks. |
+    | Record | Record mode for all tracks. |
+    | Flip | Flips Send A-E send level to faders. |
+    | Insert (top) | Insert Channel Mode, Insert Select Mode, Insert Edit Mode |
 
 === "Transport"
 
@@ -43,13 +51,39 @@
     | Quick Punch | Enables Punch Mode. |
     | Counter | Displays Counter for current session. Counter mode can be changed in DAW. |
 
+=== "Display"
+
+    | Display Buttons |  |
+    |---|---|
+    | Dyn | No function at this time |
+    | EQ | No function at this time |
+    | Insert | Insert Bank Modes |
+    | Pan/Sen/Pre | No function at this time |
+    | Page L/R | Insert Select Mode - Inserts A-D, E |
+    |          | Insert Edit Mode - Params Page |
+    | Master Bypass | Plug-in Bypass for selected insert |
+    | Esc | Cancel Pro Tools dialog |
+
+=== "Memory Locations"
+
+    | Memory Locations |  |
+    |---|---|
+    | Mem Loc | Press to create new location. Press again to confirm.|
+    | Esc | Press to cancel. |
+    | Enter | Press to confirm new location |
+
 === "Utility"
 
     | Utility |  |
     |---|---|
     | Undo | Press to undo the last edit. |
     | Redo | Press to undo the last edit. |
-    | Cancel | Cancel selection |
+    | Esc | Cancel selection |
+    | Enter | Enter / OK |
+    | Windows Buttons |  |
+    | Mix | Displays Mixer Window. |
+    | Edit | Displays Edit Window. |
+    | Plug-In | Displays Plug-In Window. |
 
 === "Modifiers"
 
@@ -71,15 +105,7 @@
     | Up | Scrolls Up in Edit Window. |
     | Down | Scrolls Down in Edit Window. |
     | Left | Scrolls Left in Edit Window. |
-    | Right | Scrolls Right in Edit Window. |
-
-=== "Window Buttons"
-
-    | Window Buttons |  |
-    |---|---|
-    | Mix | Displays Mixer Window. |
-    | Edit | Displays Edit Window. |
-    | Plug-In | Displays Plug-In Window. |
+    | Right | Scrolls Right in Edit Window. |   
 
 === "V-Window Mode"
 
