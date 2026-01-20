@@ -1,4 +1,7 @@
 ## Version 3.2 Pre-release for FaderPort 8/16
+!!! warning "Version 3.2 Is For FaderPort 8/16 Only"
+    V-Control Pro 3.2 pre-release is **incompatible** with all other surfaces.
+
 ### [3.2.0.16] - 2025-09-08
 #### Changed
 - `Hot Locations` restore to new `home` memory location.

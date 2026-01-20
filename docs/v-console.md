@@ -1,11 +1,11 @@
 # V-Console iPad App
 
-V-Console is an iPad app that provides touch sensitive remote control of media applications.
+V-Console is an iPad app that provides touch sensitive, portable remote control of media applications.
 
 ### Setup
 
 #### Pro Tools
-Set up Pro Tools for one or two HUI bank as described in [Setting Up Pro Tools](./pro-tools.md).
+Set up Pro Tools for one or two HUI bank as described in [Setting Up Pro Tools](./pro-tools.md). If you are already using a HUI-based control surface with Pro Tools such as one made by SSL, Behringer, PreSonus, etc., V-Control lets you set up V-Console in parallel as described in [Setting Up HUI Protocol Devices](./hui-protocol.md)
 
 #### Logic Pro X
 

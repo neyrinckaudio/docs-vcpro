@@ -15,3 +15,4 @@ V-Control Pro supports many types of control surfaces. Different surfaces connec
 * [FaderPort 8 / 16](./faderport-8-16.md)
 * [V-Console](./v-console.md)
 * [V-Control Pro iPad App](./v-control-pro-ipad.md)
+* [HUI Protocol Devices](./hui-device.md)

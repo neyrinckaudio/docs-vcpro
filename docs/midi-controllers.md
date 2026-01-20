@@ -1,6 +1,6 @@
 # Setting Up MIDI Controllers
 
-## Command 8, FaderPort V2 / ioStation 24c, FaderPort 8/16
+## Command 8, FaderPort V2 / ioStation 24c, FaderPort 8/16, HUI Protocol Device
 
 For surfaces that use MIDI to connect to a computer, follow these instructions to add a surface to V-Control Pro.
 

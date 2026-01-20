@@ -1,6 +1,74 @@
 ## Version 3.0
 
-### [3.0.20] - 2025-09-01
+### [3.0.24]
+
+Fender Studio
+
+* Added support for Fender Studio.
+
+Windows
+
+* Fixed BOME Midi installer to provide uninstaller.
+* Fixed BOME Midi to create virtual ports with administrator privileges.
+* Remapped surface modifier buttons to match Pro Tools incorrect mapping.
+
+D-Command
+
+* Fixed Midi Mode to not always be active.
+* Fixed scribble display errors for track names starting with “Bus”
+
+Command 8 With Pro Tools
+
+* Added PlugIn Editing
+* Added Flip Mode For Sends
+
+HUI Protocol Device
+
+* Fixed one-way control with HUI devices used in parallel.
+
+### [3.0.23]
+
+C24
+
+* Improved PlugIn editing with Pro Tools
+* Fixed Logic Pro displays for plugin, sends, and channel editing
+
+Windows
+
+* Fixed to be compatible with user account names using non-ascii characters.
+
+### [3.0.22]
+
+Logic Pro
+
+* Change Logic Pro for more reliable control.
+
+Digital Performer
+
+* Fix Control 24 to not be stuck in MIDI Mode
+* Fix C24 to be able to switch to MIDI Mode
+
+Pro Control
+
+* Change Midi Mode switch to Shift + Monø
+
+Windows
+
+* installer security improved
+* Fixed uninstaller to remove MIDI ports
+
+### [3.0.21]
+
+Reason
+
+* Fixed mapping to various surfaces
+
+C24
+
+* Fixed ‘Clear Clip’ button for Pro Tools
+
+
+### [3.0.20]
 #### Fixed
 * Command 8 With Pro Tools
 	* Fixed Bank, Nudge, Zoom mode 
