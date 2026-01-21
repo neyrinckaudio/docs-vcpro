@@ -1,6 +1,6 @@
 #
 
-### C24 Studio One
+### C24 - Studio One / Fender Studio
 
 === "Channel Strips"
 

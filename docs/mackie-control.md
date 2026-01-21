@@ -14,5 +14,5 @@ Many DAWs and media applications use the Mackie Control protocol to support cont
 * [Reaper](./reaper.md)
 * [Reason](./reason.md)
 * [Sonar](./sonar.md)
-* [Studio One](./studio-one.md)
+* [Studio One / Fender Studio](./studio-one.md)
 * [WWise](./wwise.md)

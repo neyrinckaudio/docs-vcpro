@@ -577,7 +577,7 @@ Control improvements for Logic Pro X, Cubase/Nuendo, and Studio One.
 Website Page Listings Of Control Features:  
 [Logic Pro X](https://neyrinck.com/logic-pro-x-control-features/)  
 [Cubase / Nuendo](https://neyrinck.com/steinberg-control-features/)  
-[Studio One](https://neyrinck.com/studio-one-control-features/)
+[Studio One / Fender Studio](https://neyrinck.com/studio-one-control-features/)
 
 **VERSION 2.5 CHANGES**
 

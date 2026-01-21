@@ -6,7 +6,7 @@
         {% include './feature-chart/dcommand-protools.md' %}
     === "Logic"
         {% include './feature-chart/dcommand-logic.md' %}
-    === "Studio One"
+    === "Studio One / Fender Pro"
         {% include './feature-chart/dcommand-studio-one.md' %}
     === "Cubase / Nuendo"
         {% include './feature-chart/dcommand-steinberg.md' %}
@@ -19,7 +19,7 @@
         {% include './feature-chart/c24-protools.md' %}
     === "Logic"
         {% include './feature-chart/c24-logic.md' %}
-    === "Studio One"
+    === "Studio One / Fender Pro"
         {% include './feature-chart/c24-studio-one.md' %}
     === "Cubase / Nuendo"
         {% include './feature-chart/c24-steinberg.md' %}
@@ -38,7 +38,7 @@
         {% include './feature-chart/control24-protools.md' %}
     === "Logic"
         {% include './feature-chart/control24-logic.md' %}
-    === "Studio One"
+    === "Studio One / Fender Pro"
         {% include './feature-chart/control24-studio-one.md' %}
     === "Cubase / Nuendo"
         {% include './feature-chart/control24-steinberg.md' %}
@@ -57,7 +57,7 @@
         {% include './feature-chart/procontrol-protools.md' %}
     === "Logic"
         {% include './feature-chart/procontrol-logic.md' %}
-    === "Studio One"
+    === "Studio One / Fender Pro"
         {% include './feature-chart/procontrol-studio-one.md' %}
     === "Cubase / Nuendo"
         {% include './feature-chart/procontrol-steinberg.md' %}
@@ -88,7 +88,7 @@
         {% include './feature-chart/command8-logic.md' %}
     === "Ableton Live"
         {% include './feature-chart/command8-ableton-live.md' %}
-    === "Studio One"
+    === "Studio One / Fender Pro"
         {% include './feature-chart/command8-studio-one.md' %}
     === "Cubase / Nuendo"
         {% include './feature-chart/command8-steinberg.md' %}
@@ -101,7 +101,7 @@
         {% include './feature-chart/003-logic.md' %}
     === "Ableton Live"
         {% include './feature-chart/003-ableton-live.md' %}
-    === "Studio One"
+    === "Studio One / Fender Pro"
         {% include './feature-chart/003-studio-one.md' %}
     === "Cubase / Nuendo"
         {% include './feature-chart/003-steinberg.md' %}

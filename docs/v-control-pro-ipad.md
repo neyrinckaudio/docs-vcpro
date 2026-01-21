@@ -37,5 +37,5 @@ Set up the DAW for V-Control Pro iPad App using one Mackie Control bank as descr
 * [Reaper](./reaper.md)
 * [Reason](./reason.md)
 * [Sonar](./sonar.md)
-* [Studio One](./studio-one.md)
+* [Studio One / Fender Studio](./studio-one.md)
 * [WWise](./wwise.md)

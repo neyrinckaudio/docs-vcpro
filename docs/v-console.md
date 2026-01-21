@@ -31,5 +31,5 @@ Set up the DAW for V-Console using one or two Mackie Control banks as described 
 * [Reaper](./reaper.md)
 * [Reason](./reason.md)
 * [Sonar](./sonar.md)
-* [Studio One](./studio-one.md)
+* [Studio One / Fender Studio](./studio-one.md)
 * [WWise](./wwise.md)

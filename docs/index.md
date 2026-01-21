@@ -57,7 +57,7 @@ V-Control Pro supports an extensive range of applications across audio, video, a
 - **[Pro Tools](./pro-tools.md)** - Native integration with all Pro Tools versions
 - **[Logic Pro](./logic-pro.md)** - Complete Logic Pro X control
 - **[Cubase/Nuendo](./cubase-nuendo.md)** - Steinberg application support
-- **[Studio One](./studio-one.md)** - PreSonus DAW integration
+- **[Studio One / Fender Studio](./studio-one.md)** - PreSonus DAW integration
 - **[Ableton Live](./ableton-live.md)** - Live performance and production
 - **[Reaper](./reaper.md)** - Customizable DAW support
 

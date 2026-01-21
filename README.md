@@ -14,7 +14,7 @@ V-Control Pro bridges the gap between legacy professional control surfaces (part
 
 ### Supported Applications
 
-- **Audio**: Pro Tools (all versions), Logic Pro, Cubase/Nuendo, Studio One, Ableton Live, Reaper, and many more
+- **Audio**: Pro Tools (all versions), Logic Pro, Cubase/Nuendo, Studio One / Fender Studio, Ableton Live, Reaper, and many more
 - **Video**: DaVinci Resolve, Premiere Pro
 - **Game Audio**: FMOD Studio, Wwise
 

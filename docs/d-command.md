@@ -33,5 +33,5 @@ Set up the DAW for D-Command using 1 or 3 Mackie Control banks as described in [
 * [Reaper](./reaper.md)
 * [Reason](./reason.md)
 * [Sonar](./sonar.md)
-* [Studio One](./studio-one.md)
+* [Studio One / Fender Studio](./studio-one.md)
 * [WWise](./wwise.md)

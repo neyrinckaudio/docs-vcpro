@@ -40,6 +40,6 @@ Set up the DAW for Command 8 using one Mackie Control bank as described in [Sett
 * [Reaper](./reaper.md)
 * [Reason](./reason.md)
 * [Sonar](./sonar.md)
-* [Studio One](./studio-one.md)
+* [Studio One / Fender Studio](./studio-one.md)
 * [WWise](./wwise.md)
 

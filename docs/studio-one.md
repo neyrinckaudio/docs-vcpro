@@ -1,11 +1,11 @@
-# Studio One
+# Studio One / Fender Studio
 
-V-Control Pro must be set up in the External Devices window in the Studio One Preferences.  Depending on how many banks are being used, the configuration will vary.
+V-Control Pro must be set up in the External Devices window in the Studio One / Fender Studio Preferences.  Depending on how many banks are being used, the configuration will vary.
 
 ## 8 Channel Surfaces
 
-- Launch Studio One
-- In the Studio One top menu bar select: Studio One / Preferences...
+- Launch Studio One / Fender Studio
+- In the Studio One / Fender Studio top menu bar select: Studio One-Fender Studio / Preferences...
 - Select External Device on the preferences window
 - Select "Add Device" and choose the following:
     - Mackie/Control

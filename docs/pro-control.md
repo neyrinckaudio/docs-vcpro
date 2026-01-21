@@ -32,6 +32,6 @@ Set up the DAW for ProControl using 1, 2, 3, or 4 Mackie Control banks as descri
 * [Reaper](./reaper.md)
 * [Reason](./reason.md)
 * [Sonar](./sonar.md)
-* [Studio One](./studio-one.md)
+* [Studio One / Fender Studio](./studio-one.md)
 * [WWise](./wwise.md)
 

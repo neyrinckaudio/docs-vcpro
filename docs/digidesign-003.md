@@ -24,7 +24,7 @@ Set up Logic Pro as described in [Setting Up Logic Pro](./logic-pro.md).
 Set up Cubase / Nuendo as described in [Setting Up Cubase/Nuendo](./cubase-nuendo.md).
 
 #### Ableton Live
-#### Studio One
+#### Studio One / Fender Pro
 #### LUNA
 #### MixBus
 #### Digital Performer

@@ -1,6 +1,6 @@
 #
 
-### Command8 Studio One
+### Command 8 - Studio One / Fender Studio
 
 === "Channel Strips"
 

@@ -1,6 +1,6 @@
 #
 
-### ProControl Studio One
+### ProControl - Studio One / Fender Studio
 
 === "Channel Strips"
 
