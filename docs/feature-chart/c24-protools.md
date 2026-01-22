@@ -1,9 +1,12 @@
 #
 
-### C24 Pro Tools
+### C24 - Pro Tools
 
 !!! warning "Important HUI Metering Information"
     The HUI protocol provides for stereo track metering. It does not provide for output metering.
+
+!!! info "Important Insert Editing Information"
+    Pro Tools limits HUI device plug-in editing to the first eight channels of the surface. You can bank and scroll a track to the first eight channels and select a plug-in to edit. Thereafter, you can bank and scroll while editing the plug-in. 
 
 === "Channel Strips"
 

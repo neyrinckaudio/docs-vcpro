@@ -1,29 +1,68 @@
 #
 
-### D-Command Pro Tools
+### D-Command - Pro Tools
 
-!!! warning "Important HUI Metering Information"
+!!! info "Important HUI Metering Information"
     The HUI protocol provides for stereo track metering. It does not provide for output metering.
+
+!!! info "Important Insert Editing Information"
+    Pro Tools limits HUI device plug-in editing to the first eight channels of the surface. You can bank and scroll a track to the first eight channels and select a plug-in to edit. Thereafter, you can bank and scroll while editing the plug-in. 
 
 === "Channel Strips"
 
     | Channel Strips |  |
     |---|---|
-    | Pan | Assigns Pan control to the knobs. |
-    | Send | Assigns Sends to knobs. Use Page Up and Page Down buttons to change Send assignment. |
-    | Page Up | Cycles Up to next Send assignment for knobs. |
-    | Page Down | Cycles Down to next Send Assignment for knobs. |
-    | BypMute | Toggles Send Mute Mode. |
-    | BMP | When Send Mute Mode is off: Toggles Pre/Post for Send.  When Send Mute Mode is On: Toggles Send Mute. |
     | Record | Arms the assigned audio track of the Channel. |
+    | Select | Sets the Channel to the Select state. |
     | Solo | Solos the Channel. |
     | Mute | Mutes the Channel. |
     | Auto | Hold down and press a channel select button to cycle through Automation modes for the selected channel. |
-    | Select | Sets the Channel to the Select state. |
-    | Knob | Changes the assigned parameter. |
-    | Knob Button | Changes the assigned parameter. |
-    | Track Meters | Displays Mono metering for tracks. |
-    | Flip | Flips knobs to faders. |
+    | Track Meters | Displays Stereo metering for tracks. |
+    | Pan | Assigns pan control to the knobs for all tracks. Press again to toggle to right channel pan for stereo tracks. |
+    | Sends | Assigns Send Mode to bottom edit row for all tracks. Press and hold to display send destination. |
+    | Page Up | Cycles through Send A-E assignment. |
+    | Page Down | Cycles through Send A-E assignment. |
+    | BypMute | Toggles between Send Mute Mode and Send Pre/Post Mode |
+    | Inserts | Assign track to upper edit row insert editor. Press again to toggle between Insert Select Mode and Insert Edit Mode |
+
+    | Lower Edit Row | Edit Pan and Sends |
+    |---|---|
+    | Knob | Adjust track pan, send volume, or send pan for stereo sends |
+    | BMP | Send Mute Mode - toggle send mute |
+    |  | Send Pre/Post Mode - toggle send pre/post. |
+    | Flip | Flips send volume to Fader, send mute to Mute. |
+    
+    | Upper Edit Row | Edit Inserts A-E. Only available for tracks 1-8. |
+    |---|---|
+    |  | Insert Select Mode |
+    | Select 1-4 | Select insert to edit |
+    | Select 5 | Display inserts A-D |
+    | Select 6 | Display insert E |
+    |  | Insert Edit Mode |
+    | Knob 1-8 | Adjust plugin parameter values |
+    | Select 1-4 | Cycle through discrete parameter values |
+    | Select 7 | Compare |
+    | BMP 7 | Bypass |
+    | Select 8 | Page Left |
+    | BMP 8 | Page Right |
+     
+=== "Insert Edit"
+
+    Use `Inserts` button on track to select a track to edit. Only available for tracks 1-8.
+
+    | Upper Edit Row |  |
+    |---|---|
+    |  | Insert Select Mode |
+    | `Select` 1-4 | Select insert to edit |
+    | `Select` 5 | Display inserts A-D |
+    | `Select` 6 | Display insert E |
+    |  | Insert Edit Mode |
+    | `Knob` 1-8 | Adjust plugin parameter values |
+    | `Select` 1-4 | Cycle through discrete parameter values |
+    | `Select` 7 | Compare |
+    | `BMP` 7 | Bypass |
+    | `Select` 8 | Page Left |
+    | `BMP` 8 | Page Right |
 
 === "Automation"
 
@@ -75,7 +114,9 @@
     |---|---|
     | Mix | Opens Mix Window |
     | Edit | Opens Edit Window |
-    | Memloc | Opens Memory Locator Window |
+    | Mem Loc | Opens Memory Locations Window |
+    | Plug-in | Opens Plug-in Window for plugin selected in plugin editor |
+    | Transport | Opens Transport Window |
 
 === "Navigation"
 

@@ -1790,12 +1790,16 @@
 <div class="tabbed-content">
 <div class="tabbed-block">
 <h1 id="_2"></h1>
-<h3 id="d-command-pro-tools">D-Command Pro Tools</h3>
-<div class="admonition warning">
+<h3 id="d-command-pro-tools">D-Command - Pro Tools</h3>
+<div class="admonition info">
 <p class="admonition-title">Important HUI Metering Information</p>
 <p>The HUI protocol provides for stereo track metering. It does not provide for output metering.</p>
 </div>
-<div class="tabbed-set tabbed-alternate" data-tabs="3:8"><input checked="checked" id="channel-strips" name="__tabbed_3" type="radio" /><input id="automation" name="__tabbed_3" type="radio" /><input id="transport" name="__tabbed_3" type="radio" /><input id="utility" name="__tabbed_3" type="radio" /><input id="window-buttons" name="__tabbed_3" type="radio" /><input id="navigation" name="__tabbed_3" type="radio" /><input id="v-window-mode" name="__tabbed_3" type="radio" /><input id="midi-mode" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="channel-strips">Channel Strips</label><label for="automation">Automation</label><label for="transport">Transport</label><label for="utility">Utility</label><label for="window-buttons">Window Buttons</label><label for="navigation">Navigation</label><label for="v-window-mode">V-Window Mode</label><label for="midi-mode">MIDI Mode</label></div>
+<div class="admonition info">
+<p class="admonition-title">Important Insert Editing Information</p>
+<p>Pro Tools limits HUI device plug-in editing to the first eight channels of the surface. You can bank and scroll a track to the first eight channels and select a plug-in to edit. Thereafter, you can bank and scroll while editing the plug-in. </p>
+</div>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:9"><input checked="checked" id="channel-strips" name="__tabbed_3" type="radio" /><input id="insert-edit" name="__tabbed_3" type="radio" /><input id="automation" name="__tabbed_3" type="radio" /><input id="transport" name="__tabbed_3" type="radio" /><input id="utility" name="__tabbed_3" type="radio" /><input id="window-buttons" name="__tabbed_3" type="radio" /><input id="navigation" name="__tabbed_3" type="radio" /><input id="v-window-mode" name="__tabbed_3" type="radio" /><input id="midi-mode" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="channel-strips">Channel Strips</label><label for="insert-edit">Insert Edit</label><label for="automation">Automation</label><label for="transport">Transport</label><label for="utility">Utility</label><label for="window-buttons">Window Buttons</label><label for="navigation">Navigation</label><label for="v-window-mode">V-Window Mode</label><label for="midi-mode">MIDI Mode</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <table>
@@ -1807,32 +1811,12 @@
 </thead>
 <tbody>
 <tr>
-<td>Pan</td>
-<td>Assigns Pan control to the knobs.</td>
-</tr>
-<tr>
-<td>Send</td>
-<td>Assigns Sends to knobs. Use Page Up and Page Down buttons to change Send assignment.</td>
-</tr>
-<tr>
-<td>Page Up</td>
-<td>Cycles Up to next Send assignment for knobs.</td>
-</tr>
-<tr>
-<td>Page Down</td>
-<td>Cycles Down to next Send Assignment for knobs.</td>
-</tr>
-<tr>
-<td>BypMute</td>
-<td>Toggles Send Mute Mode.</td>
-</tr>
-<tr>
-<td>BMP</td>
-<td>When Send Mute Mode is off: Toggles Pre/Post for Send.  When Send Mute Mode is On: Toggles Send Mute.</td>
-</tr>
-<tr>
 <td>Record</td>
 <td>Arms the assigned audio track of the Channel.</td>
+</tr>
+<tr>
+<td>Select</td>
+<td>Sets the Channel to the Select state.</td>
 </tr>
 <tr>
 <td>Solo</td>
@@ -1847,24 +1831,169 @@
 <td>Hold down and press a channel select button to cycle through Automation modes for the selected channel.</td>
 </tr>
 <tr>
-<td>Select</td>
-<td>Sets the Channel to the Select state.</td>
+<td>Track Meters</td>
+<td>Displays Stereo metering for tracks.</td>
 </tr>
+<tr>
+<td>Pan</td>
+<td>Assigns pan control to the knobs for all tracks. Press again to toggle to right channel pan for stereo tracks.</td>
+</tr>
+<tr>
+<td>Sends</td>
+<td>Assigns Send Mode to bottom edit row for all tracks. Press and hold to display send destination.</td>
+</tr>
+<tr>
+<td>Page Up</td>
+<td>Cycles through Send A-E assignment.</td>
+</tr>
+<tr>
+<td>Page Down</td>
+<td>Cycles through Send A-E assignment.</td>
+</tr>
+<tr>
+<td>BypMute</td>
+<td>Toggles between Send Mute Mode and Send Pre/Post Mode</td>
+</tr>
+<tr>
+<td>Inserts</td>
+<td>Assign track to upper edit row insert editor. Press again to toggle between Insert Select Mode and Insert Edit Mode</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Lower Edit Row</th>
+<th>Edit Pan and Sends</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td>Knob</td>
-<td>Changes the assigned parameter.</td>
+<td>Adjust track pan, send volume, or send pan for stereo sends</td>
 </tr>
 <tr>
-<td>Knob Button</td>
-<td>Changes the assigned parameter.</td>
+<td>BMP</td>
+<td>Send Mute Mode - toggle send mute</td>
 </tr>
 <tr>
-<td>Track Meters</td>
-<td>Displays Mono metering for tracks.</td>
+<td></td>
+<td>Send Pre/Post Mode - toggle send pre/post.</td>
 </tr>
 <tr>
 <td>Flip</td>
-<td>Flips knobs to faders.</td>
+<td>Flips send volume to Fader, send mute to Mute.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Upper Edit Row</th>
+<th>Edit Inserts A-E. Only available for tracks 1-8.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>Insert Select Mode</td>
+</tr>
+<tr>
+<td>Select 1-4</td>
+<td>Select insert to edit</td>
+</tr>
+<tr>
+<td>Select 5</td>
+<td>Display inserts A-D</td>
+</tr>
+<tr>
+<td>Select 6</td>
+<td>Display insert E</td>
+</tr>
+<tr>
+<td></td>
+<td>Insert Edit Mode</td>
+</tr>
+<tr>
+<td>Knob 1-8</td>
+<td>Adjust plugin parameter values</td>
+</tr>
+<tr>
+<td>Select 1-4</td>
+<td>Cycle through discrete parameter values</td>
+</tr>
+<tr>
+<td>Select 7</td>
+<td>Compare</td>
+</tr>
+<tr>
+<td>BMP 7</td>
+<td>Bypass</td>
+</tr>
+<tr>
+<td>Select 8</td>
+<td>Page Left</td>
+</tr>
+<tr>
+<td>BMP 8</td>
+<td>Page Right</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<p>Use <code>Inserts</code> button on track to select a track to edit. Only available for tracks 1-8.</p>
+<table>
+<thead>
+<tr>
+<th>Upper Edit Row</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>Insert Select Mode</td>
+</tr>
+<tr>
+<td><code>Select</code> 1-4</td>
+<td>Select insert to edit</td>
+</tr>
+<tr>
+<td><code>Select</code> 5</td>
+<td>Display inserts A-D</td>
+</tr>
+<tr>
+<td><code>Select</code> 6</td>
+<td>Display insert E</td>
+</tr>
+<tr>
+<td></td>
+<td>Insert Edit Mode</td>
+</tr>
+<tr>
+<td><code>Knob</code> 1-8</td>
+<td>Adjust plugin parameter values</td>
+</tr>
+<tr>
+<td><code>Select</code> 1-4</td>
+<td>Cycle through discrete parameter values</td>
+</tr>
+<tr>
+<td><code>Select</code> 7</td>
+<td>Compare</td>
+</tr>
+<tr>
+<td><code>BMP</code> 7</td>
+<td>Bypass</td>
+</tr>
+<tr>
+<td><code>Select</code> 8</td>
+<td>Page Left</td>
+</tr>
+<tr>
+<td><code>BMP</code> 8</td>
+<td>Page Right</td>
 </tr>
 </tbody>
 </table>
@@ -2039,8 +2168,16 @@
 <td>Opens Edit Window</td>
 </tr>
 <tr>
-<td>Memloc</td>
-<td>Opens Memory Locator Window</td>
+<td>Mem Loc</td>
+<td>Opens Memory Locations Window</td>
+</tr>
+<tr>
+<td>Plug-in</td>
+<td>Opens Plug-in Window for plugin selected in plugin editor</td>
+</tr>
+<tr>
+<td>Transport</td>
+<td>Opens Transport Window</td>
 </tr>
 </tbody>
 </table>
@@ -4077,10 +4214,14 @@
 <div class="tabbed-content">
 <div class="tabbed-block">
 <h1 id="_8"></h1>
-<h3 id="c24-pro-tools">C24 Pro Tools</h3>
+<h3 id="c24-pro-tools">C24 - Pro Tools</h3>
 <div class="admonition warning">
 <p class="admonition-title">Important HUI Metering Information</p>
 <p>The HUI protocol provides for stereo track metering. It does not provide for output metering.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Important Insert Editing Information</p>
+<p>Pro Tools limits HUI device plug-in editing to the first eight channels of the surface. You can bank and scroll a track to the first eight channels and select a plug-in to edit. Thereafter, you can bank and scroll while editing the plug-in. </p>
 </div>
 <div class="tabbed-set tabbed-alternate" data-tabs="9:13"><input checked="checked" id="channel-strips_5" name="__tabbed_9" type="radio" /><input id="bank-mode" name="__tabbed_9" type="radio" /><input id="automation_5" name="__tabbed_9" type="radio" /><input id="transport_5" name="__tabbed_9" type="radio" /><input id="plug-in-buttons-for-control-24" name="__tabbed_9" type="radio" /><input id="group-buttons_3" name="__tabbed_9" type="radio" /><input id="utility_5" name="__tabbed_9" type="radio" /><input id="modifiers_3" name="__tabbed_9" type="radio" /><input id="navigation_5" name="__tabbed_9" type="radio" /><input id="window-buttons_3" name="__tabbed_9" type="radio" /><input id="edit_3" name="__tabbed_9" type="radio" /><input id="v-window-mode_5" name="__tabbed_9" type="radio" /><input id="midi-mode_5" name="__tabbed_9" type="radio" /><div class="tabbed-labels"><label for="channel-strips_5">Channel Strips</label><label for="bank-mode">Bank Mode</label><label for="automation_5">Automation</label><label for="transport_5">Transport</label><label for="plug-in-buttons-for-control-24">Plug-in Buttons for Control 24</label><label for="group-buttons_3">Group Buttons</label><label for="utility_5">Utility</label><label for="modifiers_3">Modifiers</label><label for="navigation_5">Navigation</label><label for="window-buttons_3">Window Buttons</label><label for="edit_3">Edit</label><label for="v-window-mode_5">V-Window Mode</label><label for="midi-mode_5">MIDI Mode</label></div>
 <div class="tabbed-content">
@@ -8013,6 +8154,10 @@
 <p class="admonition-title">Important HUI Metering Information</p>
 <p>The HUI protocol provides for stereo track metering. It does not provide for output metering.</p>
 </div>
+<div class="admonition info">
+<p class="admonition-title">Important Insert Editing Information</p>
+<p>Pro Tools limits HUI device plug-in editing to the first eight channels of the surface. You can bank and scroll a track to the first eight channels and select a plug-in to edit. Thereafter, you can bank and scroll while editing the plug-in. </p>
+</div>
 <div class="tabbed-set tabbed-alternate" data-tabs="18:14"><input checked="checked" id="channel-strips_13" name="__tabbed_18" type="radio" /><input id="bank-mode_8" name="__tabbed_18" type="radio" /><input id="automation_12" name="__tabbed_18" type="radio" /><input id="transport_13" name="__tabbed_18" type="radio" /><input id="plug-in-buttons-for-control-24_1" name="__tabbed_18" type="radio" /><input id="group-buttons_5" name="__tabbed_18" type="radio" /><input id="utility_13" name="__tabbed_18" type="radio" /><input id="keypad-buttons" name="__tabbed_18" type="radio" /><input id="modifiers_5" name="__tabbed_18" type="radio" /><input id="navigation_13" name="__tabbed_18" type="radio" /><input id="window-buttons_7" name="__tabbed_18" type="radio" /><input id="edit_6" name="__tabbed_18" type="radio" /><input id="v-window-mode_13" name="__tabbed_18" type="radio" /><input id="midi-mode_13" name="__tabbed_18" type="radio" /><div class="tabbed-labels"><label for="channel-strips_13">Channel Strips</label><label for="bank-mode_8">Bank Mode</label><label for="automation_12">Automation</label><label for="transport_13">Transport</label><label for="plug-in-buttons-for-control-24_1">Plug-in Buttons for Control 24</label><label for="group-buttons_5">Group Buttons</label><label for="utility_13">Utility</label><label for="keypad-buttons">Keypad Buttons</label><label for="modifiers_5">Modifiers</label><label for="navigation_13">Navigation</label><label for="window-buttons_7">Window Buttons</label><label for="edit_6">Edit</label><label for="v-window-mode_13">V-Window Mode</label><label for="midi-mode_13">MIDI Mode</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -11903,6 +12048,10 @@
 <div class="admonition warning">
 <p class="admonition-title">Important HUI Metering Information</p>
 <p>The HUI protocol provides for stereo track metering. It does not provide for output metering.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Important Insert Editing Information</p>
+<p>Pro Tools limits HUI device plug-in editing to the first eight channels of the surface. You can bank and scroll a track to the first eight channels and select a plug-in to edit. Thereafter, you can bank and scroll while editing the plug-in. </p>
 </div>
 <div class="tabbed-set tabbed-alternate" data-tabs="27:16"><input checked="checked" id="channel-strips_21" name="__tabbed_27" type="radio" /><input id="bank-mode_16" name="__tabbed_27" type="radio" /><input id="automation_18" name="__tabbed_27" type="radio" /><input id="transport_21" name="__tabbed_27" type="radio" /><input id="dsp-edit-section-for-procontrol" name="__tabbed_27" type="radio" /><input id="status-buttons-for-procontrol" name="__tabbed_27" type="radio" /><input id="channel-matrix-for-procontrol" name="__tabbed_27" type="radio" /><input id="group-buttons_7" name="__tabbed_27" type="radio" /><input id="utility_21" name="__tabbed_27" type="radio" /><input id="keypad-buttons_1" name="__tabbed_27" type="radio" /><input id="modifiers_7" name="__tabbed_27" type="radio" /><input id="navigation_21" name="__tabbed_27" type="radio" /><input id="window-buttons_10" name="__tabbed_27" type="radio" /><input id="edit_9" name="__tabbed_27" type="radio" /><input id="v-window-mode_21" name="__tabbed_27" type="radio" /><input id="midi-mode_21" name="__tabbed_27" type="radio" /><div class="tabbed-labels"><label for="channel-strips_21">Channel Strips</label><label for="bank-mode_16">Bank Mode</label><label for="automation_18">Automation</label><label for="transport_21">Transport</label><label for="dsp-edit-section-for-procontrol">DSP Edit Section for ProControl</label><label for="status-buttons-for-procontrol">Status Buttons for ProControl</label><label for="channel-matrix-for-procontrol">Channel Matrix for ProControl</label><label for="group-buttons_7">Group Buttons</label><label for="utility_21">Utility</label><label for="keypad-buttons_1">Keypad Buttons</label><label for="modifiers_7">Modifiers</label><label for="navigation_21">Navigation</label><label for="window-buttons_10">Window Buttons</label><label for="edit_9">Edit</label><label for="v-window-mode_21">V-Window Mode</label><label for="midi-mode_21">MIDI Mode</label></div>
 <div class="tabbed-content">

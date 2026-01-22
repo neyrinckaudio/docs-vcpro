@@ -1,6 +1,9 @@
 # Overview - Setting Up Control Surfaces
 
-V-Control Pro supports many types of control surfaces. Different surfaces connect to V-Control Pro in different ways. 
+!!! info "Feature Charts"
+    Be sure to use the [Feature Charts](./feature-charts.md) to learn more about how to use yor surface after you set it up.
+
+V-Control Pro supports many types of control surfaces. Different surfaces connect to V-Control Pro in different ways.
 
 * [Setting Up Ethernet Controllers](./ethernet-controllers.md)
 * [Setting Up MIDI Controllers](./midi-controllers.md)
