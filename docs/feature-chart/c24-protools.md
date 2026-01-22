@@ -2,67 +2,99 @@
 
 ### C24 - Pro Tools
 
-!!! warning "Important HUI Metering Information"
-    The HUI protocol provides for stereo track metering. It does not provide for output metering.
+!!! info "Important HUI Metering Information"
+    The HUI protocol provides for stereo track metering. It does not provide for output metering. Pro Tools will not provide track metering if Eucon is enabled. Disable Eucon for track metering.
 
 !!! info "Important Insert Editing Information"
     Pro Tools limits HUI device plug-in editing to the first eight channels of the surface. You can bank and scroll a track to the first eight channels and select a plug-in to edit. Thereafter, you can bank and scroll while editing the plug-in. 
 
 === "Channel Strips"
 
-    | Channel Strips |  |
-    |---|---|
-    | Record | Arms the assigned audio track of the Channel. |
-    | Insert | Enables insert editor for selected Channel. |
-    | Solo | Solos the Channel. |
-    | Mute | Mutes the Channel. |
-    | Auto | Enables Automation selection. Hold down button to make selection using 2 different methods. |
-    |  | With Auto on channelstrip held down. Select Automation mode from the Automation section. |
-    |  | With Auto on channelstrip held down. Press channel select button to cycle through automation modes for channel. |
-    | Select | Sets the Channel to the Select state. |
-    | Knob | Changes the assigned parameter. |
-    | Knob Button | Sets assign selection/Toggles insert parameters/Toggles prepost/Toggles Send Mute |
-    | Master Record | Record Enables all available channels. |
-    | Track Meters | Displays Stereo metering for tracks. |
+    | Channel Strip |  |  |
+    |---|---|---|
+    | `Record` |  | Arms the assigned audio track of the Channel. |
+    | `Insert` |  | Enables insert editor for selected Channel. |
+    | `Solo `|  | Solos the Channel. |
+    | `Mute` |  | Mutes the Channel. |
+    | `Auto` |  | Press to see auto mode displayed in place of track name. |
+    |  | +`AUTOMATION MODES` | Select auto mode |
+    |  | +`Select` | Scroll through auto modes |
+    | `Select` |  | Select track. |
+    |  | `Default`+ | Reset fader to 0 db |
+    |  | `Option`+ | Reset all faders to 0 db |
+    | `Knob` |  | Adjust control assigned for bank mode. |
+    | |  | Pan Mode - Adjust stereo pan for mono and stereo tracks. |
+    | |  | Send A-E Modes - Adjust send volume. |
+    | |  | Flip Send A-E Modes - Adjust send pan for mono/stereo sends.  |
+    | |  | Insert Edit Mode - Adjust plugin parameter for strips 1-8. |
+    | | `Cmd`+ | Fine mode |
+    | `Knob Button` | `Default`+ | Pan Mode - Reset pan to default |
+    | |  | Send Mute Mode - Control send mute |
+    | |  | Pre/Post Mode - Control send pre/post. |
+    | |  | Insert Select Mode - Select insert A-D, E for strips 1-4. |
+    | |  | Insert Edit Mode - Adjust discrete parameter for strips 1-4. |
+    | `Meters` |  | Displays stereo metering for tracks. |
 
-=== "Bank Mode"
+=== "Bank Modes"
 
-    | Bank Mode |  |
+    Buttons are used to set a bank mode which assign controls to the Knobs.
+
+    | `PAN` |  |
     |---|---|
-    | The assignment buttons are used to assign controls to the Knobs. |  |
-    | Pan (Default) | Assigns knobs to control pan position. For stereo tracks, press pan button again to access other side. |
-    | Send A | Assigns Send A to knobs. |
-    | Send B | Assigns Send B to knobs. |
-    | Send C | Assigns Send C to knobs. |
-    | Send D | Assigns Send D to knobs. |
-    | Send E | Assigns Send E to knobs. |
-    | Input | Shows Channel Inputs across LCD when held down. Enter Assign mode first to change channel input with knobs. |
-    | Output | Shows Channel Outputs across LCD. Enter Assign mode first to change channel output with knobs. |
-    | Assign | Enables knobs to change assignment when in Sends, input, or output mode. Use knob button to confirm selection. |
-    | PrePost | Sets knob buttons to PrePost mode when in Sends Mode. |
-    | Send Mute | Sets knob buttons to Send Mute mode when in Sends Mode. |
-    | Insert Bypass | Enables Bypass mode. Bypass mode assigns Insert button on channel strip to bypass all inserts. |
-    | Flip | Flips knobs to faders. |
+    | `LCR`,`FrontRear`,`Rear`,`Divergence`,`Center`,`LFE`,`LR` | Stereo Pan Mode for mono / stereo tracks |
+    | Toggle between Pan L and Pan R for stereo tracks | |
+    | Toggle between Pan L and Pan R for stereo sends when in send mode | |
+ 
+    | `SENDS` |  |
+    |---|---|
+    | `A` | Send A Mode |
+    | `B` | Send B Mode |
+    | `C` | Send C Mode |
+    | `D` | Send D Mode |
+    | `E` | Send E Mode |
+ 
+
+     | `Flip` |  | 
+    |---|---|
+    | Flip send volume to faders, send pan to knobs. | |
+
+
+    | `SWITCH FUNCTIONS` |  |
+    |---|---|
+    | `Pre/Post` | Sets knob buttons to Pre/Post mode when in Sends Mode. |
+    | `Send Mute` | Sets knob buttons to Send Mute mode when in Sends Mode. |   
+
+    | `ASSIGN` |  |
+    |---|---|
+    | `Input` | Shows Channel Inputs across LCD when held down. Enter Assign mode first to change channel input with knobs. |
+    | `Output` | Shows Channel Outputs across LCD. Enter Assign mode first to change channel output with knobs. |
 
 === "Automation"
 
-    | Automation |  |
+    | `AUTOMATION MODES` |  |
     |---|---|
-    | Hold down Auto button channel strip to select automation modes. |  |
-    | Read | Sets selected Channel in to Read Mode |
-    | Write | Sets selected Channel to Write Mode |
-    | Touch | Sets selected Channel to Touch Mode |
-    | Trim | Enables Trim to selected Channel. |
-    | Latch | Sets selected Channel to Latch Mode |
-    | Off | Sets selected Channel to Off Mode |
-    | Volume | Toggles Enable for Volume Automation |
-    | Pan | Toggles Enable for Pan Automation |
-    | Mute | Toggles Enable for Mute Automation |
-    | Send LvL | Toggles Enable for Send Level Automation |
-    | Plug-In | Toggles Enable for Plug-In Automation |
-    | Write to Start | Enable Write to Start Automation. |
-    | Wrtie to End | Enable Write to End Automation. |
-    | Write to All | Enable Write to All Automation. |
+    |  | Hold down channel strip `Auto` button to select automation modes. |
+    | `Read` | Sets selected Channel in to Read Mode |
+    | `Write` | Sets selected Channel to Write Mode |
+    | `Touch` | Sets selected Channel to Touch Mode |
+    | `Trim` | Enables Trim to selected Channel. |
+    | `Latch` | Sets selected Channel to Latch Mode |
+    | `Off` | Sets selected Channel to Off Mode |
+
+    | `AUTO ENABLES` |  |
+    |---|---|
+    | `Volume` | Toggles Enable for Volume Automation |
+    | `Pan` | Toggles Enable for Pan Automation |
+    | `Mute` | Toggles Enable for Mute Automation |
+    | `Send LvL` | Toggles Enable for Send Level Automation |
+    | `Plug-In` | Toggles Enable for Plug-In Automation |
+
+
+    | `AUTO WRITE TO` |  |
+    |---|---|
+    | `Start` | Enable Write to Start Automation. |
+    | `End` | Enable Write to End Automation. |
+    | `All` | Enable Write to All Automation. |
 
 === "Transport"
 
@@ -87,16 +119,31 @@
     | Scrub | Enables Scrub Mode for the Wheel |
     | Shuttle | Enables Shuttle Mode for the Wheel |
     | Counter | Displays Counter for current session. Counter mode can be changed in DAW. |
+    | Master Record | Record Enables all available channels. |
 
-=== "Plug-in Buttons for Control 24"
+=== "PlugIn Editing"
 
-    | Plug-in Buttons for Control 24 |  |
+    | Channel Strip |  |  |
+    |---|---|---|
+    | `Insert` |  | Normal Mode - Assign track to insert editor |
+    |   |  | Insert Bypass Mode - Bypass all inserts on track |
+
+    | `Insert Bypass` |  |
     |---|---|
-    | Master Bypass | Bypass selected plug-in on Channel. |
-    | Params | Show plug-in parameters for selected plug-in on Channel. Press again to display plug-ins on channel across LCD. |
+    |  Toggle Insert Bypass Mode. When enabled, `Insert` button on strip will bypass all plugins on track. |    
+ 
+    | `INSERTS` |  |
+    |---|---|
+    | Params | Toggle to switch between Insert Select mode and Insert Edit mode. |
+    | Master Bypass | Bypass selected plug-in on track. |
     | Compare | Compares current plug-in setting with previous. |
-    | Channel Bar Scroll Left | Scroll through pages of plug-in parameters. |
-    | Channel Bar Scroll Right | Scroll through pages of plug-in parameters. |
+
+    | `CHANNEL BAR SCROLL` |  |
+    |---|---|
+    | Left | Previous page of plug-in parameters. |
+    | Right | Next page of plug-in parameters. |
+
+
 
 === "Group Buttons"
 
@@ -115,15 +162,6 @@
     | Undo | Press to undo the last edit. |
     | Cancel | Cancel selection |
     | Solo Clear | Clears all Solos on Channel Strip. |
-
-=== "Modifiers"
-
-    | Modifiers |  |
-    |---|---|
-    | Shift | Enables Shift Modifier. |
-    | Option | Enables Option Modifier. |
-    | Control | Enables Control Modifier. When held down, enables fine knob mode. |
-    | Command | Enables Command Modifier. |
 
 === "Navigation"
 

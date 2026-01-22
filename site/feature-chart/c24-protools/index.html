@@ -1726,140 +1726,240 @@
 
 <h1 id="_1"></h1>
 <h3 id="c24-pro-tools">C24 - Pro Tools</h3>
-<div class="admonition warning">
+<div class="admonition info">
 <p class="admonition-title">Important HUI Metering Information</p>
-<p>The HUI protocol provides for stereo track metering. It does not provide for output metering.</p>
+<p>The HUI protocol provides for stereo track metering. It does not provide for output metering. Pro Tools will not provide track metering if Eucon is enabled. Disable Eucon for track metering.</p>
 </div>
 <div class="admonition info">
 <p class="admonition-title">Important Insert Editing Information</p>
 <p>Pro Tools limits HUI device plug-in editing to the first eight channels of the surface. You can bank and scroll a track to the first eight channels and select a plug-in to edit. Thereafter, you can bank and scroll while editing the plug-in. </p>
 </div>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:13"><input checked="checked" id="channel-strips" name="__tabbed_1" type="radio" /><input id="bank-mode" name="__tabbed_1" type="radio" /><input id="automation" name="__tabbed_1" type="radio" /><input id="transport" name="__tabbed_1" type="radio" /><input id="plug-in-buttons-for-control-24" name="__tabbed_1" type="radio" /><input id="group-buttons" name="__tabbed_1" type="radio" /><input id="utility" name="__tabbed_1" type="radio" /><input id="modifiers" name="__tabbed_1" type="radio" /><input id="navigation" name="__tabbed_1" type="radio" /><input id="window-buttons" name="__tabbed_1" type="radio" /><input id="edit" name="__tabbed_1" type="radio" /><input id="v-window-mode" name="__tabbed_1" type="radio" /><input id="midi-mode" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="channel-strips">Channel Strips</label><label for="bank-mode">Bank Mode</label><label for="automation">Automation</label><label for="transport">Transport</label><label for="plug-in-buttons-for-control-24">Plug-in Buttons for Control 24</label><label for="group-buttons">Group Buttons</label><label for="utility">Utility</label><label for="modifiers">Modifiers</label><label for="navigation">Navigation</label><label for="window-buttons">Window Buttons</label><label for="edit">Edit</label><label for="v-window-mode">V-Window Mode</label><label for="midi-mode">MIDI Mode</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:12"><input checked="checked" id="channel-strips" name="__tabbed_1" type="radio" /><input id="bank-modes" name="__tabbed_1" type="radio" /><input id="automation" name="__tabbed_1" type="radio" /><input id="transport" name="__tabbed_1" type="radio" /><input id="plugin-editing" name="__tabbed_1" type="radio" /><input id="group-buttons" name="__tabbed_1" type="radio" /><input id="utility" name="__tabbed_1" type="radio" /><input id="navigation" name="__tabbed_1" type="radio" /><input id="window-buttons" name="__tabbed_1" type="radio" /><input id="edit" name="__tabbed_1" type="radio" /><input id="v-window-mode" name="__tabbed_1" type="radio" /><input id="midi-mode" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="channel-strips">Channel Strips</label><label for="bank-modes">Bank Modes</label><label for="automation">Automation</label><label for="transport">Transport</label><label for="plugin-editing">PlugIn Editing</label><label for="group-buttons">Group Buttons</label><label for="utility">Utility</label><label for="navigation">Navigation</label><label for="window-buttons">Window Buttons</label><label for="edit">Edit</label><label for="v-window-mode">V-Window Mode</label><label for="midi-mode">MIDI Mode</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <table>
 <thead>
 <tr>
-<th>Channel Strips</th>
+<th>Channel Strip</th>
+<th></th>
 <th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Record</td>
+<td><code>Record</code></td>
+<td></td>
 <td>Arms the assigned audio track of the Channel.</td>
 </tr>
 <tr>
-<td>Insert</td>
+<td><code>Insert</code></td>
+<td></td>
 <td>Enables insert editor for selected Channel.</td>
 </tr>
 <tr>
-<td>Solo</td>
+<td><code>Solo</code></td>
+<td></td>
 <td>Solos the Channel.</td>
 </tr>
 <tr>
-<td>Mute</td>
+<td><code>Mute</code></td>
+<td></td>
 <td>Mutes the Channel.</td>
 </tr>
 <tr>
-<td>Auto</td>
-<td>Enables Automation selection. Hold down button to make selection using 2 different methods.</td>
+<td><code>Auto</code></td>
+<td></td>
+<td>Press to see auto mode displayed in place of track name.</td>
 </tr>
 <tr>
 <td></td>
-<td>With Auto on channelstrip held down. Select Automation mode from the Automation section.</td>
+<td>+<code>AUTOMATION MODES</code></td>
+<td>Select auto mode</td>
 </tr>
 <tr>
 <td></td>
-<td>With Auto on channelstrip held down. Press channel select button to cycle through automation modes for channel.</td>
+<td>+<code>Select</code></td>
+<td>Scroll through auto modes</td>
 </tr>
 <tr>
-<td>Select</td>
-<td>Sets the Channel to the Select state.</td>
+<td><code>Select</code></td>
+<td></td>
+<td>Select track.</td>
 </tr>
 <tr>
-<td>Knob</td>
-<td>Changes the assigned parameter.</td>
+<td></td>
+<td><code>Default</code>+</td>
+<td>Reset fader to 0 db</td>
 </tr>
 <tr>
-<td>Knob Button</td>
-<td>Sets assign selection/Toggles insert parameters/Toggles prepost/Toggles Send Mute</td>
+<td></td>
+<td><code>Option</code>+</td>
+<td>Reset all faders to 0 db</td>
 </tr>
 <tr>
-<td>Master Record</td>
-<td>Record Enables all available channels.</td>
+<td><code>Knob</code></td>
+<td></td>
+<td>Adjust control assigned for bank mode.</td>
 </tr>
 <tr>
-<td>Track Meters</td>
-<td>Displays Stereo metering for tracks.</td>
+<td></td>
+<td></td>
+<td>Pan Mode - Adjust stereo pan for mono and stereo tracks.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Send A-E Modes - Adjust send volume.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Flip Send A-E Modes - Adjust send pan for mono/stereo sends.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Insert Edit Mode - Adjust plugin parameter for strips 1-8.</td>
+</tr>
+<tr>
+<td></td>
+<td><code>Cmd</code>+</td>
+<td>Fine mode</td>
+</tr>
+<tr>
+<td><code>Knob Button</code></td>
+<td><code>Default</code>+</td>
+<td>Pan Mode - Reset pan to default</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Send Mute Mode - Control send mute</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Pre/Post Mode - Control send pre/post.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Insert Select Mode - Select insert A-D, E for strips 1-4.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Insert Edit Mode - Adjust discrete parameter for strips 1-4.</td>
+</tr>
+<tr>
+<td><code>Meters</code></td>
+<td></td>
+<td>Displays stereo metering for tracks.</td>
 </tr>
 </tbody>
 </table>
 </div>
 <div class="tabbed-block">
+<p>Buttons are used to set a bank mode which assign controls to the Knobs.</p>
 <table>
 <thead>
 <tr>
-<th>Bank Mode</th>
+<th><code>PAN</code></th>
 <th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>The assignment buttons are used to assign controls to the Knobs.</td>
+<td><code>LCR</code>,<code>FrontRear</code>,<code>Rear</code>,<code>Divergence</code>,<code>Center</code>,<code>LFE</code>,<code>LR</code></td>
+<td>Stereo Pan Mode for mono / stereo tracks</td>
+</tr>
+<tr>
+<td>Toggle between Pan L and Pan R for stereo tracks</td>
 <td></td>
 </tr>
 <tr>
-<td>Pan (Default)</td>
-<td>Assigns knobs to control pan position. For stereo tracks, press pan button again to access other side.</td>
+<td>Toggle between Pan L and Pan R for stereo sends when in send mode</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><code>SENDS</code></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>A</code></td>
+<td>Send A Mode</td>
 </tr>
 <tr>
-<td>Send A</td>
-<td>Assigns Send A to knobs.</td>
+<td><code>B</code></td>
+<td>Send B Mode</td>
 </tr>
 <tr>
-<td>Send B</td>
-<td>Assigns Send B to knobs.</td>
+<td><code>C</code></td>
+<td>Send C Mode</td>
 </tr>
 <tr>
-<td>Send C</td>
-<td>Assigns Send C to knobs.</td>
+<td><code>D</code></td>
+<td>Send D Mode</td>
 </tr>
 <tr>
-<td>Send D</td>
-<td>Assigns Send D to knobs.</td>
+<td><code>E</code></td>
+<td>Send E Mode</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><code>Flip</code></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Flip send volume to faders, send pan to knobs.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><code>SWITCH FUNCTIONS</code></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Pre/Post</code></td>
+<td>Sets knob buttons to Pre/Post mode when in Sends Mode.</td>
 </tr>
 <tr>
-<td>Send E</td>
-<td>Assigns Send E to knobs.</td>
+<td><code>Send Mute</code></td>
+<td>Sets knob buttons to Send Mute mode when in Sends Mode.</td>
 </tr>
+</tbody>
+</table>
+<table>
+<thead>
 <tr>
-<td>Input</td>
+<th><code>ASSIGN</code></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Input</code></td>
 <td>Shows Channel Inputs across LCD when held down. Enter Assign mode first to change channel input with knobs.</td>
 </tr>
 <tr>
-<td>Output</td>
+<td><code>Output</code></td>
 <td>Shows Channel Outputs across LCD. Enter Assign mode first to change channel output with knobs.</td>
-</tr>
-<tr>
-<td>Assign</td>
-<td>Enables knobs to change assignment when in Sends, input, or output mode. Use knob button to confirm selection.</td>
-</tr>
-<tr>
-<td>PrePost</td>
-<td>Sets knob buttons to PrePost mode when in Sends Mode.</td>
-</tr>
-<tr>
-<td>Send Mute</td>
-<td>Sets knob buttons to Send Mute mode when in Sends Mode.</td>
-</tr>
-<tr>
-<td>Insert Bypass</td>
-<td>Enables Bypass mode. Bypass mode assigns Insert button on channel strip to bypass all inserts.</td>
-</tr>
-<tr>
-<td>Flip</td>
-<td>Flips knobs to faders.</td>
 </tr>
 </tbody>
 </table>
@@ -1868,69 +1968,89 @@
 <table>
 <thead>
 <tr>
-<th>Automation</th>
+<th><code>AUTOMATION MODES</code></th>
 <th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Hold down Auto button channel strip to select automation modes.</td>
 <td></td>
+<td>Hold down channel strip <code>Auto</code> button to select automation modes.</td>
 </tr>
 <tr>
-<td>Read</td>
+<td><code>Read</code></td>
 <td>Sets selected Channel in to Read Mode</td>
 </tr>
 <tr>
-<td>Write</td>
+<td><code>Write</code></td>
 <td>Sets selected Channel to Write Mode</td>
 </tr>
 <tr>
-<td>Touch</td>
+<td><code>Touch</code></td>
 <td>Sets selected Channel to Touch Mode</td>
 </tr>
 <tr>
-<td>Trim</td>
+<td><code>Trim</code></td>
 <td>Enables Trim to selected Channel.</td>
 </tr>
 <tr>
-<td>Latch</td>
+<td><code>Latch</code></td>
 <td>Sets selected Channel to Latch Mode</td>
 </tr>
 <tr>
-<td>Off</td>
+<td><code>Off</code></td>
 <td>Sets selected Channel to Off Mode</td>
 </tr>
+</tbody>
+</table>
+<table>
+<thead>
 <tr>
-<td>Volume</td>
+<th><code>AUTO ENABLES</code></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Volume</code></td>
 <td>Toggles Enable for Volume Automation</td>
 </tr>
 <tr>
-<td>Pan</td>
+<td><code>Pan</code></td>
 <td>Toggles Enable for Pan Automation</td>
 </tr>
 <tr>
-<td>Mute</td>
+<td><code>Mute</code></td>
 <td>Toggles Enable for Mute Automation</td>
 </tr>
 <tr>
-<td>Send LvL</td>
+<td><code>Send LvL</code></td>
 <td>Toggles Enable for Send Level Automation</td>
 </tr>
 <tr>
-<td>Plug-In</td>
+<td><code>Plug-In</code></td>
 <td>Toggles Enable for Plug-In Automation</td>
 </tr>
+</tbody>
+</table>
+<table>
+<thead>
 <tr>
-<td>Write to Start</td>
+<th><code>AUTO WRITE TO</code></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Start</code></td>
 <td>Enable Write to Start Automation.</td>
 </tr>
 <tr>
-<td>Wrtie to End</td>
+<td><code>End</code></td>
 <td>Enable Write to End Automation.</td>
 </tr>
 <tr>
-<td>Write to All</td>
+<td><code>All</code></td>
 <td>Enable Write to All Automation.</td>
 </tr>
 </tbody>
@@ -2021,6 +2141,10 @@
 <td>Counter</td>
 <td>Displays Counter for current session. Counter mode can be changed in DAW.</td>
 </tr>
+<tr>
+<td>Master Record</td>
+<td>Record Enables all available channels.</td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -2028,30 +2152,75 @@
 <table>
 <thead>
 <tr>
-<th>Plug-in Buttons for Control 24</th>
+<th>Channel Strip</th>
+<th></th>
 <th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Master Bypass</td>
-<td>Bypass selected plug-in on Channel.</td>
+<td><code>Insert</code></td>
+<td></td>
+<td>Normal Mode - Assign track to insert editor</td>
 </tr>
 <tr>
+<td></td>
+<td></td>
+<td>Insert Bypass Mode - Bypass all inserts on track</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><code>Insert Bypass</code></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Toggle Insert Bypass Mode. When enabled, <code>Insert</code> button on strip will bypass all plugins on track.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><code>INSERTS</code></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
 <td>Params</td>
-<td>Show plug-in parameters for selected plug-in on Channel. Press again to display plug-ins on channel across LCD.</td>
+<td>Toggle to switch between Insert Select mode and Insert Edit mode.</td>
+</tr>
+<tr>
+<td>Master Bypass</td>
+<td>Bypass selected plug-in on track.</td>
 </tr>
 <tr>
 <td>Compare</td>
 <td>Compares current plug-in setting with previous.</td>
 </tr>
+</tbody>
+</table>
+<table>
+<thead>
 <tr>
-<td>Channel Bar Scroll Left</td>
-<td>Scroll through pages of plug-in parameters.</td>
+<th><code>CHANNEL BAR SCROLL</code></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Left</td>
+<td>Previous page of plug-in parameters.</td>
 </tr>
 <tr>
-<td>Channel Bar Scroll Right</td>
-<td>Scroll through pages of plug-in parameters.</td>
+<td>Right</td>
+<td>Next page of plug-in parameters.</td>
 </tr>
 </tbody>
 </table>
@@ -2108,34 +2277,6 @@
 <tr>
 <td>Solo Clear</td>
 <td>Clears all Solos on Channel Strip.</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="tabbed-block">
-<table>
-<thead>
-<tr>
-<th>Modifiers</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Shift</td>
-<td>Enables Shift Modifier.</td>
-</tr>
-<tr>
-<td>Option</td>
-<td>Enables Option Modifier.</td>
-</tr>
-<tr>
-<td>Control</td>
-<td>Enables Control Modifier. When held down, enables fine knob mode.</td>
-</tr>
-<tr>
-<td>Command</td>
-<td>Enables Command Modifier.</td>
 </tr>
 </tbody>
 </table>
