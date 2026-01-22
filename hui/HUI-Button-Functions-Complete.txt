@@ -1,0 +1,736 @@
+# Comprehensive HUI Button Functions and Modifier Combinations
+
+Based on the Mackie HUI Control Surface Chapter 3 documentation, here is a complete extraction of all button functions organized by section:
+
+================================================================================
+MODIFIERS
+================================================================================
+
+The four modifier keys are:
+- SHIFT/ADD
+- OPTION/ALL
+- CTRL/CLUTCH
+- ALT/FINE
+
+================================================================================
+TRANSPORT BUTTONS
+================================================================================
+
+PLAY
+----
+- No modifier: Begins playback from current cursor position
+- SHIFT: Initiates half-speed playback
+- Footswitch #1: If stopped, starts playback; if playing, stops playback
+- SHIFT + Footswitch #1: Starts half-speed playback
+
+STOP
+----
+- No modifier: Stops playback or recording
+- SHIFT: Aborts the current record pass
+- Footswitch #1: If playing/recording, stops playback
+- SHIFT + Footswitch #1: Aborts the recording (when recording)
+
+RECORD
+------
+- No modifier: Arms Pro Tools for recording (LED flashes)
+- CTRL: Cycles through record modes (normal, QuickPunch, Loop)
+- Footswitch #2: Toggles Pro Tools record state on or off
+- CTRL + Footswitch #2: Cycles through available record modes (destructive or nondestructive)
+
+REWIND
+------
+- No modifier: Rewinds the session from current cursor position (incremental or continuous depending on preferences)
+- SHIFT: Return-to-Zero (same as RTZ button)
+
+FAST FORWARD (FAST FWD)
+-----------------------
+- No modifier: Fast-forwards the session from current cursor position (incremental or continuous)
+- SHIFT: Go-To-End (same as END button)
+
+RTZ (Return-To-Zero)
+--------------------
+- No modifier: Sets playback cursor to the beginning of the session
+- CTRL: Write to Start (writes automation from insertion point backward to beginning)
+- CTRL + SHIFT: Write to All (writes automation to entire selection/track)
+- CTRL + OPTION: Suppresses warning dialog for Write to Start
+
+END (Go-To-End)
+---------------
+- No modifier: Sets playback cursor to the end of the session
+- CTRL: Write to End (writes automation from insertion point forward to end)
+- CTRL + SHIFT: Write to All (writes automation to entire selection/track)
+- CTRL + OPTION: Suppresses warning dialog for Write to End
+
+ONLINE
+------
+- No modifier: Places Pro Tools online or offline (LED lit when online)
+- CTRL: Cycles through available machine master choices (Pro Tools, Serial Machine, ADAT)
+
+LOOP
+----
+- No modifier: Toggles Loop Playback mode (LED lit when enabled)
+- CTRL: Places Pro Tools into Loop Record mode
+
+QUICKPUNCH
+----------
+- No modifier: Toggles QuickPunch recording mode (LED lit when enabled)
+
+================================================================================
+AUDITION SECTION
+================================================================================
+
+AUDITION
+--------
+- No modifier: Press with PRE/POST/IN/OUT to play audio; playback continues until pressed again
+- ALT + OPTION + PRE: Plays audio from pre-roll point through selection start plus post-roll
+- ALT + OPTION + IN: Plays audio from pre-roll point through selection start plus post-roll
+- ALT + OPTION + OUT: Plays audio from before selection end (pre-roll) through selection end plus post-roll
+- ALT + OPTION + POST: Plays audio from before selection end (pre-roll) through selection end plus post-roll
+
+PRE
+---
+- No modifier: Activates pre-roll
+- AUDITION + PRE: Plays audio from pre-roll point to selection beginning
+- ALT + PRE: Enters pre-roll time value (numeric entry mode)
+
+POST
+----
+- No modifier: Activates post-roll
+- AUDITION + POST: Plays audio from selection end for post-roll duration
+- ALT + POST: Enters post-roll time value (numeric entry mode)
+
+IN
+--
+- No modifier: Marks In edit point during playback
+- AUDITION + IN: Plays audio from selection start for post-roll duration
+- ALT + IN: Manually enters selection start time
+- OPTION + Left Arrow: Centers left side of waveform selection in Edit Window (same function)
+
+OUT
+---
+- No modifier: Marks Out edit point during playback
+- AUDITION + OUT: Plays audio from before selection end by pre-roll amount
+- ALT + OUT: Manually enters selection end time
+- OPTION + Right Arrow: Centers right side of waveform selection in Edit Window (same function)
+
+================================================================================
+WINDOW SWITCHES
+================================================================================
+
+MIX
+---
+- No modifier: Brings Mix window to foreground (LED lights when active)
+
+EDIT
+----
+- No modifier: Brings Edit window to foreground (LED lights when active)
+
+TRANSPORT
+---------
+- No modifier: Opens or closes the Transport window
+
+ALT
+---
+- No modifier: Opens or closes the floating window for currently selected plug-in
+
+STATUS
+------
+- No modifier: Opens or closes the Session Setup window
+
+MEM-LOC (Memory Locations)
+--------------------------
+- No modifier: Opens or closes the Memory Locations window
+
+================================================================================
+EDIT SWITCHES
+================================================================================
+
+CAPTURE
+-------
+- No modifier: Executes capture region function
+
+SEPARATE
+--------
+- No modifier: Executes separate region function
+
+CUT
+---
+- No modifier: Executes cut operation
+
+COPY
+----
+- No modifier: Executes copy operation
+
+PASTE
+-----
+- No modifier: Executes paste operation
+
+DELETE
+------
+- No modifier: Executes delete operation
+
+================================================================================
+KEYBOARD SHORTCUTS SECTION
+================================================================================
+
+SAVE
+----
+- No modifier: Press once to arm save, press again to complete save (LED flashes when armed)
+- F8/ESC: Aborts the save process
+
+UNDO
+----
+- No modifier: Undo or Redo last edit operation (LED lit when Undo available, flashes when Redo available)
+
+EDIT MODE
+---------
+- No modifier: Cycles through edit modes (Shuffle, Slip, Spot, Grid)
+- EDIT MODE + 1 (numeric keypad): Shuffle mode
+- EDIT MODE + 2: Slip mode
+- EDIT MODE + 3: Spot mode
+- EDIT MODE + 4: Grid mode
+
+EDIT TOOL
+---------
+- No modifier: Cycles through main edit tools (Zoom, Trim, Select, Grabber, Smart Tool, Scrub, Pencil)
+- EDIT TOOL + 1 (numeric keypad): Selects Zoom tool
+- EDIT TOOL + 2: Selects Scrub tool
+- EDIT TOOL + 3: Selects Trim tool (cycles through Trimmer tools on repeated presses)
+- EDIT TOOL + 4: Selects Select tool
+- EDIT TOOL + 5: Selects Grabber tool (cycles through Grabber tools on repeated presses)
+- EDIT TOOL + 6: Selects Pencil tool (cycles through Pencil Shapes on repeated presses)
+- EDIT TOOL + 7: Selects Smart tool
+
+================================================================================
+CHANNEL STRIP BUTTONS
+================================================================================
+
+SELECT
+------
+- No modifier: Selects channel (LED lights when selected)
+- Multiple SELECT presses: Selects multiple channels
+- SHIFT + SELECT: Deselects single channel OR selects/deselects multiple channels
+- OPTION + SELECT: Selects or deselects all channels
+- ALT + SELECT (on lit switch): Changes SELECT state of channel and changes all others to opposite state
+
+REC/RDY (Record Ready)
+----------------------
+- No modifier: Enables track for recording (LED flashes when record-ready, lit when recording)
+- OPTION + REC/RDY (on non-enabled track): Record-enables all tracks
+- OPTION + REC/RDY (on enabled track): Disables all tracks for recording
+- OPTION + SHIFT + REC/RDY: Record-enables selected tracks only
+- ALT + REC/RDY: Enables or clears Record Safe mode on channel (LED flashes briefly)
+- OPTION + ALT + REC/RDY: Enables or clears Record Safe on all channels
+- OPTION + ALT + REC/RDY ALL: Enables or clears Record Safe on all channels
+- SHIFT + OPTION + ALT + REC/RDY: Enables or clears Record Safe on selected channels only
+
+SOLO
+----
+- No modifier: Enables solo on channel (LED lights when enabled)
+- OPTION + SOLO (during playback): Temporarily displays multichannel track outputs (up to 8 channels)
+- OPTION + SOLO (standard): Enables or clears solos on all channels
+- OPTION + SHIFT + SOLO: Enables or clears solos on all selected channels
+- ALT + SOLO: Enables or clears Solo Safe mode on channel (LED flashes briefly)
+- OPTION + ALT + SOLO: Enables or clears Solo Safe on all channels
+- SHIFT + OPTION + ALT + SOLO: Enables or clears Solo Safe on selected channels only
+
+MUTE
+----
+- No modifier: Mutes channel (LED lights when enabled)
+- OPTION + MUTE: Enables or clears mutes on all channels
+- OPTION + SHIFT + MUTE: Enables or clears mutes on all selected channels
+
+AUTO
+----
+- No modifier: Press with Automation mode switch (WRITE, TOUCH, LATCH, TRIM, READ, OFF) to change channel's automation mode
+- OPTION + Automation mode: Changes automation mode on all channels
+- OPTION + SHIFT + Automation mode: Changes automation mode on all selected channels
+
+INSERT
+------
+- No modifier: Shows insert in DSP Edit/Assign display (single insert access)
+- Double-click INSERT: Directly accesses first assigned insert for editing
+- Multiple double-clicks: Cycles through inserts on channel
+- BYPASS (enabled) + INSERT: Bypasses or enables all plug-ins on all inserts for channel
+- BYPASS (enabled) + OPTION + INSERT: Bypasses plug-ins on all channels
+
+V-SEL (V-POT SELECT)
+--------------------
+- No modifier: Assigns send or I/O routing for individual channel
+- While in Send mode: Toggles send pre-fader or post-fader (shows "PRE" or "POST" in scribble strip)
+- OPTION + V-SEL: Toggles send pre/post for all channels
+- OPTION + SHIFT + V-SEL: Toggles send pre/post for all selected channels
+- When Master MUTE enabled: Acts as Send Mute switch
+- DEFAULT + V-SEL: Returns channel's send level or pan to default
+
+================================================================================
+ZOOM/NAVIGATION ARROWS
+================================================================================
+
+ZOOM/SEL Mode Button
+--------------------
+- No modifier: Cycles through three modes:
+  * Navigation mode (LED off)
+  * Zoom mode (LED lit)
+  * Selection mode (LED flashing)
+
+--- NAVIGATION MODE (ZOOM LED off) ---
+
+Left Arrow
+----------
+- No modifier: Moves edit cursor to previous region boundary or sync point
+- SHIFT: Extends selection to preceding region boundary
+- OPTION: Centers left side of waveform selection in Edit Window
+- ALT: Scrolls frontmost window to the left (one page)
+- ALT + OPTION: Scrolls to beginning of session (Edit window)
+- CTRL: Selects previous region
+- CTRL + SHIFT: Extends selection to include previous region
+
+Right Arrow
+-----------
+- No modifier: Moves edit cursor to next region boundary or sync point
+- SHIFT: Extends selection to forward region boundary
+- OPTION: Centers right side of waveform selection in Edit Window
+- ALT: Scrolls frontmost window to the right (one page)
+- ALT + OPTION: Scrolls to end of session (Edit window)
+- CTRL: Selects next region
+- CTRL + SHIFT: Extends selection to include next region
+
+Up Arrow
+--------
+- No modifier: Moves edit cursor or selection to previous track (marks in/out)
+- SHIFT: Extends edit selection to previous track
+- ALT: Scrolls frontmost window upward
+- ALT + OPTION: Scrolls to top of session (Edit window)
+
+Down Arrow
+----------
+- No modifier: Moves edit cursor or selection to next track (marks in/out)
+- SHIFT: Extends edit selection to next track
+- ALT: Scrolls frontmost window downward
+- ALT + OPTION: Scrolls to bottom of session (Edit window)
+
+--- ZOOM MODE (ZOOM LED lit) ---
+
+Left Arrow
+----------
+- No modifier: Decreases horizontal zoom
+
+Right Arrow
+-----------
+- No modifier: Increases horizontal zoom
+
+Up Arrow
+--------
+- No modifier: Increases vertical zoom
+
+Down Arrow
+----------
+- No modifier: Decreases vertical zoom
+
+Zoom Presets
+------------
+- OPTION + number (numeric keypad): Recalls Zoom Preset
+- SHIFT + number (numeric keypad): Stores Zoom Preset
+
+--- SELECTION MODE (ZOOM LED flashing) ---
+
+Left Arrow
+----------
+- No modifier: Adjusts selection in-point with Scrub/Shuttle wheel
+- Double-click Left Arrow: Positions cursor at selection's left edge
+- Left + Right + Scrub/Shuttle wheel: Adjusts selection time position while retaining duration
+
+Right Arrow
+-----------
+- No modifier: Adjusts selection out-point with Scrub/Shuttle wheel
+- Double-click Right Arrow: Positions cursor at selection's right edge
+- Left + Right + Scrub/Shuttle wheel: Adjusts selection time position while retaining duration
+
+Up Arrow
+--------
+- No modifier: Moves selection to previous track
+- SHIFT: Extends selection to previous track
+- OPTION: Removes selection from topmost track
+
+Down Arrow
+----------
+- No modifier: Moves selection to next track
+- SHIFT: Extends selection to next track
+- OPTION: Removes selection from bottommost track
+
+================================================================================
+SCRUB/SHUTTLE CONTROLS
+================================================================================
+
+SCRUB
+-----
+- No modifier: Enables Scrub mode (rotate wheel to scrub forward/backward)
+- OPTION + SCRUB: Begins scrubbing from selection end point
+- ALT (while scrubbing): Fixed "fine scrub" resolution regardless of zoom level
+- SHIFT + SCRUB: Creates selection using scrub wheel (starts at current position)
+- SHIFT + OPTION + SCRUB: Modifies end of existing selection
+- Left/Right Arrow (during scrub): Moves to selection start/end
+
+SHUTTLE
+-------
+- No modifier: Enables Shuttle mode (rotate wheel to shuttle forward/backward)
+- OPTION + SHUTTLE: Begins shuttling from selection end point
+- SHIFT + SHUTTLE: Creates selection using shuttle wheel
+- SHIFT + OPTION + SHUTTLE: Modifies end of existing selection
+- Left/Right Arrow (during shuttle): Moves to selection start/end
+- CTRL + number (numeric keypad): Shuttle Lock mode (0-9 controls speed, +/- controls direction)
+
+Exit Scrub/Shuttle
+------------------
+Press STOP, SCRUB/SHUTTLE button again, Spacebar, F8/ESC, or any transport switch
+
+================================================================================
+STATUS/GROUP SWITCHES
+================================================================================
+
+AUTO (in Status/Group section)
+------------------------------
+- No modifier: Displays current automation mode on channel scribble strips
+
+GROUP
+-----
+- No modifier: Displays Group ID on channel scribble strips (lowercase = one group, uppercase = multiple groups)
+
+CREATE
+------
+- No modifier: Creates group from selected channels (with SHIFT + SELECT on multiple channels first)
+
+SUSPEND (in Status/Group section)
+---------------------------------
+- No modifier: Suspends all Mix groups temporarily (LED flashes when enabled)
+
+MONITOR
+-------
+- No modifier: Displays monitor assignment on channel scribble strips (Auto, Inpt, Aux, MIDI, Mstr)
+
+PHASE
+-----
+- No modifier: Not implemented
+
+================================================================================
+SELECT/ASSIGN SWITCHES
+================================================================================
+
+PAN
+---
+- No modifier: Enables pan control on V-POTs (displays "Pan")
+- Press twice: On stereo channels, edits right channel pan (displays "PanR", LED flashes)
+
+SEND A-E
+--------
+- No modifier: Enables send level control on V-POTs for selected send
+- Press while showing send: Displays send destination on all channel scribble strips
+- ASSIGN + SEND: Enters assign mode for send routing
+- INSERT + SEND: Quick access to send level editing
+
+INPUT
+-----
+- No modifier: Displays current input source on all channel scribble strips
+- ASSIGN + INPUT: Enters assign mode for input routing
+
+OUTPUT
+------
+- No modifier: Displays current output destination on all channel scribble strips
+- ASSIGN + OUTPUT: Enters assign mode for output routing
+- CTRL + ASSIGN (during output assign): Confirms additional output assignment
+
+SUSPEND (in Select/Assign section)
+----------------------------------
+- No modifier: Globally suspends all automation recording and playback (LED flashes when enabled)
+
+DEFAULT (QuickMode)
+-------------------
+- No modifier + SELECT: Returns channel fader to default (0/unity)
+- OPTION + DEFAULT + SELECT: Returns all channel faders to default
+- OPTION + SHIFT + DEFAULT + SELECT: Returns all selected channel faders to default
+- DEFAULT + V-SEL: Returns channel's send level or pan to default
+- OPTION + DEFAULT + V-SEL: Returns all channel send levels/pans to default
+- OPTION + SHIFT + DEFAULT + V-SEL: Returns all selected channel send levels/pans to default
+- DEFAULT + COMPARE (DSP section): Returns plug-in to factory/user default
+
+ASSIGN (in Select/Assign section)
+---------------------------------
+- No modifier: Enters assign mode for sends or I/O
+- ASSIGN + V-POT rotation: Cycles through routing choices
+- ASSIGN (to confirm): Confirms all assignments
+- V-SEL (during assign): Confirms assignment for that channel, stays in assign mode
+- OPTION + ASSIGN: Confirms assignments for all channels
+- OPTION + SHIFT + ASSIGN: Confirms assignments for all selected channels
+- F8/ESC: Cancels assignment mode
+
+REC/RDY ALL (Master)
+--------------------
+- No modifier: Toggles all enabled REC/RDY switches on and off
+
+BYPASS (Master in Select/Assign section)
+----------------------------------------
+- No modifier: Enables Master Bypass mode (INSERT switches become bypass switches)
+- BYPASS (enabled) + INSERT: Toggles bypass for all plug-ins on channel
+- BYPASS (enabled) + OPTION + INSERT: Changes bypass status of all plug-ins on all channels
+- BYPASS (enabled) + OPTION + SHIFT + INSERT: Changes bypass status on all selected channels
+
+MUTE (Master)
+-------------
+- When enabled: V-SEL switches act as send mute switches for active send
+
+================================================================================
+BANK/CHANNEL SWITCHES
+================================================================================
+
+BANK Left Arrow
+---------------
+- No modifier: Swaps channels left eight at a time
+- OPTION + BANK Left: Banks to far-left position in session
+
+BANK Right Arrow
+----------------
+- No modifier: Swaps channels right eight at a time
+- OPTION + BANK Right: Banks to far-right position in session
+
+CHANNEL Left Arrow
+------------------
+- No modifier: Scrolls channels left one at a time
+- OPTION + CHANNEL Left: Scrolls to far-left position
+
+CHANNEL Right Arrow
+-------------------
+- No modifier: Scrolls channels right one at a time
+- OPTION + CHANNEL Right: Scrolls to far-right position
+
+================================================================================
+DSP EDIT/ASSIGN SECTION
+================================================================================
+
+SELECT (under display)
+----------------------
+- In Insert mode: Selects insert for editing or assignment
+- In Parameter mode: Toggles switched parameter state
+- During assignment: Flashes to indicate insert being assigned
+
+ASSIGN (in DSP Edit/Assign section)
+-----------------------------------
+- No modifier: Enters plug-in/hardware I/O assign mode (LED flashes)
+- ASSIGN (to confirm): Confirms all plug-in assignments
+- OPTION + ASSIGN: Assigns plug-in/hardware I/O to all channels
+- OPTION + SHIFT + ASSIGN: Assigns plug-in/hardware I/O to all selected channels
+- F8/ESC: Cancels assignment
+
+COMPARE
+-------
+- No modifier: Compares edited plug-in settings to original (must have plug-in visible on-screen)
+- DEFAULT + COMPARE: Returns plug-in to factory/user default setting
+
+BYPASS (in DSP Edit/Assign section)
+-----------------------------------
+- In Insert Display mode + SELECT: Bypasses individual plug-in insert (LED won't light)
+- In Parameter mode: Engages Master Bypass for selected plug-in (LED lights)
+
+INSERT/PARAM
+------------
+- No modifier: Toggles between Insert Display mode (LED off) and Parameter mode (LED lit)
+- OPTION + INSERT/PARAM: Toggles display brightness (4 levels)
+
+SCROLL
+------
+- In Insert mode: Toggles display between Inserts #1-4 and Insert #5
+- In Parameter mode: Cycles through plug-in control parameter pages
+
+================================================================================
+AUTOMATION ENABLE SWITCHES
+================================================================================
+
+FADER
+-----
+- No modifier: Enables automation for fader
+- OPTION + FADER: Toggles all automation parameters to this state
+- ALT + FADER: Changes FADER state and sets other five to opposite
+
+PAN (Automation Enable)
+-----------------------
+- No modifier: Enables automation for pan (enables both channel and send pan if both disabled)
+- OPTION + PAN: Toggles all automation parameters to this state
+- ALT + PAN: Changes PAN state and sets other five to opposite
+
+PLUG IN
+-------
+- No modifier: Enables automation for plug-ins
+- OPTION + PLUG IN: Toggles all automation parameters to this state
+- ALT + PLUG IN: Changes PLUG IN state and sets other five to opposite
+
+MUTE (Automation Enable)
+------------------------
+- No modifier: Enables automation for mute
+- OPTION + MUTE: Toggles all automation parameters to this state
+- ALT + MUTE: Changes MUTE state and sets other five to opposite
+
+SEND (Automation Enable)
+------------------------
+- No modifier: Enables automation for send
+- OPTION + SEND: Toggles all automation parameters to this state
+- ALT + SEND: Changes SEND state and sets other five to opposite
+
+SEND MUTE
+---------
+- No modifier: Enables automation for send mute
+- OPTION + SEND MUTE: Toggles all automation parameters to this state
+- ALT + SEND MUTE: Changes SEND MUTE state and sets other five to opposite
+
+================================================================================
+AUTOMATION MODE SWITCHES
+================================================================================
+
+READ
+----
+- No modifier + AUTO: Sets channel to Read automation mode (AUTO LED green)
+- OPTION + READ: Arms all channels for Read mode
+- OPTION + SHIFT + READ: Arms all selected channels for Read mode
+
+TOUCH
+-----
+- No modifier + AUTO: Sets channel to Touch automation mode (AUTO LED red flashing/lit)
+- OPTION + TOUCH: Arms all channels for Touch mode
+- OPTION + SHIFT + TOUCH: Arms all selected channels for Touch mode
+
+LATCH
+-----
+- No modifier + AUTO: Sets channel to Latch automation mode (AUTO LED red flashing/lit)
+- OPTION + LATCH: Arms all channels for Latch mode
+- OPTION + SHIFT + LATCH: Arms all selected channels for Latch mode
+
+WRITE
+-----
+- No modifier + AUTO: Sets channel to Write automation mode (AUTO LED red flashing/lit)
+- OPTION + WRITE: Arms all channels for Write mode
+- OPTION + SHIFT + WRITE: Arms all selected channels for Write mode
+
+TRIM (TDM only)
+---------------
+- No modifier + AUTO: Toggles TRIM mode on/off for track
+- ALT (while adjusting): Displays trim delta value instead of absolute value
+- OPTION + TRIM: Arms all channels for Trim mode
+- OPTION + SHIFT + TRIM: Arms all selected channels for Trim mode
+
+OFF
+---
+- No modifier + AUTO: Disables automation on channel (AUTO LED off)
+- OPTION + OFF: Disables automation on all channels
+- OPTION + SHIFT + OFF: Disables automation on all selected channels
+
+================================================================================
+FUNCTION KEYS (F1-F8)
+================================================================================
+
+F1
+--
+- No modifier: Clears clipped meters and last held peaks simultaneously
+
+F2
+--
+- No modifier: Activates or deactivates Relay (GPO) outputs on rear panel
+
+F3
+--
+- No modifier: Enables or disables audible click for HUI V-POT encoders
+
+F4
+--
+- No modifier: Displays version number of current HUI MIDI personality file
+- OPTION + F4: Enters/exits MIDI Monitor mode (displays MIDI messages in hex)
+
+F5
+--
+- No modifier: Toggles DSP Edit/Assign V-POTs between fixed and velocity-sensitive response
+
+F6
+--
+- No modifier: Not assigned
+
+F7
+--
+- No modifier: Not assigned
+
+F8/ESC
+------
+- No modifier: Serves as Escape to cancel any assignment mode or on-screen modal dialog
+- During SAVE: Aborts save process
+- During numeric entry: Aborts entry and leaves settings unchanged
+- During assign mode: Cancels assignment
+- Note: Cannot cancel Bounce operation (use computer keyboard Escape)
+
+================================================================================
+NUMERIC KEYPAD
+================================================================================
+
+ENTER
+-----
+- No modifier: Confirms numeric entry, confirms dialog OK
+- During playback/recording: Defines Memory Location or Marker
+- OPTION + ENTER: Enters same value for both fields (pre/post roll, start/end)
+- During scrub/shuttle: Captures Memory Location
+
+CLR
+---
+- No modifier: Clears counters during numeric entry
+
+/ (Forward Slash)
+-----------------
+- No modifier: Moves between fields for Start, End, Length times
+- SHIFT + / (numeric keypad): Links or unlinks Edit and Timeline selections
+
+Decimal Key (.)
+---------------
+- No modifier: Press once before Memory Location number, press again after to recall location
+
+Numbers 0-9
+-----------
+- EDIT MODE + number: Directly selects Edit Mode (1=Shuffle, 2=Slip, 3=Spot, 4=Grid)
+- EDIT TOOL + number: Directly selects Edit Tool (1=Zoom, 2=Scrub, 3=Trim, 4=Select, 5=Grabber, 6=Pencil, 7=Smart)
+- OPTION + number: Recalls Zoom Preset
+- SHIFT + number: Stores Zoom Preset
+- CTRL + number: Shuttle Lock mode (sets speed 0-9)
+
++ (Plus) and - (Minus)
+----------------------
+- In Shuttle Lock mode: Controls playback direction
+
+================================================================================
+SHIFT (Fader Flip Mode)
+================================================================================
+
+SHIFT (in Select/Assign section)
+--------------------------------
+- No modifier: Enters Flip mode (LED flashes, scribble displays "FLIP")
+  In Flip mode:
+    - Send levels mapped to faders
+    - Send pan controls mapped to V-POTs
+    - Send mutes mapped to MUTE switches
+    - V-SEL controls send pre/post operation
+
+================================================================================
+SPECIAL COMBINATIONS
+================================================================================
+
+V-POT Encoders
+--------------
+- ALT (while turning): Fine adjustments for V-POT controls
+- OPTION (while changing DSP parameter): Displays full 9-character value temporarily
+
+Faders
+------
+- ALT (while moving fader): Displays level in dB on scribble strip
+- CTRL (clutch mode): Disengages faders from Mix groups while held
+
+================================================================================
+
+This comprehensive list includes all documented button functions and modifier
+combinations from the HUI Chapter 3 manual. The modifiers can be held while
+pressing buttons to access these alternate functions, enabling powerful control
+over Pro Tools from the HUI surface.
+
+Total button functions catalogued: 200+
