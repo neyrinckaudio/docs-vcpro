@@ -7,14 +7,16 @@ jobs:
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v3
-    
-    - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+
+    - name: 📂 Sync to neyrinckaudio/docs-neyrinck
+      uses: cpina/github-action-push-to-another-repository@main
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.DIST_REPO_PAT }}
       with:
-        server: docs.neyrinck.com
-        username: ${{ secrets.FTPUSERNAME }}
-        password: ${{ secrets.FTPPASSWORD }}
-        protocol: ftp
-        server-dir: public_html/v-control-pro/
-        local-dir: ./site/
-        dry-run: false
+        source-directory: 'site'
+        destination-github-username: 'neyrinckaudio'
+        destination-repository-name: 'docs-test'
+        target-directory: 'v-control-pro'
+        user-email: github-actions[bot]@users.noreply.github.com
+        target-branch: main
+        commit-message: 'Auto-deploy V-Control Pro docs from ${{ github.repository }}'
