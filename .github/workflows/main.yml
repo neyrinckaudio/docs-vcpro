@@ -15,7 +15,7 @@ jobs:
       with:
         source-directory: 'site'
         destination-github-username: 'neyrinckaudio'
-        destination-repository-name: 'docs-test'
+        destination-repository-name: 'docs-neyrinck'
         target-directory: 'v-control-pro'
         user-email: github-actions[bot]@users.noreply.github.com
         target-branch: main
