@@ -10,4 +10,4 @@
 [Neyrinck Support](https://neyrinck.com/support/)
 
 ## All Neyrinck Product Docs
-[Neyrinck Support](https://docs.neyrinck.com/)
+[Neyrinck Docs](https://docs.neyrinck.com/)
