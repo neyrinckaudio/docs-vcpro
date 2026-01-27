@@ -18,5 +18,5 @@ jobs:
         destination-repository-name: 'docs-test'
         target-directory: 'v-control-pro'
         user-email: github-actions[bot]@users.noreply.github.com
-        target-branch: master
+        target-branch: main
         commit-message: 'Auto-deploy V-Control Pro site from ${{ github.repository }}'
