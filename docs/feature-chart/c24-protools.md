@@ -39,7 +39,6 @@
     |  | `Option`+`Automation mode` | Changes automation mode on all channels. |
     |  | `Option`+`Shift`+`Automation mode` | Changes automation mode on all selected channels. |
     | `Select` |  | Selects track (LED lights when selected). |
-    |  |  | Multiple SELECT presses: Selects multiple channels. |
     |  | `Shift`+ | Deselects single channel OR selects/deselects multiple channels. |
     |  | `Option`+ | Selects or deselects all channels. |
     |  | `Alt`+ | Changes SELECT state of channel and changes all others to opposite state (on lit switch). |
@@ -64,7 +63,6 @@
     |  | `Default`+`Option`+ | Returns all channel send levels/pans to default. |
     |  | `Default`+`Option`+`Shift`+ | Returns all selected channel send levels/pans to default. |
     | `Fader` |  | Track volume control. |
-    |  | `Alt`+ | Displays level in dB on scribble strip (while moving fader). |
     |  | `Ctrl`+ | Clutch mode - disengages faders from Mix groups while held. |
     | `Meters` |  | Displays stereo metering for tracks. |
 
@@ -74,8 +72,8 @@
 
     | `PAN` |  |  |
     |---|---|---|
-    | `PAN` |  | Enables pan control on Knobs (displays "Pan"). |
-    |  | Press twice | On stereo channels, edits right channel pan (displays "PanR", LED flashes). |
+    | `PAN` |  | Enables pan control on Knobs. |
+    |  | Press twice | On stereo channels, edits right channel pan. |
     | `LCR`,`FrontRear`,`Rear`,`Divergence`,`Center`,`LFE`,`LR` |  | Stereo Pan Mode for mono / stereo tracks |
     |  |  | Toggle between Pan L and Pan R for stereo tracks |
     |  |  | Toggle between Pan L and Pan R for stereo sends when in send mode |
@@ -83,7 +81,6 @@
     | `SENDS` |  |  |
     |---|---|---|
     | `A` |  | Send A Mode - enables send level control on Knobs for Send A. |
-    |  | Press while showing send | Displays send destination on all channel scribble strips. |
     |  | `Assign`+ | Enters assign mode for send routing. |
     |  | `Insert`+ | Quick access to send level editing. |
     | `B` |  | Send B Mode - enables send level control on Knobs for Send B. |
@@ -94,7 +91,7 @@
 
     | `Flip` |  |  |
     |---|---|---|
-    | `Flip` |  | Enters Flip mode (LED flashes, scribble displays "FLIP"). |
+    | `Flip` |  | Enters Flip mode (LED flashes). |
     |  |  | Send levels mapped to faders. |
     |  |  | Send pan controls mapped to Knobs. |
     |  |  | Send mutes mapped to MUTE switches. |
@@ -108,9 +105,9 @@
 
     | `ASSIGN` |  |  |
     |---|---|---|
-    | `Input` |  | Displays current input source on all channel scribble strips. |
+    | `Input` |  | Enters assign mode for input routing. |
     |  | `Assign`+ | Enters assign mode for input routing. |
-    | `Output` |  | Displays current output destination on all channel scribble strips. |
+    | `Output` |  | Enters assign mode for output routing. |
     |  | `Assign`+ | Enters assign mode for output routing. |
     |  | `Ctrl`+`Assign` | Confirms additional output assignment (during output assign). |
 
@@ -177,16 +174,10 @@
     |---|---|---|
     | `Play` |  | Begins playback from current cursor position. |
     |  | `Shift`+ | Initiates half-speed playback. |
-    |  | Footswitch #1 | If stopped, starts playback; if playing, stops playback. |
-    |  | `Shift`+Footswitch #1 | Starts half-speed playback. |
     | `Stop` |  | Stops playback or recording. |
     |  | `Shift`+ | Aborts the current record pass. |
-    |  | Footswitch #1 | If playing/recording, stops playback. |
-    |  | `Shift`+Footswitch #1 | Aborts the recording (when recording). |
     | `Record` |  | Arms Pro Tools for recording (LED flashes). |
     |  | `Ctrl`+ | Cycles through record modes (normal, QuickPunch, Loop). |
-    |  | Footswitch #2 | Toggles Pro Tools record state on or off. |
-    |  | `Ctrl`+Footswitch #2 | Cycles through available record modes (destructive or nondestructive). |
     | `Rewind` |  | Rewinds the session from current cursor position (incremental or continuous depending on preferences). |
     |  | `Shift`+ | Return-to-Zero (same as RTZ button). |
     | `Fast Forward` |  | Fast-forwards the session from current cursor position (incremental or continuous). |
@@ -231,7 +222,6 @@
     |  | `Shift`+ | Creates selection using shuttle wheel. |
     |  | `Shift`+`Option`+ | Modifies end of existing selection. |
     |  | Left/Right Arrow | Moves to selection start/end (during shuttle). |
-    |  | `Ctrl`+number | Shuttle Lock mode (0-9 controls speed, +/- controls direction). |
     | `Counter` |  | Displays Counter for current session. Counter mode can be changed in DAW. |
     | `Master Record` |  | Toggles all enabled REC/RDY switches on and off. |
 
@@ -273,7 +263,7 @@
     |---|---|---|
     | `Create` |  | Creates group from selected channels (use `Shift`+`Select` on multiple channels first). |
     | `Suspend` |  | Suspends all Mix groups temporarily (LED flashes when enabled). |
-    | `Status` |  | Displays Group ID on channel scribble strips (lowercase = one group, uppercase = multiple groups). |
+    | `Status` |  | Shows Group ID status. |
 
 === "Utility"
 
@@ -328,9 +318,6 @@
     | `Right` |  | Increases horizontal zoom. |
     | `Up` |  | Increases vertical zoom. |
     | `Down` |  | Decreases vertical zoom. |
-    |  |  | **Zoom Presets:** |
-    |  | `Option`+number | Recalls Zoom Preset. |
-    |  | `Shift`+number | Stores Zoom Preset. |
     |  |  | **Selection Mode (LED flashing):** |
     | `Left` |  | Adjusts selection in-point with Scrub/Shuttle wheel. |
     |  | Double-click | Positions cursor at selection's left edge. |
@@ -367,29 +354,18 @@
     | `Capture` |  | Executes capture region function. |
     | `Separate` |  | Executes separate region function / Separates region at playhead. |
     | `Shuffle` |  | Enables Shuffle Mode in Edit Window. |
-    |  | `Edit Mode`+1 | Directly selects Shuffle mode (numeric keypad). |
     | `Slip` |  | Enables Slip Mode in Edit Window. |
-    |  | `Edit Mode`+2 | Directly selects Slip mode (numeric keypad). |
     | `Spot` |  | Enables Spot Mode in Edit Window. |
-    |  | `Edit Mode`+3 | Directly selects Spot mode (numeric keypad). |
     | `Grid` |  | Enables Grid Mode in Edit Window. |
-    |  | `Edit Mode`+4 | Directly selects Grid mode (numeric keypad). |
     | `Edit Mode` |  | Cycles through edit modes (Shuffle, Slip, Spot, Grid). |
     | `Edit Tool` |  | Cycles through main edit tools (Zoom, Trim, Select, Grabber, Smart Tool, Scrub, Pencil). |
     | `Trim` |  | Enables Trim Tool in Edit Window. |
-    |  | `Edit Tool`+3 | Directly selects Trim tool (cycles through Trimmer tools on repeated presses). |
     | `Select` |  | Enables Select Tool in Edit Window. |
-    |  | `Edit Tool`+4 | Directly selects Select tool (numeric keypad). |
     | `Grab` |  | Enables Grabber Tool in Edit Window. |
-    |  | `Edit Tool`+5 | Directly selects Grabber tool (cycles through Grabber tools on repeated presses). |
     | `Pencil` |  | Enables Pencil Tool in Edit Window. |
-    |  | `Edit Tool`+6 | Directly selects Pencil tool (cycles through Pencil Shapes on repeated presses). |
     | `Zoom` |  | Enables Zoom tool. |
-    |  | `Edit Tool`+1 | Directly selects Zoom tool (numeric keypad). |
     | `Scrub` |  | Enables Scrub tool (see Transport section for Scrub wheel functions). |
-    |  | `Edit Tool`+2 | Directly selects Scrub tool (numeric keypad). |
     | `Smart Tool` |  | Enables Smart tool. |
-    |  | `Edit Tool`+7 | Directly selects Smart tool (numeric keypad). |
 
 === "V-Window Mode"
 
