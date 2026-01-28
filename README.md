@@ -81,6 +81,12 @@ This script will:
 2. Commit changes to git
 3. Push to the remote repository
 
+The github workflow main.yml will:
+1. checkout neyrinckaudio/docs-neyrinck
+2. sync the /site files to docs-neyrinck/v-control-pro
+3. commit and push changes.
+4. Cloudflare Pages will deploy neyrinckaudio/docs-neyrinck
+
 ## Contributing
 
 When adding or updating documentation:
