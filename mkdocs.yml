@@ -1,5 +1,6 @@
 site_name: V-Control Pro User Guide
 site_description: User Guide for V-Control Pro.
+site_url: https://docs.neyrinck.com/v-control-pro/
 
 theme:
   name: material
