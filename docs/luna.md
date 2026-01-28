@@ -5,7 +5,7 @@ V-Control Pro must be set up in the Controllers Settings window section of the P
 ## 8 Channel
 
 - Launch LUNA
-- In the Luna top menu bar select: Luna/Preferences...
+- In the LUNA top menu bar select: LUNA/Preferences...
 - In the preferences window with the Settings showing, select Controllers
 - Select the following for the MIDI Control Surfaces:
     - Input Device: V-Control

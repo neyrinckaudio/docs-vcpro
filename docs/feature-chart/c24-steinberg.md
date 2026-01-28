@@ -1,6 +1,6 @@
 #
 
-### C24 Steinberg
+### C24 - Cubase/Nuendo
 
 === "Channel Strips"
 

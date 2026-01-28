@@ -1,6 +1,6 @@
 #
 
-### Control24 Pro Tools
+### Control24 - Pro Tools
 
 !!! info "Important HUI Metering Information"
     The HUI protocol provides for stereo track metering. It does not provide for output metering. Pro Tools will not provide track metering if Eucon is enabled. Disable Eucon for track metering.

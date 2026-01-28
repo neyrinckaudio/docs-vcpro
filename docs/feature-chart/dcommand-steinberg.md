@@ -1,6 +1,6 @@
 #
 
-### D-Command Steinberg
+### D-Command - Cubase/Nuendo
 
 === "Channel Strips"
 

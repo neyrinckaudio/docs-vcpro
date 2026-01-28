@@ -1,6 +1,6 @@
 #
 
-### Command8 Steinberg
+### Command8 - Cubase/Nuendo
 
 === "Channel Strips"
 

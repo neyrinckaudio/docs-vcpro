@@ -1,6 +1,6 @@
 #
 
-### Command8 Logic
+### Command8 - Logic Pro
 
 === "Channel Strips"
 

@@ -1,6 +1,6 @@
 #
 
-### 003 Ableton Live
+### 003 - Ableton Live
 
 === "Channel Strips"
 

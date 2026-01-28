@@ -1,6 +1,6 @@
 #
 
-### Studio One Control With 003
+### 003 - Studio One / Fender Studio
 
 === "Channel Strips"
 

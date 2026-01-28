@@ -1,6 +1,6 @@
 #
 
-### ProControl Performer
+### ProControl - Performer
 
 === "Channel Strips"
 

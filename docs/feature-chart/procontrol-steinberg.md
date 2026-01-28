@@ -1,6 +1,6 @@
 #
 
-### ProControl Steinberg
+### ProControl - Cubase/Nuendo
 
 === "Channel Strips"
 

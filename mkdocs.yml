@@ -37,7 +37,7 @@ nav:
     - HUI Protocol Devices: './hui-device.md'
   - DAW/Application Setup:
     - Pro Tools: './pro-tools.md'
-    - Logic Pro X: './logic-pro.md'
+    - Logic Pro: './logic-pro.md'
     - Cubase / Nuendo: './cubase-nuendo.md'
     - Mackie Control DAWs:
       - Getting Started: './mackie-control.md'

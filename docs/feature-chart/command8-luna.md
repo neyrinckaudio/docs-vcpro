@@ -1,6 +1,6 @@
 #
 
-### Command8 Luna
+### Command8 - LUNA
 
 === "Bank Mode"
 

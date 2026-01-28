@@ -1,6 +1,6 @@
 #
 
-### FaderPort V2 Pro Tools
+### FaderPort V2 - Pro Tools
 
 === "Channel Strip"
 

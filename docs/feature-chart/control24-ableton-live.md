@@ -1,6 +1,6 @@
 #
 
-### Control24 Ableton Live
+### Control24 - Ableton Live
 
 === "Channel Strips"
 

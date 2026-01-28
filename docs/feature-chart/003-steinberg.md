@@ -1,6 +1,6 @@
 #
 
-### Cubase_Nuendo Control With 003
+### 003 - Cubase/Nuendo
 
 === "Channel Strips"
 

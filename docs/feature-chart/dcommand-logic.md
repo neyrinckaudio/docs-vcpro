@@ -1,6 +1,6 @@
 #
 
-### D-Command Logic
+### D-Command - Logic Pro
 
 === "Channel Strips"
 
