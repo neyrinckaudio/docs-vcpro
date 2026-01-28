@@ -12,27 +12,60 @@
 
     | Channel Strip |  |  |
     |---|---|---|
-    | `Record` |  | Arms the assigned audio track of the Channel. |
+    | `Record` |  | Arms the assigned audio track of the Channel (LED flashes when record-ready, lit when recording). |
+    |  | `Option`+ | Record-enables all tracks (when pressed on non-enabled track). |
+    |  | `Option`+ | Disables all tracks for recording (when pressed on enabled track). |
+    |  | `Option`+`Shift`+ | Record-enables selected tracks only. |
+    |  | `Alt`+ | Enables or clears Record Safe mode on channel (LED flashes briefly). |
+    |  | `Option`+`Alt`+ | Enables or clears Record Safe on all channels. |
+    |  | `Shift`+`Option`+`Alt`+ | Enables or clears Record Safe on selected channels only. |
     | `Insert` |  | Enables insert editor for selected Channel. |
-    | `Solo `|  | Solos the Channel. |
-    | `Mute` |  | Mutes the Channel. |
+    |  | Double-click | Directly accesses first assigned insert for editing. |
+    |  | Multiple double-clicks | Cycles through inserts on channel. |
+    |  | `Bypass`+ | Bypasses or enables all plug-ins on all inserts for channel (when Bypass mode enabled). |
+    |  | `Bypass`+`Option`+ | Bypasses plug-ins on all channels (when Bypass mode enabled). |
+    | `Solo` |  | Solos the Channel (LED lights when enabled). |
+    |  | `Option`+ | Enables or clears solos on all channels. |
+    |  | `Option`+`Shift`+ | Enables or clears solos on all selected channels. |
+    |  | `Alt`+ | Enables or clears Solo Safe mode on channel (LED flashes briefly). |
+    |  | `Option`+`Alt`+ | Enables or clears Solo Safe on all channels. |
+    |  | `Shift`+`Option`+`Alt`+ | Enables or clears Solo Safe on selected channels only. |
+    | `Mute` |  | Mutes the Channel (LED lights when enabled). |
+    |  | `Option`+ | Enables or clears mutes on all channels. |
+    |  | `Option`+`Shift`+ | Enables or clears mutes on all selected channels. |
     | `Auto` |  | Press to see auto mode displayed in place of track name. |
-    |  | +`AUTOMATION MODES` | Select auto mode |
-    |  | +`Select` | Scroll through auto modes |
-    | `Select` |  | Select track. |
-    |  | `Default`+ | Reset fader to 0 db |
-    |  | `Option`+ | Reset all faders to 0 db |
+    |  | +`AUTOMATION MODES` | Hold down and select automation mode (WRITE, TOUCH, LATCH, TRIM, READ, OFF). |
+    |  | +`Select` | Hold down and press channel select button to cycle through automation modes. |
+    |  | `Option`+`Automation mode` | Changes automation mode on all channels. |
+    |  | `Option`+`Shift`+`Automation mode` | Changes automation mode on all selected channels. |
+    | `Select` |  | Selects track (LED lights when selected). |
+    |  |  | Multiple SELECT presses: Selects multiple channels. |
+    |  | `Shift`+ | Deselects single channel OR selects/deselects multiple channels. |
+    |  | `Option`+ | Selects or deselects all channels. |
+    |  | `Alt`+ | Changes SELECT state of channel and changes all others to opposite state (on lit switch). |
+    |  | `Default`+ | Reset fader to 0 db. |
+    |  | `Default`+`Option`+ | Reset all faders to 0 db. |
+    |  | `Default`+`Option`+`Shift`+ | Reset all selected faders to 0 db. |
     | `Knob` |  | Adjust control assigned for bank mode. |
     | |  | Pan Mode - Adjust stereo pan for mono and stereo tracks. |
     | |  | Send A-E Modes - Adjust send volume. |
     | |  | Flip Send A-E Modes - Adjust send pan for mono/stereo sends.  |
     | |  | Insert Edit Mode - Adjust plugin parameter for strips 1-8. |
-    | | `Cmd`+ | Fine mode |
+    | | `Cmd`+ | Fine mode (fine adjustments). |
+    | | `Alt`+ | Fine adjustments for V-POT controls. |
     | `Knob Button` | `Default`+ | Pan Mode - Reset pan to default |
     | |  | Send Mute Mode - Control send mute |
     | |  | Pre/Post Mode - Control send pre/post. |
     | |  | Insert Select Mode - Select insert A-D, E for strips 1-4. |
     | |  | Insert Edit Mode - Adjust discrete parameter for strips 1-4. |
+    |  | `Option`+ | Toggles send pre/post for all channels (in Send mode). |
+    |  | `Option`+`Shift`+ | Toggles send pre/post for all selected channels (in Send mode). |
+    |  | `Default`+ | Returns channel's send level or pan to default. |
+    |  | `Default`+`Option`+ | Returns all channel send levels/pans to default. |
+    |  | `Default`+`Option`+`Shift`+ | Returns all selected channel send levels/pans to default. |
+    | `Fader` |  | Track volume control. |
+    |  | `Alt`+ | Displays level in dB on scribble strip (while moving fader). |
+    |  | `Ctrl`+ | Clutch mode - disengages faders from Mix groups while held. |
     | `Meters` |  | Displays stereo metering for tracks. |
 
 === "Bank Modes"
