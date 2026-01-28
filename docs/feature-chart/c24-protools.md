@@ -343,30 +343,6 @@
     | `Plug-In` |  | Opens or closes the floating window for currently selected plug-in. |
     | `Status` |  | Opens or closes the Session Setup window. |
 
-=== "Edit"
-
-    | Edit |  |  |
-    |---|---|---|
-    | `Copy` |  | Copy selected region in Edit Window. |
-    | `Delete` |  | Deletes selected region in Edit Window. |
-    | `Cut` |  | Cuts selected region in Edit Window. |
-    | `Paste` |  | Pastes region in Edit Window. |
-    | `Capture` |  | Executes capture region function. |
-    | `Separate` |  | Executes separate region function / Separates region at playhead. |
-    | `Shuffle` |  | Enables Shuffle Mode in Edit Window. |
-    | `Slip` |  | Enables Slip Mode in Edit Window. |
-    | `Spot` |  | Enables Spot Mode in Edit Window. |
-    | `Grid` |  | Enables Grid Mode in Edit Window. |
-    | `Edit Mode` |  | Cycles through edit modes (Shuffle, Slip, Spot, Grid). |
-    | `Edit Tool` |  | Cycles through main edit tools (Zoom, Trim, Select, Grabber, Smart Tool, Scrub, Pencil). |
-    | `Trim` |  | Enables Trim Tool in Edit Window. |
-    | `Select` |  | Enables Select Tool in Edit Window. |
-    | `Grab` |  | Enables Grabber Tool in Edit Window. |
-    | `Pencil` |  | Enables Pencil Tool in Edit Window. |
-    | `Zoom` |  | Enables Zoom tool. |
-    | `Scrub` |  | Enables Scrub tool (see Transport section for Scrub wheel functions). |
-    | `Smart Tool` |  | Enables Smart tool. |
-
 === "V-Window Mode"
 
     | V-Window Mode |  |
