@@ -401,8 +401,9 @@
 
 === "MIDI Mode"
 
+    MIDI Mode provides generic MIDI controller functionality. MIDI messages are sent/received with the V-Control-Pro Midi Mode port.
+
     | MIDI Mode |  |  |
     |---|---|---|
-    | MIDI Mode converts the surfaces faders, knobs, and buttons into assignable MIDI Controls that can be mapped in the DAW. |  |  |
-    | Mon/0 |  | Toggles surface between DAW Mode and MIDI Mode |
-    | Select (Group Button) |  | Toggles the DSP Section between DAW Mode and MIDI Mode. |
+    | 'Shift'+'F1' |  | Toggle surface between DAW Mode and MIDI Mode |
+    | 'Select' (Group Button) |  | Toggle the DSP Section between DAW Mode and MIDI Mode. |
