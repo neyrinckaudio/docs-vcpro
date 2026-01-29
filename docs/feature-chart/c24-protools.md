@@ -12,114 +12,218 @@
 
     | Channel Strip |  |  |
     |---|---|---|
-    | `Record` |  | Arms the assigned audio track of the Channel. |
+    | `Record` |  | Arms the assigned audio track of the Channel (LED flashes when record-ready, lit when recording). |
+    |  | `Option`+ | Record-enables all tracks (when pressed on non-enabled track). |
+    |  | `Option`+ | Disables all tracks for recording (when pressed on enabled track). |
+    |  | `Option`+`Shift`+ | Record-enables selected tracks only. |
+    |  | `Alt`+ | Enables or clears Record Safe mode on channel (LED flashes briefly). |
+    |  | `Option`+`Alt`+ | Enables or clears Record Safe on all channels. |
+    |  | `Shift`+`Option`+`Alt`+ | Enables or clears Record Safe on selected channels only. |
     | `Insert` |  | Enables insert editor for selected Channel. |
-    | `Solo `|  | Solos the Channel. |
-    | `Mute` |  | Mutes the Channel. |
+    |  | Double-click | Directly accesses first assigned insert for editing. |
+    |  | Multiple double-clicks | Cycles through inserts on channel. |
+    |  | `Bypass`+ | Bypasses or enables all plug-ins on all inserts for channel (when Bypass mode enabled). |
+    |  | `Bypass`+`Option`+ | Bypasses plug-ins on all channels (when Bypass mode enabled). |
+    | `Solo` |  | Solos the Channel (LED lights when enabled). |
+    |  | `Option`+ | Enables or clears solos on all channels. |
+    |  | `Option`+`Shift`+ | Enables or clears solos on all selected channels. |
+    |  | `Alt`+ | Enables or clears Solo Safe mode on channel (LED flashes briefly). |
+    |  | `Option`+`Alt`+ | Enables or clears Solo Safe on all channels. |
+    |  | `Shift`+`Option`+`Alt`+ | Enables or clears Solo Safe on selected channels only. |
+    | `Mute` |  | Mutes the Channel (LED lights when enabled). |
+    |  | `Option`+ | Enables or clears mutes on all channels. |
+    |  | `Option`+`Shift`+ | Enables or clears mutes on all selected channels. |
     | `Auto` |  | Press to see auto mode displayed in place of track name. |
-    |  | +`AUTOMATION MODES` | Select auto mode |
-    |  | +`Select` | Scroll through auto modes |
-    | `Select` |  | Select track. |
-    |  | `Default`+ | Reset fader to 0 db |
-    |  | `Option`+ | Reset all faders to 0 db |
+    |  | +`AUTOMATION MODES` | Hold down and select automation mode (WRITE, TOUCH, LATCH, TRIM, READ, OFF). |
+    |  | +`Select` | Hold down and press channel select button to cycle through automation modes. |
+    |  | `Option`+`Automation mode` | Changes automation mode on all channels. |
+    |  | `Option`+`Shift`+`Automation mode` | Changes automation mode on all selected channels. |
+    | `Select` |  | Selects track (LED lights when selected). |
+    |  | `Shift`+ | Deselects single channel OR selects/deselects multiple channels. |
+    |  | `Option`+ | Selects or deselects all channels. |
+    |  | `Alt`+ | Changes SELECT state of channel and changes all others to opposite state (on lit switch). |
+    |  | `Default`+ | Reset fader to 0 db. |
+    |  | `Default`+`Option`+ | Reset all faders to 0 db. |
+    |  | `Default`+`Option`+`Shift`+ | Reset all selected faders to 0 db. |
     | `Knob` |  | Adjust control assigned for bank mode. |
     | |  | Pan Mode - Adjust stereo pan for mono and stereo tracks. |
     | |  | Send A-E Modes - Adjust send volume. |
     | |  | Flip Send A-E Modes - Adjust send pan for mono/stereo sends.  |
     | |  | Insert Edit Mode - Adjust plugin parameter for strips 1-8. |
-    | | `Cmd`+ | Fine mode |
+    | | `Cmd`+ | Fine mode (fine adjustments). |
+    | | `Alt`+ | Fine adjustments for Knob controls. |
     | `Knob Button` | `Default`+ | Pan Mode - Reset pan to default |
     | |  | Send Mute Mode - Control send mute |
     | |  | Pre/Post Mode - Control send pre/post. |
     | |  | Insert Select Mode - Select insert A-D, E for strips 1-4. |
     | |  | Insert Edit Mode - Adjust discrete parameter for strips 1-4. |
+    |  | `Option`+ | Toggles send pre/post for all channels (in Send mode). |
+    |  | `Option`+`Shift`+ | Toggles send pre/post for all selected channels (in Send mode). |
+    |  | `Default`+ | Returns channel's send level or pan to default. |
+    |  | `Default`+`Option`+ | Returns all channel send levels/pans to default. |
+    |  | `Default`+`Option`+`Shift`+ | Returns all selected channel send levels/pans to default. |
+    | `Fader` |  | Track volume control. |
+    |  | `Ctrl`+ | Clutch mode - disengages faders from Mix groups while held. |
     | `Meters` |  | Displays stereo metering for tracks. |
 
 === "Bank Modes"
 
     Buttons are used to set a bank mode which assign controls to the Knobs.
 
-    | `PAN` |  |
-    |---|---|
-    | `LCR`,`FrontRear`,`Rear`,`Divergence`,`Center`,`LFE`,`LR` | Stereo Pan Mode for mono / stereo tracks |
-    | Toggle between Pan L and Pan R for stereo tracks | |
-    | Toggle between Pan L and Pan R for stereo sends when in send mode | |
- 
-    | `SENDS` |  |
-    |---|---|
-    | `A` | Send A Mode |
-    | `B` | Send B Mode |
-    | `C` | Send C Mode |
-    | `D` | Send D Mode |
-    | `E` | Send E Mode |
- 
+    | `PAN` |  |  |
+    |---|---|---|
+    | `PAN` |  | Enables pan control on Knobs. |
+    |  | Press twice | On stereo channels, edits right channel pan. |
+    | `LCR`,`FrontRear`,`Rear`,`Divergence`,`Center`,`LFE`,`LR` |  | Stereo Pan Mode for mono / stereo tracks |
+    |  |  | Toggle between Pan L and Pan R for stereo tracks |
+    |  |  | Toggle between Pan L and Pan R for stereo sends when in send mode |
 
-     | `Flip` |  | 
-    |---|---|
-    | Flip send volume to faders, send pan to knobs. | |
+    | `SENDS` |  |  |
+    |---|---|---|
+    | `A` |  | Send A Mode - enables send level control on Knobs for Send A. |
+    |  | `Assign`+ | Enters assign mode for send routing. |
+    |  | `Insert`+ | Quick access to send level editing. |
+    | `B` |  | Send B Mode - enables send level control on Knobs for Send B. |
+    | `C` |  | Send C Mode - enables send level control on Knobs for Send C. |
+    | `D` |  | Send D Mode - enables send level control on Knobs for Send D. |
+    | `E` |  | Send E Mode - enables send level control on Knobs for Send E. |
 
 
-    | `SWITCH FUNCTIONS` |  |
-    |---|---|
-    | `Pre/Post` | Sets knob buttons to Pre/Post mode when in Sends Mode. |
-    | `Send Mute` | Sets knob buttons to Send Mute mode when in Sends Mode. |   
+    | `Flip` |  |  |
+    |---|---|---|
+    | `Flip` |  | Enters Flip mode (LED flashes). |
+    |  |  | Send levels mapped to faders. |
+    |  |  | Send pan controls mapped to Knobs. |
+    |  |  | Send mutes mapped to MUTE switches. |
+    |  |  | V-SEL controls send pre/post operation. |
 
-    | `ASSIGN` |  |
-    |---|---|
-    | `Input` | Shows Channel Inputs across LCD when held down. Enter Assign mode first to change channel input with knobs. |
-    | `Output` | Shows Channel Outputs across LCD. Enter Assign mode first to change channel output with knobs. |
+
+    | `SWITCH FUNCTIONS` |  |  |
+    |---|---|---|
+    | `Pre/Post` |  | Sets knob buttons to Pre/Post mode when in Sends Mode. |
+    | `Send Mute` |  | Sets knob buttons to Send Mute mode when in Sends Mode. |
+
+    | `ASSIGN` |  |  |
+    |---|---|---|
+    | `Input` |  | Enters assign mode for input routing. |
+    |  | `Assign`+ | Enters assign mode for input routing. |
+    | `Output` |  | Enters assign mode for output routing. |
+    |  | `Assign`+ | Enters assign mode for output routing. |
+    |  | `Ctrl`+`Assign` | Confirms additional output assignment (during output assign). |
 
 === "Automation"
 
-    | `AUTOMATION MODES` |  |
-    |---|---|
-    |  | Hold down channel strip `Auto` button to select automation modes. |
-    | `Read` | Sets selected Channel in to Read Mode |
-    | `Write` | Sets selected Channel to Write Mode |
-    | `Touch` | Sets selected Channel to Touch Mode |
-    | `Trim` | Enables Trim to selected Channel. |
-    | `Latch` | Sets selected Channel to Latch Mode |
-    | `Off` | Sets selected Channel to Off Mode |
+    | `AUTOMATION MODES` |  |  |
+    |---|---|---|
+    |  |  | Hold down channel strip `Auto` button to select automation modes. |
+    | `Read` |  | Sets selected Channel to Read Mode (AUTO LED green). |
+    |  | `Option`+ | Arms all channels for Read mode. |
+    |  | `Option`+`Shift`+ | Arms all selected channels for Read mode. |
+    | `Write` |  | Sets selected Channel to Write Mode (AUTO LED red flashing/lit). |
+    |  | `Option`+ | Arms all channels for Write mode. |
+    |  | `Option`+`Shift`+ | Arms all selected channels for Write mode. |
+    | `Touch` |  | Sets selected Channel to Touch Mode (AUTO LED red flashing/lit). |
+    |  | `Option`+ | Arms all channels for Touch mode. |
+    |  | `Option`+`Shift`+ | Arms all selected channels for Touch mode. |
+    | `Latch` |  | Sets selected Channel to Latch Mode (AUTO LED red flashing/lit). |
+    |  | `Option`+ | Arms all channels for Latch mode. |
+    |  | `Option`+`Shift`+ | Arms all selected channels for Latch mode. |
+    | `Trim` |  | Toggles TRIM mode on/off for track (TDM only). |
+    |  | `Alt`+ | Displays trim delta value instead of absolute value (while adjusting). |
+    |  | `Option`+ | Arms all channels for Trim mode. |
+    |  | `Option`+`Shift`+ | Arms all selected channels for Trim mode. |
+    | `Off` |  | Disables automation on channel (AUTO LED off). |
+    |  | `Option`+ | Disables automation on all channels. |
+    |  | `Option`+`Shift`+ | Disables automation on all selected channels. |
 
-    | `AUTO ENABLES` |  |
-    |---|---|
-    | `Volume` | Toggles Enable for Volume Automation |
-    | `Pan` | Toggles Enable for Pan Automation |
-    | `Mute` | Toggles Enable for Mute Automation |
-    | `Send LvL` | Toggles Enable for Send Level Automation |
-    | `Plug-In` | Toggles Enable for Plug-In Automation |
+    | `AUTO ENABLES` |  |  |
+    |---|---|---|
+    | `Volume` |  | Enables automation for fader. |
+    |  | `Option`+ | Toggles all automation parameters to this state. |
+    |  | `Alt`+ | Changes FADER state and sets other five to opposite. |
+    | `Pan` |  | Enables automation for pan (enables both channel and send pan if both disabled). |
+    |  | `Option`+ | Toggles all automation parameters to this state. |
+    |  | `Alt`+ | Changes PAN state and sets other five to opposite. |
+    | `Mute` |  | Enables automation for mute. |
+    |  | `Option`+ | Toggles all automation parameters to this state. |
+    |  | `Alt`+ | Changes MUTE state and sets other five to opposite. |
+    | `Send LvL` |  | Enables automation for send. |
+    |  | `Option`+ | Toggles all automation parameters to this state. |
+    |  | `Alt`+ | Changes SEND state and sets other five to opposite. |
+    | `Plug-In` |  | Enables automation for plug-ins. |
+    |  | `Option`+ | Toggles all automation parameters to this state. |
+    |  | `Alt`+ | Changes PLUG IN state and sets other five to opposite. |
+    | `Send Mute` |  | Enables automation for send mute. |
+    |  | `Option`+ | Toggles all automation parameters to this state. |
+    |  | `Alt`+ | Changes SEND MUTE state and sets other five to opposite. |
 
-
-    | `AUTO WRITE TO` |  |
-    |---|---|
-    | `Start` | Enable Write to Start Automation. |
-    | `End` | Enable Write to End Automation. |
-    | `All` | Enable Write to All Automation. |
+    | `AUTO WRITE TO` |  |  |
+    |---|---|---|
+    | `Start` |  | Write to Start (writes automation from insertion point backward to beginning). |
+    |  |  | Same as `Ctrl` + RTZ. |
+    |  | `Ctrl`+`Option`+ | Suppresses warning dialog for Write to Start. |
+    | `End` |  | Write to End (writes automation from insertion point forward to end). |
+    |  |  | Same as `Ctrl` + END. |
+    |  | `Ctrl`+`Option`+ | Suppresses warning dialog for Write to End. |
+    | `All` |  | Write to All (writes automation to entire selection/track). |
+    |  |  | Same as `Ctrl`+`Shift` + RTZ or END. |
 
 === "Transport"
 
-    | Transport |  |
-    |---|---|
-    | Play | Starts playhead at current position in Timeline. |
-    | Stop | Stops playhead at current position in Timeline. |
-    | Record | Starts Record Mode for playhead |
-    | Rewind | Move playhead backwards in Timeline. |
-    | Fast Forward | Moves playhead forward in Timeline. |
-    | RTZ | Returns playhead to beginning of Timeline. |
-    | GTE | Sends playhead to end of Timeline. |
-    | Pre Roll | Enables Pre Roll |
-    | Post Roll | Enables Post Roll |
-    | Mark In | Sets start point of selection in Timeline. |
-    | Mark Out | Sets end point of selection in Timeline. |
-    | Loop Play | Enables Loop playback. |
-    | Loop Record | Enables Loop Record. |
-    | Quick Punch | Enables Punch Mode. |
-    | Audition | Enables Audition Mode. |
-    | Online | Enables Online Mode for transport. |
-    | Scrub | Enables Scrub Mode for the Wheel |
-    | Shuttle | Enables Shuttle Mode for the Wheel |
-    | Counter | Displays Counter for current session. Counter mode can be changed in DAW. |
-    | Master Record | Record Enables all available channels. |
+    | Transport |  |  |
+    |---|---|---|
+    | `Play` |  | Begins playback from current cursor position. |
+    |  | `Shift`+ | Initiates half-speed playback. |
+    | `Stop` |  | Stops playback or recording. |
+    |  | `Shift`+ | Aborts the current record pass. |
+    | `Record` |  | Arms Pro Tools for recording (LED flashes). |
+    |  | `Ctrl`+ | Cycles through record modes (normal, QuickPunch, Loop). |
+    | `Rewind` |  | Rewinds the session from current cursor position (incremental or continuous depending on preferences). |
+    |  | `Shift`+ | Return-to-Zero (same as RTZ button). |
+    | `Fast Forward` |  | Fast-forwards the session from current cursor position (incremental or continuous). |
+    |  | `Shift`+ | Go-To-End (same as END button). |
+    | `RTZ` |  | Sets playback cursor to the beginning of the session. |
+    |  | `Ctrl`+ | Write to Start (writes automation from insertion point backward to beginning). |
+    |  | `Ctrl`+`Shift`+ | Write to All (writes automation to entire selection/track). |
+    |  | `Ctrl`+`Option`+ | Suppresses warning dialog for Write to Start. |
+    | `GTE` |  | Sets playback cursor to the end of the session. |
+    |  | `Ctrl`+ | Write to End (writes automation from insertion point forward to end). |
+    |  | `Ctrl`+`Shift`+ | Write to All (writes automation to entire selection/track). |
+    |  | `Ctrl`+`Option`+ | Suppresses warning dialog for Write to End. |
+    | `Pre Roll` |  | Activates pre-roll. |
+    |  | `Alt`+ | Enters pre-roll time value (numeric entry mode). |
+    | `Post Roll` |  | Activates post-roll. |
+    |  | `Alt`+ | Enters post-roll time value (numeric entry mode). |
+    | `Mark In` |  | Marks In edit point during playback / Sets start point of selection in Timeline. |
+    |  | `Alt`+ | Manually enters selection start time. |
+    |  | `Option`+Left Arrow | Centers left side of waveform selection in Edit Window. |
+    | `Mark Out` |  | Marks Out edit point during playback / Sets end point of selection in Timeline. |
+    |  | `Alt`+ | Manually enters selection end time. |
+    |  | `Option`+Right Arrow | Centers right side of waveform selection in Edit Window. |
+    | `Loop Play` |  | Toggles Loop Playback mode (LED lit when enabled). |
+    |  | `Ctrl`+ | Places Pro Tools into Loop Record mode. |
+    | `Loop Record` |  | Enables Loop Record. |
+    | `Quick Punch` |  | Toggles QuickPunch recording mode (LED lit when enabled). |
+    | `Audition` |  | Press with PRE/POST/IN/OUT to play audio; playback continues until pressed again. |
+    |  | `Alt`+`Option`+PRE | Plays audio from pre-roll point through selection start plus post-roll. |
+    |  | `Alt`+`Option`+IN | Plays audio from pre-roll point through selection start plus post-roll. |
+    |  | `Alt`+`Option`+OUT | Plays audio from before selection end (pre-roll) through selection end plus post-roll. |
+    |  | `Alt`+`Option`+POST | Plays audio from before selection end (pre-roll) through selection end plus post-roll. |
+    | `Online` |  | Places Pro Tools online or offline (LED lit when online). |
+    |  | `Ctrl`+ | Cycles through available machine master choices (Pro Tools, Serial Machine, ADAT). |
+    | `Scrub` |  | Enables Scrub mode (rotate wheel to scrub forward/backward). |
+    |  | `Option`+ | Begins scrubbing from selection end point. |
+    |  | `Alt`+ | Fixed "fine scrub" resolution regardless of zoom level (while scrubbing). |
+    |  | `Shift`+ | Creates selection using scrub wheel (starts at current position). |
+    |  | `Shift`+`Option`+ | Modifies end of existing selection. |
+    |  | Left/Right Arrow | Moves to selection start/end (during scrub). |
+    | `Shuttle` |  | Enables Shuttle mode (rotate wheel to shuttle forward/backward). |
+    |  | `Option`+ | Begins shuttling from selection end point. |
+    |  | `Shift`+ | Creates selection using shuttle wheel. |
+    |  | `Shift`+`Option`+ | Modifies end of existing selection. |
+    |  | Left/Right Arrow | Moves to selection start/end (during shuttle). |
+    | `Counter` |  | Displays Counter for current session. Counter mode can be changed in DAW. |
+    | `Master Record` |  | Toggles all enabled REC/RDY switches on and off. |
 
 === "PlugIn Editing"
 
@@ -128,83 +232,116 @@
     | `Insert` |  | Normal Mode - Assign track to insert editor |
     |   |  | Insert Bypass Mode - Bypass all inserts on track |
 
-    | `Insert Bypass` |  |
-    |---|---|
-    |  Toggle Insert Bypass Mode. When enabled, `Insert` button on strip will bypass all plugins on track. |    
- 
-    | `INSERTS` |  |
-    |---|---|
-    | Params | Toggle to switch between Insert Select mode and Insert Edit mode. |
-    | Master Bypass | Bypass selected plug-in on track. |
-    | Compare | Compares current plug-in setting with previous. |
+    | `Insert Bypass` |  |  |
+    |---|---|---|
+    | `Insert Bypass` |  | Enables Master Bypass mode (INSERT switches become bypass switches). |
+    |  | +`Insert` | Toggles bypass for all plug-ins on channel (when Bypass mode enabled). |
+    |  | +`Option`+`Insert` | Changes bypass status of all plug-ins on all channels (when Bypass mode enabled). |
+    |  | +`Option`+`Shift`+`Insert` | Changes bypass status on all selected channels (when Bypass mode enabled). |
 
-    | `CHANNEL BAR SCROLL` |  |
-    |---|---|
-    | Left | Previous page of plug-in parameters. |
-    | Right | Next page of plug-in parameters. |
+    | `INSERTS` |  |  |
+    |---|---|---|
+    | `Params` |  | Toggles between Insert Display mode (LED off) and Parameter mode (LED lit). |
+    |  | `Option`+ | Toggles display brightness (4 levels). |
+    | `Master Bypass` |  | Bypass selected plug-in on track. |
+    |  |  | In Parameter mode: Engages Master Bypass for selected plug-in (LED lights). |
+    | `Compare` |  | Compares current plug-in setting with previous (must have plug-in visible on-screen). |
+    |  | `Default`+ | Returns plug-in to factory/user default setting. |
+
+    | `CHANNEL BAR SCROLL` |  |  |
+    |---|---|---|
+    | `Left` |  | In Insert mode: Toggles display between Inserts #1-4 and Insert #5. |
+    |  |  | In Parameter mode: Cycles through plug-in control parameter pages (previous page). |
+    | `Right` |  | In Insert mode: Toggles display between Inserts #1-4 and Insert #5. |
+    |  |  | In Parameter mode: Cycles through plug-in control parameter pages (next page). |
 
 
 
 === "Group Buttons"
 
-    | Group Buttons |  |
-    |---|---|
-    | Create | Creates group of selected tracks. |
-    | Suspend | Suspends Group function. |
-    | Status | Displays Group Assignment. |
+    | Group Buttons |  |  |
+    |---|---|---|
+    | `Create` |  | Creates group from selected channels (use `Shift`+`Select` on multiple channels first). |
+    | `Suspend` |  | Suspends all Mix groups temporarily (LED flashes when enabled). |
+    | `Status` |  | Shows Group ID status. |
 
 === "Utility"
 
-    | Utility |  |
-    |---|---|
-    | Save | Press the Save button to save. |
-    |  | Press Shift + Save button to open the Save As dialog. |
-    | Undo | Press to undo the last edit. |
-    | Cancel | Cancel selection |
-    | Solo Clear | Clears all Solos on Channel Strip. |
+    | Utility |  |  |
+    |---|---|---|
+    | `Save` |  | Press once to arm save, press again to complete save (LED flashes when armed). |
+    |  | `Shift`+ | Opens Save As dialog. |
+    |  | F8/ESC | Aborts the save process. |
+    | `Undo` |  | Undo or Redo last edit operation (LED lit when Undo available, flashes when Redo available). |
+    | `Cancel` |  | Cancel selection / Serves as Escape to cancel any assignment mode or on-screen modal dialog. |
+    | `Solo Clear` |  | Clears all Solos on Channel Strip. |
 
 === "Navigation"
 
-    | Navigation |  |
-    |---|---|
-    | Bank Left | Banks tracks left/Scrolls 1 track left in Nudge mode |
-    | Bank Right | Banks tracks right/Scrolls 1 track right in Nudge mode |
-    | Nudge | Toggles Nudge mode On/Off |
-    | Up | Scrolls Up in Edit Window. |
-    | Down | Scrolls Down in Edit Window. |
-    | Left | Scrolls Left in Edit Window. |
-    | Right | Scrolls Right in Edit Window. |
-    | Zoom | Enables Zoom mode for the cursor keys. Left/Right zooms horizontal for the Edit window. Up/Down zooms vertical for the Edit window. |
+    | Navigation |  |  |
+    |---|---|---|
+    | `Bank Left` |  | Swaps channels left eight at a time. |
+    |  | `Option`+ | Banks to far-left position in session. |
+    | `Bank Right` |  | Swaps channels right eight at a time. |
+    |  | `Option`+ | Banks to far-right position in session. |
+    | `Channel Left` |  | Scrolls channels left one at a time. |
+    |  | `Option`+ | Scrolls to far-left position. |
+    | `Channel Right` |  | Scrolls channels right one at a time. |
+    |  | `Option`+ | Scrolls to far-right position. |
+    | `Nudge` |  | Toggles Nudge mode On/Off (Bank Left/Right scroll 1 track when enabled). |
+    | `Zoom` |  | Cycles through three modes: Navigation (LED off), Zoom (LED lit), Selection (LED flashing). |
+    |  |  | **Navigation Mode (LED off):** |
+    | `Up` |  | Moves edit cursor or selection to previous track (marks in/out). |
+    |  | `Shift`+ | Extends edit selection to previous track. |
+    |  | `Alt`+ | Scrolls frontmost window upward. |
+    |  | `Alt`+`Option`+ | Scrolls to top of session (Edit window). |
+    | `Down` |  | Moves edit cursor or selection to next track (marks in/out). |
+    |  | `Shift`+ | Extends edit selection to next track. |
+    |  | `Alt`+ | Scrolls frontmost window downward. |
+    |  | `Alt`+`Option`+ | Scrolls to bottom of session (Edit window). |
+    | `Left` |  | Moves edit cursor to previous region boundary or sync point. |
+    |  | `Shift`+ | Extends selection to preceding region boundary. |
+    |  | `Option`+ | Centers left side of waveform selection in Edit Window. |
+    |  | `Alt`+ | Scrolls frontmost window to the left (one page). |
+    |  | `Alt`+`Option`+ | Scrolls to beginning of session (Edit window). |
+    |  | `Ctrl`+ | Selects previous region. |
+    |  | `Ctrl`+`Shift`+ | Extends selection to include previous region. |
+    | `Right` |  | Moves edit cursor to next region boundary or sync point. |
+    |  | `Shift`+ | Extends selection to forward region boundary. |
+    |  | `Option`+ | Centers right side of waveform selection in Edit Window. |
+    |  | `Alt`+ | Scrolls frontmost window to the right (one page). |
+    |  | `Alt`+`Option`+ | Scrolls to end of session (Edit window). |
+    |  | `Ctrl`+ | Selects next region. |
+    |  | `Ctrl`+`Shift`+ | Extends selection to include next region. |
+    |  |  | **Zoom Mode (LED lit):** |
+    | `Left` |  | Decreases horizontal zoom. |
+    | `Right` |  | Increases horizontal zoom. |
+    | `Up` |  | Increases vertical zoom. |
+    | `Down` |  | Decreases vertical zoom. |
+    |  |  | **Selection Mode (LED flashing):** |
+    | `Left` |  | Adjusts selection in-point with Scrub/Shuttle wheel. |
+    |  | Double-click | Positions cursor at selection's left edge. |
+    |  | +`Right`+Wheel | Adjusts selection time position while retaining duration. |
+    | `Right` |  | Adjusts selection out-point with Scrub/Shuttle wheel. |
+    |  | Double-click | Positions cursor at selection's right edge. |
+    |  | +`Left`+Wheel | Adjusts selection time position while retaining duration. |
+    | `Up` |  | Moves selection to previous track. |
+    |  | `Shift`+ | Extends selection to previous track. |
+    |  | `Option`+ | Removes selection from topmost track. |
+    | `Down` |  | Moves selection to next track. |
+    |  | `Shift`+ | Extends selection to next track. |
+    |  | `Option`+ | Removes selection from bottommost track. |
 
 === "Window Buttons"
 
-    | Window Buttons |  |
-    |---|---|
-    | Mix | Displays Mixer Window. |
-    | Edit | Displays Edit Window. |
-    | MemLoc | Displays Marker Window. |
-    | Transport | Displays Transport Window. |
-    | Plug-In | Displays Plug-In Window. |
-    | Status | Displays Setup Window. |
-
-=== "Edit"
-
-    | Edit |  |
-    |---|---|
-    | Copy | Copy selected region in Edit Window. |
-    | Delete | Deletes selected region in Edit Window. |
-    | Cut | Cuts selected region in Edit Window. |
-    | Paste | Pastes region in Edit Window. |
-    | Capture | Captures selected region. |
-    | Separate | Separates region at playhead. |
-    | Shuffle | Enables Shuffle Mode in Edit Window. |
-    | Slip | Enables Slip Mode in Edit Window. |
-    | Spot | Enables Spot Mode in Edit Window. |
-    | Grid | Enables Grid Mode in Edit Window. |
-    | Trim | Enables Trim Tool in Edit Window. |
-    | Select | Enables Select Tool in Edit Window. |
-    | Grab | Enables Grab Tool in Edit Window. |
-    | Pencil | Enables Pencil Tool in Edit Window. |
+    | Window Buttons |  |  |
+    |---|---|---|
+    | `Mix` |  | Brings Mix window to foreground (LED lights when active). |
+    | `Edit` |  | Brings Edit window to foreground (LED lights when active). |
+    | `MemLoc` |  | Opens or closes the Memory Locations window. |
+    | `Transport` |  | Opens or closes the Transport window. |
+    | `Plug-In` |  | Opens or closes the floating window for currently selected plug-in. |
+    | `Status` |  | Opens or closes the Session Setup window. |
 
 === "V-Window Mode"
 
