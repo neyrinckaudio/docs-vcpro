@@ -11,6 +11,17 @@ Ethernet is a common networking system for connecting devices to a computer's Et
 !!! warning "Ethernet switch needed for newer Macs with Apple Silicon"
     Newer Macs do not work correctly with an Ethernet cable directly between the surface and Mac. Please use any low-cost Ethernet switch or router between the surface to enable connectivity.
 
+!!! warning "Pro Tools - Do Not Enable Legacy Controllers for Ethernet"
+    If you are setting up a surface for Pro Tools, it is important that the `Enable Legacy Controllers' check box is not enabled. The checkbox is located in the Pro Tools Ethernet Controllers tab in the Peripherals window. 
+
+
+## Disable V-Control Pro Virtual MIDI Ports
+
+* In Pro Tools, select the menu Setup / MIDI / MIDI Input Devices
+* Enable the `V-Control, V-Control XT-2, V-Control XT-3, V-Control XT-4` and `V-Pan` ports.
+* Do not enable the `V-Control MIDI Mode` port.
+
+
 ## Ethernet Cables
 
 One confusing thing about Ethernet is that an Ethernet cable connector uses one wire for transmitting data and one for receiving data. There are two types of Ethernet cables.
