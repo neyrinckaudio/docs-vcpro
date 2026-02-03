@@ -44,10 +44,10 @@ Enhanced Pro Tools integration for contemporary control surfaces, providing much
 
 ### iPad Control
 
-Professional mixing control from your iPad with custom apps designed specifically for V-Control Pro.
+iPad control lets you remotely control a DAW. Adjust a mix from different listening locations, record and play back from anywhere.
 
-- **[V-Console](./v-console.md)** - Full-featured iPad mixing console
-- **[V-Control Pro iPad App](./v-control-pro-ipad.md)** - Dedicated iPad controller interface
+- **[V-Console](./v-console.md)** - The second generation iPad app with up to sixteen faders.
+- **[V-Control Pro iPad App](./v-control-pro-ipad.md)** - The first-generation iPad app.
 
 ## DAW Integration
 
