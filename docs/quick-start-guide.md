@@ -3,6 +3,11 @@
 ## Install And Run
 Install and launch the V-Control Pro application on your computer as described in the [Installing V-Control Pro](./install-and-run-v-control-pro.md) section.
 
+## Activate A License
+Typically, you will need to activate a license to use V-Control Pro. For more information about getting a trial license or purchasing a license see the [Licensing](./v-control-pro-licensing.md) section.
+
+To activate a license on Windows, click on the V-Control Pro system tray item and select 'Activate License…' To activate a license on Mac, click on the V-Control Pro menu bar item and select 'Activate License…'
+
 ## Open The Setups Window
 To do this on Windows, click on the V-Control Pro system tray item and select Setups… To do this on Mac, click on the V-Control Pro menu bar  item and select Setups…
 

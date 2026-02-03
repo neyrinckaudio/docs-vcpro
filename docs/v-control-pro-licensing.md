@@ -12,9 +12,13 @@ V-Control Pro supports different licenses depending on your system requirements.
 !!! note "Legacy iPad App V 1.9 Info"
     The original V-Control Pro iPad app (version 1.9) users do not need to use a V-Control Pro license.
 
+## Checking Your License
+
+To check if V-Control Pro is licensed, select the V-Control Pro menu item `About...`. The `About` window displays the version and license information.
+
 ## iLok Account
 
-To use an iLok license you must have an iLok account so that you have an iLok User ID. When you get a trial license of purchase a license, the license is deposited to your iLok account using your iLok User ID. You can create an account at https://ilok.com.
+To use an iLok license you must have an iLok account so that you have an iLok User ID. When you get a trial license of purchase a license, the license is deposited to your iLok account using your iLok User ID. You can create an account at [[ilok.com](https://ilok.com).
 
 ## Get A License
 

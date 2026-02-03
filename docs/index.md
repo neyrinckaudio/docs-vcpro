@@ -42,6 +42,12 @@ Enhanced Pro Tools integration for contemporary control surfaces, providing much
 - **[PreSonus ioStation 24c](./faderport-v2.md)** - Audio interface with integrated control
 - **[PreSonus FaderPort 8/16](./faderport-8-16.md)** - Multi-fader mixing controllers
 
+### Simultaneously Use Multiple HUI Controllers With Pro Tools
+
+Pro Tools does not let you set up multiple HUI controllers that operate independently. For example, if you have an eight-fader HUI surface, and you have a keyboard controller with HUI transport control, the Pro Tools MIDI Peripherals window will force you to add two HUI banks. Now your eight fader surface will bank sixteen tracks at a time.
+
+V-Control Pro solves this limitation. 
+
 ### iPad Control
 
 iPad control lets you remotely control a DAW. Adjust a mix from different listening locations, record and play back from anywhere.
