@@ -50,6 +50,50 @@ These rules ensure that feature charts contain relevant information for V-Contro
 - Numeric keypads are Mackie HUI hardware features
 - **EXCEPTION:** ProControl has its own physical keypad section - KEEP all "Keypad Buttons" sections for procontrol-protools.md
 
+## Backtick Usage Standards
+
+Use backticks consistently to indicate interactive elements and technical identifiers:
+
+### When to USE backticks:
+
+1. **Physical buttons/controls on the surface:**
+   - Examples: `` `Record` ``, `` `Play` ``, `` `Knob` ``, `` `Fader` ``, `` `Solo` ``, `` `Mute` ``
+
+2. **Modifier keys when showing combinations:**
+   - Examples: `` `Shift`+ ``, `` `Option`+ ``, `` `Ctrl`+ ``, `` `Alt`+ ``, `` `Cmd`+ ``, `` `Default`+ ``
+
+3. **Section/mode names in table headers:**
+   - Examples: `` `PAN` ``, `` `SENDS` ``, `` `AUTOMATION MODES` ``, `` `AUTO ENABLES` ``
+
+4. **Technical identifiers (ports, MIDI names, etc.):**
+   - Examples: `` `V-Control, V-Control XT-2, V-Control XT-3, V-Control XT-4` ``, `` `V-Pan` ``
+
+5. **Menu items and menu paths:**
+   - Examples: `` `Setup / MIDI / MIDI Input Devices` ``, `` `Setup / Peripherals` ``
+   - Use `` ` `` around the entire menu path with ` / ` separating levels
+
+6. **Button references within descriptive text:**
+   - Example: "Hold down channel strip `` `Auto` `` button to select automation modes."
+
+### When to AVOID backticks:
+
+1. **General descriptive text:**
+   - Examples: "LED flashes", "automation mode", "send mode", "insert mode"
+
+2. **Actions or states:**
+   - Examples: "Flip mode", "Read Mode", "Write Mode", "Loop Playback mode"
+   - Exception: Use backticks when the mode name is also a button name
+
+3. **Window names (unless technical identifiers):**
+   - Examples: "Edit Window", "Mix window", "Transport window"
+
+4. **Non-interactive modifiers in descriptions:**
+   - Example: "Press twice" (NOT `` `Press twice` ``)
+   - Example: "Double-click" in modifier column
+
+5. **Keyboard shortcuts that aren't surface controls:**
+   - Examples: "F8/ESC", "Left/Right Arrow" (physical keyboard keys, not surface buttons)
+
 ## Table Format
 
 All feature chart tables should use the 3-column format:

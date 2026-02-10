@@ -14,7 +14,7 @@ V-Control Pro supports different licenses depending on your system requirements.
 
 ## Checking Your License
 
-To check if V-Control Pro is licensed, select the V-Control Pro menu item `About...`. The `About` window displays the version and license information.
+To check if V-Control Pro is licensed, select the V-Control Pro menu item `About...`. The About window displays the version and license information.
 
 ## iLok Account
 
@@ -33,13 +33,13 @@ When you purchase a license or you request a trial license, a license will be de
 
 * Launch the V-Control Pro app on the host computer.
 
-* Select Activate License….
+* Select `Activate License…`.
 
-* Select Activate when the license authorization prompt appears.
+* Select `Activate` when the license authorization prompt appears.
 
 * Enter the ilok ID and password used when purchasing the V-Control Pro license.
 
-* Select the V-Control Pro license to activate it and select Next.
+* Select the V-Control Pro license to activate it and select `Next`.
 
 * Choose the location to place the license. V-Control Pro licenses can be activated directly on the computer or on an ilok USB key. An iLok USB key is most convenient because you can easily move it between computer systems.
 

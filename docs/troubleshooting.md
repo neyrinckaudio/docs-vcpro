@@ -56,12 +56,12 @@ Your control surface must be properly added and connected in V-Control Pro.
 ####Check Surface Status:
 1. Launch V-Control Pro
 2. Open `Setups...` menu
-3. Look at the `Controllers` section (lower left)
+3. Look at the Controllers section (lower left)
    - **Bold text** = Connected ✓
    - **Grayed out** = Not connected ✗
 
 ####Add a New Surface:
-1. Click `Add new...` button in Controllers section
+1. Click `Add new...` button in `Controllers` section
 2. Select your surface type
 3. Follow the setup prompts
 4. See [Controllers Overview](./controllers-overview.md) for detailed instructions
@@ -82,10 +82,10 @@ Your control surface must be properly added and connected in V-Control Pro.
 === "macOS"
     It is important that the Ethernet port is configured in System Settings -> Network.
 
-    - Open System Settings → Network and locate the ethernet port you are using.
+    - Open `System Settings / Network` and locate the ethernet port you are using.
     - **Red Ethernet port (Not Connected)**: If the ethernet port is displayed in a red color and/or indicates that it is not connected, use a network switch between computer and surface as described in [Ethernet Switches](./ethernet-controllers.md#ethernet-switches-not-hubs)
     - **Self-assigned IP**: This is normal and OK
-    - **Firewall**: System Settings → Network → Firewall (disable to test)
+    - **Firewall**: `System Settings / Network / Firewall` (disable to test)
 
 === "Windows"
     - **Required**: Install [Npcap](https://npcap.com/#download)
@@ -149,9 +149,9 @@ If V-Control Pro fails to launch on Windows, try these solutions:
 V-Control Pro may not launch correctly when set as a startup item.
 
 1. Open Task Manager (Ctrl+Shift+Esc)
-2. Select the `Startup` tab
+2. Select the Startup tab
 3. Look for V-Control Pro in the list
-4. If present, right-click it and select `Disable`
+4. If present, right-click it and select Disable
 5. Restart your computer
 6. Launch V-Control Pro manually
 
@@ -171,7 +171,7 @@ If V-Control Pro appears to launch but doesn't show a window, it may be hanging 
 
 === "Check for Hanging Process"
     1. Launch Task Manager (Ctrl+Shift+Esc)
-    2. Select `More details` if the Processes tab is not showing
+    2. Select `More details` if the `Processes` tab is not showing
     3. Look for "V-Control Pro" under Background processes
     4. If found, right-click it and select `Create dump file`
     5. Send the generated .dmp file to [support@neyrinck.com](mailto:support@neyrinck.com)
@@ -185,8 +185,8 @@ If V-Control Pro appears to launch but doesn't show a window, it may be hanging 
         - Double-click `EnableCrashDumps.reg` to configure Windows
     2. Launch V-Control Pro and confirm it does not launch correctly
     3. Press `Windows+R` to open the Run dialog
-    4. Enter: `%LOCALAPPDATA%` and press Enter
-    5. Locate the `CrashDumps` folder
+    4. Enter: `%LOCALAPPDATA%` and press `Enter`
+    5. Locate the CrashDumps folder
     6. Find the .dmp file for V-Control Pro (most recent file)
     7. Send the .dmp file to [support@neyrinck.com](mailto:support@neyrinck.com)
 
@@ -213,9 +213,9 @@ Pro Tools may lose MIDI port connections:
 Some users have seen a problem when V-Control Pro is set up to be automatically launched when the computer restarts. These steps will typically solve the problem.
 
 1. Remove V-Control Pro from Login Items
-    * Open System Settings and select General
+    * Open `System Settings / General`
     * Select `Login Items`
-    * Locate `V-Control Pro` and disable it as a login item
+    * Locate V-Control Pro and disable it as a login item
 2. Restart computer
 3. Launch V-Control Pro manually
 
@@ -225,8 +225,8 @@ When upgrading to a new version of V-Control Pro, some issues have been solved b
 
 1. Quit V-Control Pro and any DAW
 2. Open Finder
-3. Hold Alt/Option → Go menu → Library
-4. Navigate to Application Support
+3. Hold `Alt`/`Option` → `Go` menu → `Library`
+4. Navigate to `Application Support`
 5. Delete "V-Control Pro" folder
 6. Empty Trash
 7. Launch V-Control Pro and reconfigure
@@ -245,7 +245,7 @@ When upgrading to a new version of V-Control Pro, some issues have been solved b
 Logic Pro has issues where its control assignments for a surface can get corrupted and control partially works, but does work in both directions. This can happen when a V-Control Pro update is installed or a different surface is added. Typically, this can be solved by "resetting" the control surface setup.
 
 * Reset Logic Pro Control Surface Setup
-    * Open Logic Pro Control Surfaces / Setup window
+    * Open `Logic Pro Control Surfaces / Setup` window
     * Delete all surfaces
     * Quit Logic Pro
     * Launch Logic Pro and set up your surface as described in [Logic Pro Setup](./logic-pro.md) guide

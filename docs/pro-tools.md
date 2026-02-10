@@ -17,15 +17,15 @@ V-Control Pro uses the HUI protocol with Pro Tools Studio/Ultimate to provide fo
 
 ## Enable V-Control Pro Virtual MIDI Ports
 
-* In Pro Tools, select the menu Setup / MIDI / MIDI Input Devices
+* In Pro Tools, select the menu `Setup / MIDI / MIDI Input Devices`
 * Enable the `V-Control, V-Control XT-2, V-Control XT-3, V-Control XT-4` and `V-Pan` ports.
 * Do not enable the `V-Control MIDI Mode` port.
 
 ## Setting the MIDI Peripherals
 
-V-Control Pro must be set up in the Pro Tools peripherals window. Depending on how many banks are being used, the configuration will vary. 
+V-Control Pro must be set up in the Pro Tools peripherals window. Depending on how many banks are being used, the configuration will vary.
 
-* In the Pro Tools top menu bar select: Setup / Peripherals. Select the MIDI Controllers tab
+* In the Pro Tools top menu bar select: `Setup / Peripherals`. Select the MIDI Controllers tab
 
 ### 8 Channel Surfaces
 

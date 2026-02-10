@@ -7,14 +7,14 @@ V-Control Pro provides Steinberg control surface plug-ins for high performance c
 
 ### Setup
 
-* In the Steinberg top menu bar go to: Studio / Studio Setup...
-* In the Studio Setup window, click on the "+" sign.
+* In the Steinberg top menu bar go to: `Studio / Studio Setup...`
+* In the Studio Setup window, click on the `+` sign.
 * Select the Control surface from the dropdown list.
     * For D-Command, C24, Control 24, ProControl, Command 8, Digi 003, V-Console, V-Console 16
         * Select the item that matches your surface.
         * Do not configure any MIDI ports.
         * Set up and customizable functions.
     * For the V-Control Pro 1.9 iPad App
-        * Select Mackie HUI.
-        * Set the MIDI ports to be 'V-Control'
-* Click Ok to close the Studio Setup Window.
+        * Select `Mackie HUI`.
+        * Set the MIDI ports to be `V-Control`
+* Click `Ok` to close the Studio Setup Window.

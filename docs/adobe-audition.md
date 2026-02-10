@@ -1,9 +1,9 @@
 
 # Adobe Audition
 
-* In the Audition top menu bar select: Audition CC/Preferences/Control Surface...
-* Select Device Class: Mackie
-* Select Configure to open Configure Mackie Control window
+* In the Audition top menu bar select: `Audition CC / Preferences / Control Surface...`
+* Select `Device Class: Mackie`
+* Select `Configure` to open Configure Mackie Control window
 * Configure Mackie Control as the following:
     * Device Type: Mackie Control
     * MIDI Input Device: V-Control
@@ -11,7 +11,7 @@
 
 Here is how to set up additional controllers for up to 32 tracks of control.
 
-In the Configure Mackie Controller window, click on Add and set up as:
+In the Configure Mackie Controller window, click on `Add` and set up as:
 
 * Device Type: Mackie Control XT
 * MIDI Input Device: V-Control XT2
