@@ -222,14 +222,17 @@ Some users have seen a problem when V-Control Pro is set up to be automatically 
 #### Reset V-Control Pro Preferences {#reset-macos-prefs}
 
 When upgrading to a new version of V-Control Pro, some issues have been solved by resetting V-Control Pro.
+Quit V-Control Pro and any active DAW.
 
-1. Quit V-Control Pro and any DAW
-2. Open Finder
-3. Hold `Alt`/`Option` → `Go` menu → `Library`
-4. Navigate to `Application Support`
-5. Delete "V-Control Pro" folder
-6. Empty Trash
-7. Launch V-Control Pro and reconfigure
+1. Open Finder and select the Go menu at the top of your screen.
+
+2. Hold the Option (Alt) key to reveal the hidden Library folder, then click to open it.
+
+3. Navigate to Application Support and locate the folder named V-Control Pro.
+
+4. Delete the V-Control Pro folder and empty your Trash.
+
+5. Relaunch V-Control Pro and reconfigure your settings as needed.
 
 ---
 
