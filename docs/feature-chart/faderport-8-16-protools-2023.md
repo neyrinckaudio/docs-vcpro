@@ -1,6 +1,4 @@
-#
-
-### Faderport 8/16 - Pro Tools 2023+
+# Faderport 8/16 - Pro Tools 2023+
 
 V-Control Pro supercharges the Faderport 8/16 for pro features unavailable with standard HUI mode.
 

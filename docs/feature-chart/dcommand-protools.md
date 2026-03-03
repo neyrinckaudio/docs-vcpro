@@ -1,6 +1,4 @@
-#
-
-### D-Command - Pro Tools
+# D-Command - Pro Tools
 
 !!! info "Important HUI Metering Information"
     The HUI protocol provides for stereo track metering. It does not provide for output metering.

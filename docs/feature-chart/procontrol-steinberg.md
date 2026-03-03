@@ -1,6 +1,4 @@
-#
-
-### ProControl - Cubase/Nuendo
+# ProControl - Cubase/Nuendo
 
 === "Channel Strips"
 

@@ -1,6 +1,4 @@
-#
-
-### Command 8 - Pro Tools
+# Command 8 - Pro Tools
 
 === "Channel Strips"
 

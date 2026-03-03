@@ -1,6 +1,4 @@
-#
-
-### ProControl - Logic Pro
+# ProControl - Logic Pro
 
 === "Channel Strips"
 

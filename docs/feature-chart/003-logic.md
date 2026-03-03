@@ -1,6 +1,4 @@
-#
-
-### 003 - Logic Pro
+# 003 - Logic Pro
 
 === "Channel Strips"
 

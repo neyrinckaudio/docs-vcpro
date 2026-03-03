@@ -1,6 +1,4 @@
-#
-
-### C24 - LUNA
+# C24 - LUNA
 
 === "Channel Strips"
 

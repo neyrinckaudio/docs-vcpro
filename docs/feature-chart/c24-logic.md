@@ -1,6 +1,4 @@
-#
-
-### C24 - Logic Pro
+# C24 - Logic Pro
 
 === "Channel Strips"
 

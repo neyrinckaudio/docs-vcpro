@@ -12,7 +12,7 @@ V-Control Pro supercharges the FaderPort 8/16 for use with Pro Tools.
     In the Pro Tools MIDI Input Devices Window, disable the FaderPort. It is used by V-control Pro and can cause conflict if enabled in Pro Tools as well.
 
 !!! info "Control Features For Pro Tools 2022 And Earlier"
-    Please see the FaderPort 8/16 feature charts online at [Feature Charts](./feature-charts.md/#faderport-8--16).
+    Please see the FaderPort 8/16 feature charts online at [Feature Charts](./feature-charts.md/#faderport-8-16).
 
 !!! info "Control Features For Pro Tools 2023 And Later"
     Please see the latest info for the [FaderPort 8/16 Beta](#faderport-beta).
@@ -39,17 +39,9 @@ V-Control Pro supercharges the FaderPort 8/16 for use with Pro Tools.
         * Set up Pro Tools for 2 HUI banks as described in [Setting Up Pro Tools](./pro-tools.md).
 
 <a id="faderport-beta"></a>
-#### Version 3.2 Prerelease For FaderPort 8/16
+#### Version 3.2 For FaderPort 8/16
 
 Pro Tools removed the M-Audio Keyboard Protocol which was previously required for FaderPort 8/16 to be supercharged by V-Control Pro for Pro Tools 2022 and earlier. Version 3.2 features a new supercharged implementation for FaderPort 8/16 with Pro Tools 2023 and later.
-
-Version History
-
-* Version 3.2.0.5
-    * New feature - Bright Select button color the same as Pro Tools track colors. 
-    * New Feature - Track browser.
-* Version 3.2.0.3 - New feature - Select button color the same as Pro Tools track colors. 
-* Version 3.2.0.1 - initial prelim version that does not yet provide sends and plugin control.
 
 ##### Track Browser
 
@@ -78,8 +70,8 @@ The Select buttons are set to use the same color as the corresponding Pro Tools 
     * Use Shift + Track to enable/disable timecode display.
 * Pan Mode
     * Use the faders to edit the pan. Use the Pan button to toggle between pan left/right. Note that channels will display Pan L / Pan R if they are stereo, mono channels will display Pan only, and non-pannable channels will not display anything.
-* Sends Mode - Not yet implemented
-* Edit Plugins Mode - Not yet implemented
+* Sends Mode
+* Edit Plugins Mode
 
 ##### Memory Locations
 
@@ -89,10 +81,22 @@ Now you can access all locations by name from a list displayed on FaderPort. I e
 * Use the right-side knob/encoder to scroll through the list.
 * Press the right-side knob/encoder to select the location.
 
+##### Hot Locations
 
-##### Setup
+The `Audio`, `VI`, `Bus`, `VCA`, `All`, and `Master` buttons are programmed to select certain memory locations. This lets you implement custom workflows. Pro Tools memory locations can be configured to change track visibility, for example, so you can instantly show and hide tracks.
+
+* You will need to have at least one memory location that you want to be your *HOME* location to return to when exiting a hot location. Any location can be used as *HOME*.
+* Create a memory location that is named to match the button, but all capitalized. *AUDIO*, for example, that shows just audio tracks.
+* Press the `Markers` button to enter the Location Browser and select your *HOME* location.
+* Now press any hot location button to activate it.
+* Press the active hot location to return to the *HOME* location.
+
+
+##### Configure Native Mode
 
 The FaderPort 8/16 device must be configured for “native” mode. To set the mode, press and hold the Select buttons of channel 1 and 2, and then power on the device.
+
+##### Setup A Single Device
 
 You must configure Pro Tools MIDI Peripherals for one (FaderPort 8) or two (FaderPort 16) HUI devices.
 
@@ -105,3 +109,39 @@ You must configure Pro Tools MIDI Peripherals for one (FaderPort 8) or two (Fade
     * Type:HUI
     * Receive From: V-Control XT2
     * Send To: V-Control XT2
+
+##### Setup Multiple Devices
+
+You can configure Pro Tools MIDI Peripherals for up to 32 channels (four HUI banks of 8).
+
+When setting up multiple FaderPorts, add up the number of banks: one per FaderPort 8 and two per FaderPort 16.
+
+Then configure MIDI Peripiherals:
+
+* Bank 1
+    * Type:HUI
+    * Receive From: V-Control
+    * Send To: V-Control
+
+* Bank 2
+    * Type:HUI
+    * Receive From: V-Control XT2
+    * Send To: V-Control XT2
+
+* Bank 3
+    * Type:HUI
+    * Receive From: V-Control XT2
+    * Send To: V-Control XT2
+
+* Bank 4
+    * Type:HUI
+    * Receive From: V-Control XT3
+    * Send To: V-Control XT3
+
+Then you must configure the layout in V-Control Pro Setups window.
+
+* Configure V-Control Pro Setups
+    * Open V-Control Pro Setups window
+    * Select each FaderPort surface that is set up with Pro Tools.
+    * Click the Bank dropdown menu.
+    * Select the bank layout for teh device.

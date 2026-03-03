@@ -1,6 +1,4 @@
-#
-
-### D-Command - Cubase/Nuendo
+# D-Command - Cubase/Nuendo
 
 === "Channel Strips"
 

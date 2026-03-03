@@ -1,6 +1,4 @@
-#
-
-### Control24 - Cubase/Nuendo
+# Control24 - Cubase/Nuendo
 
 === "Channel Strips"
 

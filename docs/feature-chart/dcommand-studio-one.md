@@ -1,6 +1,4 @@
-#
-
-### D-Command - Studio One / Fender Studio
+# D-Command - Studio One / Fender Studio
 
 === "Channel Strips"
 

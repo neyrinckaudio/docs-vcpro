@@ -1,6 +1,4 @@
-#
-
-### Command8 - Cubase/Nuendo
+# Command8 - Cubase/Nuendo
 
 === "Channel Strips"
 

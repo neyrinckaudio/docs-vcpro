@@ -1,6 +1,4 @@
-#
-
-### 003 - Studio One / Fender Studio
+# 003 - Studio One / Fender Studio
 
 === "Channel Strips"
 

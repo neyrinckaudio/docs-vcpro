@@ -1,6 +1,4 @@
-#
-
-### D-Command - MixBus
+# D-Command - MixBus
 
 === "Channel Strips"
 

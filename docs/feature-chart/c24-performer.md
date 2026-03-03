@@ -1,6 +1,4 @@
-#
-
-### C24 - Performer
+# C24 - Performer
 
 === "Channel Strips"
 
