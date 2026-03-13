@@ -202,6 +202,7 @@ V-Control Pro supercharges the Faderport 8/16 for pro features unavailable with 
     |---|---|---|
     | `Section` |  | Toggle between Edit and Mix windows |
     | `Macro` |  | Show / hide plugin window |
+    | `Marker` | `Shift`+  | Show / hide Memory Locations window |
 
     | Session |  |  |
     |---|---|---|
