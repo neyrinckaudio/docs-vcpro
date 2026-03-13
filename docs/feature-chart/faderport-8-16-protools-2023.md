@@ -208,6 +208,7 @@ V-Control Pro supercharges the Faderport 8/16 for pro features unavailable with 
     |---|---|---|
     | `Latch` | `Shift`+ | Save |
     | `Off` | `Shift`+ | Undo |
+    | `Trim` | `Shift`+ | Redo |
     | `Solo Clear` |  | Clear solos |
     | `Mute Clear` |  | Clear mutes |
 
