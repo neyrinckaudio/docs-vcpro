@@ -107,7 +107,9 @@ V-Control Pro supercharges the Faderport 8/16 for pro features unavailable with 
 
 === "Hot Locations"
 
-    Recall memory locations named to match dedicated hot buttons for custom workflows. For example, create a memory location named `VCA` that shows only VCA tracks. Press once to see just VCAs, press again to go back to your previous view.
+    Recall memory locations named to match dedicated hot buttons for custom workflows. For example, create a memory location named `VCA` that shows only VCA tracks. Press once to see just VCAs, press again to go back to your `home` view.
+
+    The `home` view is the most recent location selected with the Location browser.
     
     | Hot Locations |  |  |
     |---|---|---|
