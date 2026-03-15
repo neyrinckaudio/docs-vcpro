@@ -228,3 +228,15 @@ V-Control Pro supercharges the Faderport 8/16 for pro features unavailable with 
     | `>>` |`Hold` | Fast Forward |
     |          |`Tap` | Forward one bar/second/frame |
     | `Track`| `Shift`+ | Toggle time code display |
+
+=== "Automation"
+
+    In Pro Tools you can write current automation values from any insertion point forward (or backward) to the end (or beginning) of a selection or track, or to an entire selection or track during an automation pass. You can also write trim delta values in the same way.
+
+    Automation can only be written while Pro Tools is in play or half-speed play or record. You can- not write automation while Pro Tools is stopped, fast forwarding or rewinding.
+
+    | Automation Write To Start, End, All |  |  |
+    |---|---|---|
+    | `Touch` | `Shift`+ | Write To Start |
+    | `Write` | `Shift`+ | Write To All |
+    | `Read` | `Shift`+ | Write To End |
