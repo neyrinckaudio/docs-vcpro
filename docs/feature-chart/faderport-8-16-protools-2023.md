@@ -14,6 +14,7 @@ V-Control Pro supercharges the Faderport 8/16 for pro features unavailable with 
     | `Pan/Param` |  | Adjust pan for selected track |
     |             | `Push` | Toggle between Pan L and Pan R for stereo tracks |
     | `Fader`     |  | Track volume |
+    |     | `Shift`+ | Fine Mode Track volume |
     | `M`         |  | Track mute |
     | `S`         |  | Track solo |
     | `Select`    |  | Track select. Focus Plugin editor  |
