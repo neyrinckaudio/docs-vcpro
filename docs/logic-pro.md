@@ -2,6 +2,11 @@
 
 Logic Pro will not be detected until it has connected to a control surface supported by V-Control Pro with Logic Pro. Follow these steps to connect it to a control surface.
 
+!!! info "Version Compatibility"
+    **V-Control Pro 3**: Compatible with Logic 10.6 and later only
+    
+    **V-Control Pro 2.7.2**: Required for Logic 10.5 or earlier
+
 !!! info "Automatic Installation Must Be Enabled"
     Logic Pro will not detect V-Control Pro surfaces unless Automatic Installation is enabled.
 
