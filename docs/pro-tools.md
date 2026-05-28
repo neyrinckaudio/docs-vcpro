@@ -3,7 +3,7 @@
 !!! warning "Important HUI Metering Information"
     The HUI protocol provides for stereo track metering. It does not provide for output metering. Surfaces that have output meters will not display any output metering when connected to Pro Tools.
 
-    Pro Tools will not provide track metering if Eucon is enabled. Disable Eucon for track metering.
+    Pro Tools will not provide track metering if Eucon is enabled. Info to disable Eucon for HUI track metering is [HERE](#disable-enable-eucon) 
 
 V-Control Pro uses the HUI protocol with Pro Tools Studio/Ultimate to provide for 8, 16, 24, or 32 channels of control. The Pro Tools MIDI Peripherals window must be configured to use V-Control Pro's virtual MIDI ports for Pro Tools to communicate with V-Control Pro.
 
@@ -68,3 +68,20 @@ V-Control Pro must be set up in the Pro Tools peripherals window. Depending on h
 
 ![FaderPort 16](./images/ptfp16.jpg "aderPort 16")
 
+## Disable / Enable Eucon
+
+Pro Tools will not provide HUI track metering if Eucon is enabled. Disable Eucon for HUI track metering. If you need to use Eucon, enable it but understand that HUI track metering will not work due to a bug in Pro Tools.
+
+### Method 1 - Newer Pro Tools versions
+
+* Open a Pro Tools session.
+* Click the Edit Window Toolbar menu (the gear icon in the upper-right corner of the Edit window) or right-click the toolbar.
+* Select EUCON from the drop-down menu.The EUCON controls will now appear on your toolbar. * Click the EUCON button so it is highlighted green with black text to enable it.
+
+### Method 2: Newer Pro Tools versions
+
+* Go to the top menu and select Setup > Peripherals.
+* Click on the Ethernet Controllers tab.
+* Check / uncheck the box for Enable EUCON.
+* Ensure no specific Ethernet Port is selected in the box below it (leave it unselected/blank).
+* Click OK
