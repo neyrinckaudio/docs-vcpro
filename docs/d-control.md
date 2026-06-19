@@ -1,4 +1,4 @@
-# Avid D-Command (Preliminary)
+# Avid D-Control (Preliminary)
 
 !!! warning "D-Control Not Officially Supported"
     This section is for users testing alpha versions.
