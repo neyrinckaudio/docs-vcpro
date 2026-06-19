@@ -13,12 +13,17 @@ V-Control Pro uses the HUI protocol with Pro Tools Studio/Ultimate to provide fo
     V-Control Pro provides virtual MIDI ports for Pro Tools to use. These ports must be enabled for MIDI input.
 
 !!! warning "FaderPort 8/16 With Pro Tools 2022 And Earlier"
-    FaderPort 8/16 setup depends upon which version of Pro Tools you are using. Please see the special setup information for FaderPort 8/16 with Pro Tools 2022 and earlier.
+    FaderPort 8/16 setup depends upon which version of Pro Tools you are using.
+    
+    You must use V-Control Pro 3.0.X.
+
+    Please see the special setup information for FaderPort 8/16 with Pro Tools 2022 and earlier.
 
 ## Enable V-Control Pro Virtual MIDI Ports
 
 * In Pro Tools, select the menu `Setup / MIDI / MIDI Input Devices`
 * Enable the `V-Control, V-Control XT-2, V-Control XT-3, V-Control XT-4` and `V-Pan` ports.
+* If using FaderPort 8/16 with Pro Tools 2022 or earlier, enable the `V-Control MA Keyboard` port.
 * Do not enable the `V-Control MIDI Mode` port.
 
 ## Setting the MIDI Peripherals
@@ -60,13 +65,13 @@ V-Control Pro must be set up in the Pro Tools peripherals window. Depending on h
 * RAVEN 32
 ![32 Channel Surfaces](./images/ptmidi4.png "32 Channel Surfaces")
 
-### FaderPort 8 With Pro Tools 2022 And Earlier
+### FaderPort 8 With Pro Tools 2022 And Earlier (requires V-Control Pro 3.0)
 
-![FaderPort 8](./images/ptfp8.jpg "aderPort 8")
+![FaderPort 8](./images/ptfp8.jpg "FaderPort 8")
 
-### FaderPort 16 With Pro Tools 2022 And Earlier
+### FaderPort 16 With Pro Tools 2022 And Earlier (requires V-Control Pro 3.0)
 
-![FaderPort 16](./images/ptfp16.jpg "aderPort 16")
+![FaderPort 16](./images/ptfp16.jpg "FaderPort 16")
 
 ## Disable / Enable Eucon
 
