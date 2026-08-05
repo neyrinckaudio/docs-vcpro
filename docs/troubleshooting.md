@@ -219,6 +219,15 @@ Some users have seen a problem when V-Control Pro is set up to be automatically 
 2. Restart computer
 3. Launch V-Control Pro manually
 
+#### V-Window Is Not Working {#macos-privacy-permissions}
+
+macOS blocks V-Window until V-Control Pro is granted privacy permissions. Symptoms are a V-Window that shows nothing on the iPad, or a window that appears but does not respond to a fader or a touch.
+
+* Enable V-Control Pro in `System Settings / Privacy & Security / Accessibility`
+* For viewing a window on the iPad, also enable V-Control Pro in `System Settings / Privacy & Security / Screen & System Audio Recording` (named `Screen Recording` before macOS Sequoia)
+* Quit and relaunch V-Control Pro after changing either setting
+* See [Using V-Window](./v-window.md#macos-privacy-permissions) for step-by-step instructions
+
 #### Reset V-Control Pro Preferences {#reset-macos-prefs}
 
 When upgrading to a new version of V-Control Pro, some issues have been solved by resetting V-Control Pro.

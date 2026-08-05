@@ -9,3 +9,6 @@ V-Control Pro is a desktop computer application that must be installed on the sa
 * Run V-Control Pro - On Mac, use the Finder to go to the Applications folder. Locate V-Control Pro and double-click it. On Windows locate V-Control Pro and double-click it.
 
 * Typically, you will need to activate a license to use V-Control Pro. For more information about getting a trial license or purchasing a license see the [Licensing](./v-control-pro-licensing.md) section.
+
+!!! note "macOS Privacy Permissions"
+    Basic surface control does not require any macOS privacy permissions. The [V-Window](./v-window.md#macos-privacy-permissions) feature does — macOS blocks it until V-Control Pro is enabled in `System Settings / Privacy & Security`.
