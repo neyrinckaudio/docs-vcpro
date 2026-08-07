@@ -62,7 +62,7 @@
     | EQ | Toggle Enable Send Mute Automation |
     | Plugin | Toggle Enable Plugin Automation |
     | Output Meters | Displays the Master Meter. |
-    | Master Faders | Enables Master Fader control on the 24th channel of Control 24. |
+    | Master Faders | Press once to enable Master Fader control. Press a second time to enable V-Window mode for the 24th channel fader. Press a 3rd time to cycle back to basic channel control. |
 
 === "Transport"
 

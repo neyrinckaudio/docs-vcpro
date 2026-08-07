@@ -42,7 +42,7 @@
     |  | 5th parameter is phase invert. |
     | Soft Keys | Assigns knob buttons on Channel strips to be soft key buttons. |
     | Flip | Flips knobs to faders. |
-    | Master Faders | Enables Master Fader control on the 24th channel of C24. |
+    | Master Faders | Press once to enable Master Fader control. Press a second time to enable V-Window mode for the 24th channel fader. Press a 3rd time to cycle back to basic channel control. |
     | Output Meters | Displays the Master Meter. |
 
 === "Automation"

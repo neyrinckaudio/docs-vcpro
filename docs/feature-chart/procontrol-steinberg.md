@@ -40,7 +40,7 @@
     |  | 4th parameter is pre-gain. |
     |  | 5th parameter is phase invert. |
     | Flip | Flips knobs to faders. |
-    | Master Faders | Enables Master Fader control on the 8th channel of ProControl. |
+    | Master Faders | Press once to enable Master Fader control. Press a second time to enable V-Window mode for the 8th channel fader. Press a 3rd time to cycle back to basic channel control. |
     | Output Meters | Displays the Master Meter. |
 
 === "Automation"

@@ -20,7 +20,7 @@
     | Knob Button | Changes the assigned parameter. |
     | Track Meters | Displays Mono metering for tracks. |
     | Flip | Flips knobs to faders. |
-    | Master Faders | Toggles last Channel Fader to be Master Fader |
+    | Master Faders | Press once to enable Master Fader control. Press a second time to enable V-Window mode for the 24th channel fader. Press a 3rd time to cycle back to basic channel control. |
 
 === "Automation"
 
