@@ -9,6 +9,7 @@ V-Control Pro supports many types of control surfaces. Different surfaces connec
 * [Setting Up MIDI Controllers](./midi-controllers.md)
 * [Setting Up FireWire Controllers](./firewire-controllers.md)
 * [Avid D-Command](./d-command.md)
+* [Avid D-Control Basic](./d-control.md)
 * [Digidesign Control 24](./control-24.md)
 * [Avid/Digidesign C|24](./c24.md)
 * [Digidesign ProControl](./pro-control.md)

@@ -28,6 +28,7 @@ New to V-Control Pro? Follow this path for the fastest setup:
 Breathe new life into professional control surfaces that are no longer officially supported. V-Control Pro connects these high-quality controllers to all modern versions of Pro Tools and many other DAWs including Logic Pro, Cubase, Nuendo, Studio One, Ableton Live, and more.
 
 - **[D-Command](./d-command.md)** - Full-featured large format console
+- **[D-Control Basic](./d-control.md)** - Basic Pro Tools control of a large format D-Control console
 - **[C|24](./c24.md)** - Compact 24-fader control surface  
 - **[Control|24](./control-24.md)** - Professional mixing console
 - **[ProControl](./pro-control.md)** - Modular control system

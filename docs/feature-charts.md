@@ -13,6 +13,12 @@
     === "MixBus"
         {% include './feature-chart/dcommand-mixbus.md' %}
 
+=== "D-Control Basic"
+    ###
+    === "Pro Tools"
+        {% include './feature-chart/dcontrol-basic-note.md' %}
+        {% include './feature-chart/dcommand-protools.md' %}
+
 === "C|24"
     ###
     === "Pro Tools"
