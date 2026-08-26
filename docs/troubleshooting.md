@@ -140,6 +140,14 @@ If you upgraded from Windows 10 to Windows 11 and V-Control Pro stopped working:
 9. Restart computer
 10. Launch V-Control Pro and add your surface
 
+#### Command 8 Not Detected On Windows 11 {#command8-driver-blocked}
+
+The April 2026 Windows security update removed default trust for cross-signed kernel drivers on Windows 11 24H2, 25H2, 26H1, and Windows Server 2025. The Avid/Digidesign Command 8 driver, `c8usb_vistacomp.sys`, is signed that way, so Windows can block it and the Command 8 never appears as a MIDI device.
+
+* Check `Applications and Services Logs / Microsoft / Windows / CodeIntegrity / Operational` in Event Viewer for Event ID 3077 or 3076 naming `c8usb_vistacomp.sys`
+* Turning off memory integrity, the vulnerable driver blocklist, or Secure Boot does not help — this is a separate trust check
+* See [Command 8 on Windows 11](./command8.md#windows-11-driver-signing) for symptoms and a user-reported workaround
+
 #### V-Control Pro Won't Launch
 
 If V-Control Pro fails to launch on Windows, try these solutions:
