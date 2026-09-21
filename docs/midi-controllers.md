@@ -14,3 +14,4 @@ For surfaces that use MIDI to connect to a computer, follow these instructions t
     * Check the MIDI input and output ports.
         * The ports might have been automatically set. Conform they are correct or not.
         * If not correct, Select the MIDI input and output ports for it to use.
+        * **Command 8:** Select Port1 for both input and output. Port2 and Port3 do not work. See [Command 8 MIDI Ports](./command8.md#midi-ports).

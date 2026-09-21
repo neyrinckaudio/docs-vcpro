@@ -1,6 +1,6 @@
 # Avid D-Command
 
-V-Control Pro supports D-Command Main and Fader Module devices. Up to two devices can be used for 24 channels of control First, you must add the D-Command devices as controllers in the V-Control Pro Setups window as described in [Setting Up Ethernet Controllers](./ethernet-controllers.md).
+V-Control Pro supports D-Command Main and Fader Module devices. A Main and one Fader Module can be used for 24 channels of control. With Pro Tools, up to three devices (a Main and two Fader Modules) can be used for 32 channels of control. First, you must add the D-Command devices as controllers in the V-Control Pro Setups window as described in [Setting Up Ethernet Controllers](./ethernet-controllers.md).
 
 !!! info "Control Features"
     Please see the D-Command feature charts online at [Feature Charts – D-Command](./feature-charts.md/#d-command).
@@ -9,7 +9,15 @@ V-Control Pro supports D-Command Main and Fader Module devices. Up to two device
 ### Setup
 
 #### Pro Tools
-Set up Pro Tools for 1 or 3 HUI banks as described in [Setting Up Pro Tools](./pro-tools.md). A D-Command Main device counts as one 8-channel bank. A Fader module counts as two 8-channel banks.
+Set up Pro Tools for 1, 3, or 4 HUI banks as described in [Setting Up Pro Tools](./pro-tools.md). A D-Command Main device counts as one 8-channel bank. A Fader module counts as two 8-channel banks.
+
+With Pro Tools, you can use up to two Fader Modules with the D-Command Main device. The maximum is 32 channels of control (4 HUI banks), so with two Fader Modules the last eight channel strips on the second Fader Module are inactive.
+
+| D-Command Configuration | Channel Strips | HUI Banks | Active Channels |
+|---|---|---|---|
+| Main | 8 | 1 | 8 |
+| Main + 1 Fader Module | 24 | 3 | 24 |
+| Main + 2 Fader Modules | 40 | 4 | 32 (last 8 strips inactive) |
 
 #### Logic Pro X
 Set up Logic Pro X for D-Command as described in [Setting Up Logic Pro](./logic-pro.md).

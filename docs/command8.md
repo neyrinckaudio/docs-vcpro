@@ -59,6 +59,17 @@ To undo the change, copy the backed up `.cip` file back into `S:\EFI\Microsoft\B
 
 First, you must add Command 8 as a controller in the V-Control Pro Setups window as described in [Setting Up MIDI Controllers](./midi-controllers.md).
 
+#### Select Port1 For MIDI Input And Output {#midi-ports}
+
+The Command 8 driver creates three MIDI ports: Port1, Port2, and Port3. V-Control Pro controls the Command 8 only through Port1.
+
+1. Click on the Command 8 in the `Controllers` section of the Setups window.
+2. Set the MIDI input port to the Command 8 **Port1**.
+3. Set the MIDI output port to the Command 8 **Port1**.
+
+!!! warning "Port2 And Port3 Do Not Work"
+    Port2 and Port3 appear in the MIDI port menus, and V-Control Pro lets you select them, but the Command 8 does not respond on those ports. If the faders, buttons, and displays do not respond, check that both the input and output ports are set to Port1.
+
 #### Pro Tools
 Set up Pro Tools for one HUI bank as described in [Setting Up Pro Tools](./pro-tools.md).
 

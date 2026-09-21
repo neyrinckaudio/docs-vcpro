@@ -303,6 +303,8 @@ If buttons, faders, or displays aren't working properly, the issue may be hardwa
 ### Command 8 Diagnostics
 Press the **F1 Utility** switch to enter diagnostic mode.
 
+If the Command 8 passes diagnostics but does not respond to V-Control Pro, check that the MIDI input and output ports are both set to Port1. Port2 and Port3 do not work. See [Command 8 MIDI Ports](./command8.md#midi-ports).
+
 ### General Hardware Troubleshooting
 1. Check all cable connections
 2. Try different cables
