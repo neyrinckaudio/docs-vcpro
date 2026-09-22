@@ -1,4 +1,4 @@
-# FaderPort V2 - Pro Tools
+# FaderPort V2 / ioStation 24c - Pro Tools
 
 === "Channel Strip"
 
@@ -56,10 +56,13 @@
     | Play |  | Starts playhead at current position in Timeline. |
     | Stop |  | Stops playhead at current position in Timeline. |
     | Record |  | Starts Record Mode for playhead |
-    | Rewind |  | Move playhead backwards in Timeline. |
-    | Rewind | `Shift`+ | RTZ |
-    | Fast Forward |  | Moves playhead forward in Timeline. |
-    | Fast Forward | `Shift`+ | GTE |
+    | Rewind | `Hold` | Rewind |
+    |  | `Tap` | Back one bar/second/frame |
+    |  | `Shift`+ | RTZ |
+    |  | +`Fast Forward` | RTZ |
+    | Fast Forward | `Hold` | Fast Forward |
+    |  | `Tap` | Forward one bar/second/frame |
+    |  | `Shift`+ | GTE |
     | Loop Play |  | Enables Loop playback. |
     | Loop Play | `Control`+ | Cycle through Record Modes. |
     | Scroll |  | Pressing one time will enable the knob for Scrub Mode. The Scroll button will be lit up solid in this mode. |

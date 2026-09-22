@@ -7,6 +7,7 @@ Version 3.3.0.15 is the first public release of version 3.3. It includes D-Contr
 - Added a `User Guide` button to the details for each surface, DAW, and setup. It opens the guide in your default web browser, replacing the built-in `Setup Guide` tab, which could not display modern pages.
 - Added a `Show Log File` menu item on macOS and Windows to reveal the log file for customer support.
 - The Setups window now marks surfaces, DAWs, and setups that are offline with `(offline)`.
+- FaderPort V2 with Pro Tools: holding `Rewind` or `Fast Forward` now rewinds or fast forwards until you release the button.
 #### Changed
 - V-Control Pro now requires macOS 12.0 (Monterey) or later. The installer will not install on earlier macOS versions.
 - Help and setup guide links now open the current online documentation. Setups saved with earlier versions are updated to the new links.
@@ -15,6 +16,7 @@ Version 3.3.0.15 is the first public release of version 3.3. It includes D-Contr
 #### Fixed
 - Fixed an issue where V-Control Pro could fail to launch, or start up unlicensed, when set to open automatically at login. It now waits for the iLok licensing service to be ready before checking your license.
 - C24, Control 24, D-Command, and D-Control help now open their own guides.
+- FaderPort 8 and FaderPort 16 with Pro Tools: holding `Rewind` or `Fast-Forward` did not rewind or fast-forward.
 - Includes all fixes from version 3.2.1.18.
 
 ### [3.3.0.14] - 2026-09-08 (Beta)
