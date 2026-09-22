@@ -1,8 +1,23 @@
-## Version 3.3 Beta
-!!! warning "Version 3.3 Is A Beta"
-    V-Control Pro 3.3 is a beta release for testing D-Control Basic. It does not yet include the fixes in 3.2.2, including the launch-at-login fix. If you do not use a D-Control console, use version 3.2.
+## Version 3.3
 
-### [3.3.0.14] - 2026-09-08
+### [3.3.0.15] - Upcoming
+Version 3.3.0.15 is the first public release of version 3.3. It includes D-Control Basic and all the changes from version 3.2.
+
+#### Added
+- Added a `User Guide` button to the details for each surface, DAW, and setup. It opens the guide in your default web browser, replacing the built-in `Setup Guide` tab, which could not display modern pages.
+- Added a `Show Log File` menu item on macOS and Windows to reveal the log file for customer support.
+- The Setups window now marks surfaces, DAWs, and setups that are offline with `(offline)`.
+#### Changed
+- V-Control Pro now requires macOS 12.0 (Monterey) or later. The installer will not install on earlier macOS versions.
+- Help and setup guide links now open the current online documentation. Setups saved with earlier versions are updated to the new links.
+- The startup notice that V-Control Pro runs in the menu bar now appears on every launch until you select `Don't show this again`.
+- The log file no longer grows without limit.
+#### Fixed
+- Fixed an issue where V-Control Pro could fail to launch, or start up unlicensed, when set to open automatically at login. It now waits for the iLok licensing service to be ready before checking your license.
+- C24, Control 24, D-Command, and D-Control help now open their own guides.
+- Includes all fixes from version 3.2.1.18.
+
+### [3.3.0.14] - 2026-09-08 (Beta)
 #### Added
 - Added [D-Control Basic](./d-control.md) for Pro Tools. D-Control Main and up to two D-Control Fader Modules can be added as Ethernet devices for up to 32 channels of control.
     - Each Fader Module provides 16 channel strips. Choose `Bank 1-16` or `Bank 17-32` for each Fader Module.

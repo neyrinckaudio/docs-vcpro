@@ -14,6 +14,10 @@ nav:
   - Home:
     - ./index.md
     - Additional Resources: './getting-help.md'
+  - What's New:
+    - Version 3.3: './whats-new/version-3-3.md'
+    - Version 3.2: './whats-new/version-3-2.md'
+    - Version 3.2.1: './whats-new/version-3-2-1.md'
   - Getting started:
     - Important Information: './important-info.md'
     - Quick Start Guide: './quick-start-guide.md'

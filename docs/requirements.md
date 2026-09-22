@@ -4,7 +4,8 @@ V-Control Pro is compatible across a wide variety of computers and operating sys
 
 ## macOS
 
-* macOS Compatibility - 10.10 and later
+* macOS Compatibility - macOS 12.0 (Monterey) and later
+    * V-Control Pro 3.2 and earlier support earlier macOS versions.
 * CPU Compatibility
     * Native Intel 64-Bit
     * Native Apple Silicon 64-Bit (M1, M2, etc.)
