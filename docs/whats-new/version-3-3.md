@@ -52,7 +52,7 @@ Surfaces, DAWs, and setups that are not connected are marked `(offline)` in the 
 ## Troubleshooting And Support
 
 * `Open Troubleshooting Guide` now opens the [Troubleshooting Guide](../troubleshooting.md). Previously it opened the log file.
-* A new `Show Log File` menu item on macOS and Windows reveals the log file so you can send it to customer support.
+* A new `Create System Report...` menu item on macOS and Windows saves a report file to your Desktop that you can attach to a customer support ticket. It includes your V-Control Pro and computer details, license status, setups, Pro Tools MIDI peripherals, and recent log activity.
 * The log file no longer grows without limit.
 
 ## Startup Notice

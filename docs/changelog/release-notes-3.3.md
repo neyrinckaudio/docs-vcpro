@@ -5,7 +5,7 @@ Version 3.3.0.15 is the first public release of version 3.3. It includes D-Contr
 
 #### Added
 - Added a `User Guide` button to the details for each surface, DAW, and setup. It opens the guide in your default web browser, replacing the built-in `Setup Guide` tab, which could not display modern pages.
-- Added a `Show Log File` menu item on macOS and Windows to reveal the log file for customer support.
+- Added a `Create System Report...` menu item on macOS and Windows. It saves a report file to your Desktop to attach to a customer support ticket, with your V-Control Pro and computer details, license status, setups, Pro Tools MIDI peripherals, and the last two days of the log. It replaces the `Show Log File` item from 3.3.0.14.
 - The Setups window now marks surfaces, DAWs, and setups that are offline with `(offline)`.
 - FaderPort V2 with Pro Tools: holding `Rewind` or `Fast Forward` now rewinds or fast forwards until you release the button.
 #### Changed
