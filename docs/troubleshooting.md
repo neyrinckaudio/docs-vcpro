@@ -6,7 +6,7 @@ This guide will help you resolve common V-Control Pro issues. Start with the [Qu
 
 Before diving into detailed troubleshooting, try these common solutions:
 
-1. **Update to Latest Version**: [Download V-Control Pro 3.X](https://neyrinck.com/download/v-control-pro/)
+1. **Update to Latest Version**: [Download V-Control Pro 3.X](https://neyrinck.com/downloads/v-control-pro/)
 2. **Verify License**: Check `About V-Control Pro` shows "Licensed"
 3. **Check Surface Connection**: Surface should appear "bold" (connected) not "grayed out" (disconnected) in Setups
 4. **Restart Both Apps**: Quit both V-Control Pro and your DAW, then relaunch
@@ -26,7 +26,7 @@ Older versions may not support your control surface or operating system.
 3. Verify you're running V-Control Pro 3.X
 
 **Download Updates:**
-- Get the latest version: [Neyrinck Downloads](https://neyrinck.com/download/v-control-pro/)
+- Get the latest version: [Neyrinck Downloads](https://neyrinck.com/downloads/v-control-pro/)
 
 !!! warning "Windows 11 Compatibility"
     V-Control Pro 2.X is **incompatible** with Windows 11. You must use V-Control Pro 3.X. Existing V-Control Pro 2 Standard licenses work with V-Control Pro 3.
@@ -136,7 +136,7 @@ If you upgraded from Windows 10 to Windows 11 and V-Control Pro stopped working:
    - Install [Npcap](https://npcap.com/#download)
 6. Open Device Manager → View → Show Hidden Items
 7. Remove any hidden "V-Control" MIDI ports
-8. Install latest [V-Control Pro](https://neyrinck.com/download/v-control-pro/)
+8. Install latest [V-Control Pro](https://neyrinck.com/downloads/v-control-pro/)
 9. Restart computer
 10. Launch V-Control Pro and add your surface
 
@@ -169,7 +169,7 @@ If you upgraded from Windows 10 to Windows 11 and V-Control Pro no longer launch
 
 1. Uninstall V-Control Pro completely
 2. Restart your computer
-3. Install the latest [V-Control Pro](https://neyrinck.com/download/v-control-pro/)
+3. Install the latest [V-Control Pro](https://neyrinck.com/downloads/v-control-pro/)
 4. Restart your computer
 5. Launch V-Control Pro
 
@@ -318,7 +318,18 @@ If the Command 8 passes diagnostics but does not respond to V-Control Pro, check
 If these steps don't resolve your issue:
 
 1. **Check Documentation**: Review setup guides for your specific [controller](./controllers-overview.md) and [DAW](./pro-tools.md)
-2. **Get Support**: Contact [Neyrinck Support](https://neyrinck.com/support/) with:
+2. **Create A Customer Support Ticket**: In the V-Control Pro menu, select `Help / Create Customer Support Ticket...`
+
+    !!! info "Requires Version 3.3 Or Later"
+        `Create Customer Support Ticket...` is available in V-Control Pro 3.3 and later. With earlier versions, contact [Neyrinck Support](https://neyrinck.com/support/) and include the details listed below.
+
+    This opens a support request in your web browser that is already filled in with your computer details, with a system report attached. Add your name, email, and a description of the problem, then send it.
+
+    The report contains your V-Control Pro and computer details, license status, setups, Pro Tools MIDI settings, and recent log messages. V-Control Pro asks before it sends anything, and if you do not send the request, the report is deleted after 7 days.
+
+    To save the report to your Desktop instead of sending it, select `Help / Create System Report...`
+
+3. **Get Support Directly**: You can also contact [Neyrinck Support](https://neyrinck.com/support/) with:
    - Your V-Control Pro version
    - Operating system details
    - Control surface model

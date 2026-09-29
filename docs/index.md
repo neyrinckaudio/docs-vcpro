@@ -4,7 +4,7 @@
 V-Control Pro is a powerful macOS/Windows application that bridges professional control surfaces with modern digital audio and video workstation applications. Whether you're working with legacy Digidesign/Avid surfaces or modern controllers, V-Control Pro provides seamless integration and enhanced functionality.
 
 [Release Notes](./release-notes.md){ .md-button }
-[Installers](https://neyrinck.com/download/v-control-pro/){ .md-button }
+[Installers](https://neyrinck.com/downloads/v-control-pro/){ .md-button }
 [Compatibility Chart](https://neyrinck.com/vcpro-compatibility/){ .md-button }
 
 ---

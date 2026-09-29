@@ -1,6 +1,6 @@
 # What's New In Version 3.3
 
-Version 3.3 adds D-Control Basic, so you can use an Avid D-Control console with Pro Tools. It lets you use more than one Command 8 with Pro Tools, and it makes V-Control Pro easier to start, set up, and troubleshoot.
+Version 3.3 adds D-Control Basic, so you can use an Avid D-Control console with Pro Tools. It also brings automatic updates, license activation and deactivation in the app, a new look, and a one-step way to create a customer support ticket.
 
 !!! warning "macOS 12.0 Or Later Required"
     Version 3.3 requires macOS 12.0 (Monterey) or later. The installer will not install on earlier macOS versions.
@@ -27,7 +27,7 @@ Command 8 now has bank choices with Pro Tools: `Bank 1-8`, `Bank 9-16`, `Bank 17
 
 ## Reliable Launch At Login
 
-V-Control Pro could fail to launch, or start up unlicensed, when it was set to open automatically at login. It now waits for the iLok licensing service to be ready before checking your license.
+V-Control Pro could fail to launch, or start up unlicensed, when it was set to open automatically at login. It now waits for the iLok licensing service to be ready before checking your license, and it is added to your login items correctly. See [Launch At Login](../install-and-run-v-control-pro.md#launch-at-login) to set it up.
 
 !!! tip "Removed V-Control Pro From Login Items?"
     If you removed V-Control Pro from your Login Items to work around this problem, as described in [V-Control Pro Won't Launch](../troubleshooting.md#macos-troubleshooting), you can add it back after updating.
@@ -38,7 +38,7 @@ Each surface, DAW, and setup in the Setups window now has a `User Guide` button.
 
 * The `User Guide` button replaces the built-in `Setup Guide` tab, which could not display modern pages.
 * Guide links go to the current online documentation. Setups saved with earlier versions are updated to the new links automatically.
-* C24, Control 24, D-Command, and D-Control open their own guides.
+* C24, Control 24, D-Command, and D-Control open their own guides, and V-Window and V-Control MIDI Mode now have a `User Guide` button too.
 
 ## Offline Items In The Setups Window
 
@@ -49,10 +49,44 @@ Surfaces, DAWs, and setups that are not connected are marked `(offline)` in the 
 * Some D-Control Main units were shown as `Unknown` in `Add Ethernet Device` and were not found again after a restart. They are now recognized.
 * `Add Ethernet Device` shows the type of unrecognized devices, for example `Unknown (0x1f)`, and discovery is written to the log file to help customer support diagnose them.
 
+## Automatic Updates
+
+V-Control Pro now checks for a new version once a day and can install it for you, so you no longer need to watch for releases.
+
+* Select `Check for Updates...` in the V-Control Pro menu to check right away.
+* After an update, a `What's New` window describes what changed. Its `Read More` button opens the full release notes. You can open it any time with `What's New...`
+
+## Activate And Deactivate Licenses In The App
+
+A new `License` menu activates and deactivates your V-Control Pro license without leaving the app. The About box has Activate and Deactivate buttons as well.
+
+* Select `License / Activate License...` and sign in to iLok in your browser. Then activate your license to this computer or to an iLok key.
+* Select `License / Deactivate License...` to release an activation so you can move it to another computer.
+
+## A New Look
+
+The Setups window, Preferences, About box, and dialogs have a new design with updated colors and controls, roomier detail pages, and the `User Guide` button at the top right.
+
 ## Troubleshooting And Support
 
-* `Open Troubleshooting Guide` now opens the [Troubleshooting Guide](../troubleshooting.md). Previously it opened the log file.
-* A new `Create System Report...` menu item on macOS and Windows saves a report file to your Desktop that you can attach to a customer support ticket. It includes your V-Control Pro and computer details, license status, setups, Pro Tools MIDI peripherals, and recent log activity.
+The V-Control Pro menu now has a `Help` menu with everything you need to get help.
+
+### Create Customer Support Ticket
+
+`Help / Create Customer Support Ticket...` opens a support request in your web browser that is already filled in with your computer details, with a system report attached. Add your name, email, and a description of the problem, then send it. No more gathering version numbers and log files by hand.
+
+* V-Control Pro asks before it sends anything.
+* The report contains your V-Control Pro and computer details, license status, setups, Pro Tools MIDI settings, and recent log messages.
+* If you do not send the request, the report is deleted after 7 days.
+
+### Create System Report
+
+`Help / Create System Report...` saves the same report to your Desktop instead of sending it, so you can attach it to a support ticket yourself or look it over first.
+
+### Other Help Menu Items
+
+* `Open User Guide` opens this documentation.
+* `Open Troubleshooting Guide` opens the [Troubleshooting Guide](../troubleshooting.md). Previously it opened the log file.
 * The log file no longer grows without limit.
 
 ## Startup Notice
