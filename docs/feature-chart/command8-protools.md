@@ -20,7 +20,11 @@
     |      |  | Insert Edit Mode - Adjust Params 1-4 |
     | Fader |  | Pan, Record, Send A-E Mode - Track volume|
     |       |  | Flip Send A-E Mode - Send level |
-    | Track Meters |  | Displays Stereo metering for tracks. |
+    | Track Meters |  | Five LEDs show the track level at -42, -12, -6, and -3 dBFS, and 0 dBFS at the top. |
+    |              |  | The top LED stays lit while Pro Tools shows a clip for the track. |
+    |              |  | Stereo tracks meter one side at a time. Use `Pan/Meter` to switch sides. |
+    | Pan/Meter |  | Switches all track meters between the left and right side of stereo tracks. |
+    |           |  | The two LEDs next to the button show which side is metered. The side is kept when you change banks. |
 
 === "Bank Modes"
 
