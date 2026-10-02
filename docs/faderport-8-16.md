@@ -12,7 +12,7 @@ V-Control Pro supercharges the FaderPort 8/16 for use with Pro Tools.
     In the Pro Tools MIDI Input Devices Window, disable the FaderPort. It is used by V-control Pro and can cause conflict if enabled in Pro Tools as well.
 
 !!! info "Control Features For Pro Tools 2022 And Earlier"
-    Please see the FaderPort 8/16 feature charts online at [Feature Charts](./feature-charts.md/#faderport-8-16).
+    Please see the FaderPort 8/16 feature charts online at [Feature Charts](./feature-charts.md#faderport-8-16).
 
 !!! info "Control Features For Pro Tools 2023 And Later"
     Please see the latest info for the [FaderPort 8/16 Beta](#faderport-beta).

@@ -3,7 +3,7 @@
 V-Control Pro supports D-Command Main and Fader Module devices. A Main and one Fader Module can be used for 24 channels of control. With Pro Tools, up to three devices (a Main and two Fader Modules) can be used for 32 channels of control. First, you must add the D-Command devices as controllers in the V-Control Pro Setups window as described in [Setting Up Ethernet Controllers](./ethernet-controllers.md).
 
 !!! info "Control Features"
-    Please see the D-Command feature charts online at [Feature Charts – D-Command](./feature-charts.md/#d-command).
+    Please see the D-Command feature charts online at [Feature Charts – D-Command](./feature-charts.md#d-command).
 
 
 ### Setup

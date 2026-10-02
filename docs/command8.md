@@ -1,7 +1,7 @@
 # Avid/Digidesign Command 8
 
 !!! info "Control Features"
-    Please see the Command 8 feature charts online at [Feature Charts](./feature-charts.md/#command-8).
+    Please see the Command 8 feature charts online at [Feature Charts](./feature-charts.md#command-8).
 
 ### Setup
 

@@ -7,7 +7,7 @@ V-Control Pro supports the Digidesign 003 FireWire surface. A compatible 003 dri
 
 
 !!! info "Control Features"
-    Please see the 003 feature charts online at [Feature Charts – 003](./feature-charts.md/#digi-003).
+    Please see the 003 feature charts online at [Feature Charts – 003](./feature-charts.md#digi-003).
 
 
 ### Setup

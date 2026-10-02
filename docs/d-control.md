@@ -18,7 +18,7 @@ The goal is a practical one. If you are running Pro Tools on an Apple Silicon co
 * Controls that the HUI protocol does not reach do not respond, and their displays and indicators stay dark. This is a limit of the protocol, not a setup problem.
 
 !!! info "Control Features"
-    Please see the D-Control Basic feature chart online at [Feature Charts – D-Control Basic](./feature-charts.md/#d-control-basic).
+    Please see the D-Control Basic feature chart online at [Feature Charts – D-Control Basic](./feature-chart/dcontrol-protools.md).
 
 V-Control Pro supports D-Control Main and Fader Module devices. Up to one main device and two fader module devices can be used for 32 channels of control. First, you must add the D-Control devices as controllers in the V-Control Pro Setups window as described in [Setting Up Ethernet Controllers](./ethernet-controllers.md).
 

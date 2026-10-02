@@ -3,7 +3,7 @@
 Control 24 is a popular control surface
 
 !!! info "Control Features"
-    Please see the Control 24 feature charts online at [Feature Charts – Control 24](./feature-charts.md/#control24).
+    Please see the Control 24 feature charts online at [Feature Charts – Control 24](./feature-charts.md#control-24).
 
 ### Setup
 
