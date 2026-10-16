@@ -128,11 +128,11 @@
     | Zoom+Option | Enables Wave Zoom for the wheel and cursor keys. Wave zoom increases waveform view in region. |
     | Trim | Enables Nudge trim mode for the wheel and cursor keys. Use Left/Right cursor keys to change between start/end of region.  Use Up/Down cursor keys or wheel to trim. |
 
-=== "Soft Keys Button"
+=== "Soft Keys"
 
-    | Soft Keys Button |  |
+    | Soft Keys |  |
     |---|---|
-    | Soft Keys | Enables the knob buttons on the channel strips to become softkeys.  Soft Keys can be mapped in the Studio Setups window of Cubase when the C24 is selected. |
+    | Soft Keys | Enables the knob buttons on the channel strips to become softkeys. See the `Assignable Keys` tab for the `Soft Key` entries and how to map them in the Cubase `Studio Setup` window. |
 
 === "View Buttons"
 
@@ -140,6 +140,26 @@
     |---|---|
     | Focus | Toggles Banking mode follow for Bank and Scroll buttons. |
     |  | When Follow mode is on, Mixer in Cubase moves to match what is shown on Control surface. (Must have track count in Cubase view match control surface layout.) |
+
+=== "Assignable Keys"
+
+    These keys are listed in the Cubase / Nuendo `Studio Setup` window when the C|24 is selected. V-Control Pro assigns each one a default command. You can change any of them to any Cubase command, and keys listed as `Not assigned` do nothing until you assign one.
+
+    To change a key, open `Studio / Studio Setup`, select the C|24, then set the `Category` and `Action` for that key.
+
+    | Key | Default Category | Default Action |
+    |---|---|---|
+    | Mix Window | Devices | Mixer |
+    | Status Window | Devices | VST Performance |
+    | Plug-In Window | Windows | Show/Hide Plug-ins |
+    | Pan Window | Automation | Open Panel |
+    | Edit Window | Transport | Panel |
+    | Transport Window | Transport | Panel |
+    | Mem-Loc Window | Project | Open Markers |
+    | Alt Window | Automation | Open Panel |
+    | Write Auto To All | Automation | Fill Loop |
+    | Zoom Preset 1-5 | Not assigned | Not assigned |
+    | Soft Key 1-24 | Not assigned | Not assigned |
 
 === "V-Window Mode"
 

@@ -103,7 +103,7 @@
     | ProControl Matrix Buttons |  |
     |---|---|
     | The Channel Matrix provides functions with the channels depending on which mode is selected. |  |
-    | 1-32 | Use for channel select/mute/solo/record enable when in the selected mode. Acts as softkeys when set to softkey mode. |
+    | 1-32 | Use for channel select/mute/solo/record enable when in the selected mode. Acts as softkeys when set to softkey mode, using the `Matrix` entries on the `Assignable Keys` tab. |
     | A | Selects bank 1 of channels for channel matrix |
     | B | Selects bank 2 of channels for channel matrix |
     | C | Selects bank 3 of channels for channel matrix |
@@ -112,7 +112,7 @@
     | Mute | Assigns matrix to be mute enable for channels. |
     | Solo | Assigns matrix to be solo enable for channels. |
     | Rec/Rdy | Assigns matrix to be record enable for channels. |
-    | Snapshot | Assigns matrix to be softkeys. Customize softkeys in Steinberg Control surface setup window. |
+    | Snapshot | Assigns matrix to be softkeys. See the `Assignable Keys` tab for the `Matrix` entries and how to map them in the Cubase `Studio Setup` window. |
     | Go To | Enables Marker Mode. Use Wheel or Left/Right cursor keys to navigate between markers. Down cursor key creates marker at playhead. |
 
 === "Window Buttons"
@@ -145,6 +145,22 @@
     | F1 | Toggles Banking mode follow for Bank and Scroll buttons. |
     |  | When Follow mode is on, Mixer in Cubase moves to match what is shown on Control surface. (Must have track count in Cubase view match control surface layout.) |
     | F2 | Toggles Fine knob mode. |
+
+=== "Assignable Keys"
+
+    These keys are listed in the Cubase / Nuendo `Studio Setup` window when ProControl is selected. V-Control Pro assigns each one a default command. You can change any of them to any Cubase command, and keys listed as `Not assigned` do nothing until you assign one.
+
+    To change a key, open `Studio / Studio Setup`, select ProControl, then set the `Category` and `Action` for that key.
+
+    | Key | Default Category | Default Action |
+    |---|---|---|
+    | Mix Window | Devices | Mixer |
+    | Edit Window | Devices | Mixer |
+    | Status Window | Devices | VST Performance |
+    | Transport Window | Transport | Panel |
+    | Plug-In Window | Windows | Show/Hide Plug-ins |
+    | Mem-Loc Window | Project | Open Markers |
+    | Matrix 1-32 | Not assigned | Not assigned |
 
 === "V-Window Mode"
 

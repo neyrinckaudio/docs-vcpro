@@ -130,7 +130,7 @@
 
     | Function Keys |  |
     |---|---|
-    | F1-F10 | Acts as softkeys for Steinberg. Can be mapped in the Studio Setups window when the Control 24 is selected. |
+    | F1-F10 | Acts as softkeys for Steinberg. See the `Assignable Keys` tab for the `F1`-`F10` entries and how to map them in the Cubase `Studio Setup` window. |
 
 === "Edit Modes"
 
@@ -138,6 +138,26 @@
     |---|---|
     | Shuffle | Toggles Banking mode follow for Bank and Scroll buttons. |
     |  | When Follow mode is on, Mixer in Cubase moves to match what is shown on Control surface. (Must have track count in Cubase view match control surface layout.) |
+
+=== "Assignable Keys"
+
+    These keys are listed in the Cubase / Nuendo `Studio Setup` window when the Control|24 is selected. V-Control Pro assigns each one a default command. You can change any of them to any Cubase command, and keys listed as `Not assigned` do nothing until you assign one.
+
+    To change a key, open `Studio / Studio Setup`, select the Control|24, then set the `Category` and `Action` for that key.
+
+    | Key | Default Category | Default Action |
+    |---|---|---|
+    | Mix Window | Devices | Mixer |
+    | Status Window | Devices | VST Performance |
+    | Plug-In Window | Windows | Show/Hide Plug-ins |
+    | Pan Window | Automation | Open Panel |
+    | Edit Window | Transport | Panel |
+    | Transport Window | Transport | Panel |
+    | Mem-Loc Window | Project | Open Markers |
+    | Alt Window | Automation | Open Panel |
+    | Write Auto To All | Automation | Fill Loop |
+    | Zoom Preset 1-5 | Not assigned | Not assigned |
+    | F1-F10 | Not assigned | Not assigned |
 
 === "V-Window Mode"
 

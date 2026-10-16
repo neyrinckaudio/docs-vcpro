@@ -90,3 +90,13 @@
     | Zoom | Enables Zoom mode for the wheel and cursor keys. |
     | Zoom+Shift | Enables Track Zoom for the wheel and cursor keys. Track zoom increases/decreases track height. |
     | Zoom+Option | Enables Wave Zoom for the wheel and cursor keys. Wave zoom increases waveform view in region. |
+
+=== "Assignable Keys"
+
+    These keys are listed in the Cubase / Nuendo `Studio Setup` window when Digidesign 003 is selected. V-Control Pro assigns each one a default command. You can change any of them to any Cubase command, and keys listed as `Not assigned` do nothing until you assign one.
+
+    To change a key, open `Studio / Studio Setup`, select Digidesign 003, then set the `Category` and `Action` for that key.
+
+    | Key | Default Category | Default Action |
+    |---|---|---|
+    | Save | Devices | Mixer |

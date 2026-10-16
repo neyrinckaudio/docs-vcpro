@@ -92,6 +92,22 @@
     | Zoom+Option | Enables Wave Zoom for the wheel and cursor keys. Wave zoom increases waveform view in region. |
     | Zoom+Control | Enables Nudge trim mode for the wheel and cursor keys. Use Left/Right cursor keys to change between start/end of region.  Use Up/Down cursor keys or wheel to trim. |
 
+=== "Assignable Keys"
+
+    These keys are listed in the Cubase / Nuendo `Studio Setup` window when D-Command is selected. V-Control Pro assigns each one a default command. You can change any of them to any Cubase command, and keys listed as `Not assigned` do nothing until you assign one.
+
+    To change a key, open `Studio / Studio Setup`, select D-Command, then set the `Category` and `Action` for that key.
+
+    | Key | Default Category | Default Action |
+    |---|---|---|
+    | Mix Window | Devices | Mixer |
+    | Edit Window | Devices | Mixer |
+    | Status Window | Devices | VST Performance |
+    | Transport Window | Transport | Panel |
+    | Plug-In Window | Windows | Show/Hide Plug-ins |
+    | Mem-Loc Window | Project | Open Markers |
+    | Matrix 1-32 | Not assigned | Not assigned |
+
 === "V-Window Mode"
 
     | V-Window Mode |  |

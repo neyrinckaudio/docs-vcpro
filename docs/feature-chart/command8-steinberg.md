@@ -79,3 +79,23 @@
     | Zoom | Enables Zoom mode for the wheel and cursor keys. |
     | Zoom+Shift | Enables Track Zoom for the wheel and cursor keys. Track zoom increases/decreases track height. |
     | Zoom+Option | Enables Wave Zoom for the wheel and cursor keys. Wave zoom increases waveform view in region. |
+
+=== "Assignable Keys"
+
+    These keys are listed in the Cubase / Nuendo `Studio Setup` window when the Command 8 is selected. V-Control Pro assigns each one a default command. You can change any of them to any Cubase command, and keys listed as `Not assigned` do nothing until you assign one.
+
+    To change a key, open `Studio / Studio Setup`, select the Command 8, then set the `Category` and `Action` for that key.
+
+    | Key | Default Category | Default Action |
+    |---|---|---|
+    | Mix Window | Devices | Mixer |
+    | Status Window | Devices | VST Performance |
+    | Plug-In Window | Windows | Show/Hide Plug-ins |
+    | Pan Window | Automation | Open Panel |
+    | Edit Window | Transport | Panel |
+    | Transport Window | Transport | Panel |
+    | Mem-Loc Window | Project | Open Markers |
+    | Alt Window | Automation | Open Panel |
+    | Write Auto To All | Automation | Fill Loop |
+    | Zoom Preset 1-5 | Not assigned | Not assigned |
+    | F1-F10 | Not assigned | Not assigned |
