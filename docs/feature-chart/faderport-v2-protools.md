@@ -5,7 +5,9 @@
     | Channel Strip |  |  |
     |---|---|---|
     | Solo |  | Solos the Channel. |
+    | Solo | `Shift`+ | Clears all solos. |
     | Mute |  | Mutes the Channel. |
+    | Mute | `Shift`+ | Clears all mutes. |
     | Arm |  | Arms the assigned audio track of the Channel. |
     | Bypass |  | Flips knob assignment to be controlled by the fader. |
     | Arm | `Shift`+ | Toggles record arm for all tracks. |
@@ -67,6 +69,9 @@
     | Loop Play | `Control`+ | Cycle through Record Modes. |
     | Scroll |  | Pressing one time will enable the knob for Scrub Mode. The Scroll button will be lit up solid in this mode. |
     |  |  | Pressing Scroll two times will enable the knob for Shuttle Mode. The Scroll button will blinking in this mode. |
+    | Marker |  | Enables the knob for Marker Mode. Turn the knob to recall Memory Locations 1–8. Press Marker again to exit. |
+    | Knob Press |  | Creates a new Memory Location when in Marker Mode. |
+    | Footswitch |  | Punch record in/out. |
 
 === "Utility"
 
