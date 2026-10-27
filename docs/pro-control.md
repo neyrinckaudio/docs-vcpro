@@ -11,7 +11,7 @@ V-Control Pro supports ProControl Main and Fader Pack devices. Up to four device
 Set up Pro Tools for 1, 2, 3, or 4 HUI banks as described in [Setting Up Pro Tools](./pro-tools.md). Each ProControl device counts as one 8-channel bank.
 
 #### Logic Pro X
-Set up Logic Pro X for ProControl as described in [Setting Up Logic Pro](./logic-pro.md).
+Set up Logic Pro X for ProControl as described in [Setting Up Logic Pro](./logic-pro.md). When using more than one ProControl device, you must group them in Logic as described in [Grouping Multiple Devices](./logic-pro.md#grouping-devices).
 
 #### Cubase/Nuendo
 Set up Cubase / Nuendo for ProControl as described in [Setting Up Cubase/Nuendo](./cubase-nuendo.md).

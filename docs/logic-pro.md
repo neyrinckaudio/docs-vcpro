@@ -27,6 +27,27 @@ Logic Pro will not be detected until it has connected to a control surface suppo
     * Open the V-Control Pro `Preferences` window. Toggle the 'Logic Pro - Use IPv6' setting.
     * Launch Logic Pro.
 
+<a id="grouping-devices"></a>
+### Grouping Multiple Devices
+
+Some surfaces use more than one device and need extra setup in Logic:
+
+* **D-Command** Main with a Fader Module
+* **ProControl** Main with a Fader Pack
+
+Logic adds each device in its own row as an independent controller, so each device banks and scrolls on its own. To make the devices bank together as one surface, put them in the same row in Logic's Control Surfaces Setup window.
+
+!!! note "Single-Device Surfaces"
+    C|24, Control 24, Command|8, and Digi 003 are each a single device. They do not need grouping.
+
+1. Connect all devices to Logic as described above.
+2. In Logic, choose `Logic Pro > Control Surfaces > Setup...`.
+3. Each device appears in its own row. Drag the device icons into a single row.
+4. Arrange the icons left to right in the same order as the hardware on your desk. For example, if the Fader Module is to the left of the D-Command Main, place its icon to the left of the Main's icon.
+5. Close the Setup window. Banking now moves all of the devices together.
+
+<!-- TODO: add screenshots of the Control Surfaces Setup window before and after grouping -->
+
 <a id="ipv6-setting"></a>
 #### Logic Pro Protocol Settings (new in v 3.0.22)
 

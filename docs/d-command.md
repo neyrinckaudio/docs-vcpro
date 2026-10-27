@@ -20,7 +20,7 @@ With Pro Tools, you can use up to two Fader Modules with the D-Command Main devi
 | Main + 2 Fader Modules | 40 | 4 | 32 (last 8 strips inactive) |
 
 #### Logic Pro X
-Set up Logic Pro X for D-Command as described in [Setting Up Logic Pro](./logic-pro.md).
+Set up Logic Pro X for D-Command as described in [Setting Up Logic Pro](./logic-pro.md). When using more than one D-Command device, you must group them in Logic as described in [Grouping Multiple Devices](./logic-pro.md#grouping-devices).
 
 #### Cubase/Nuendo
 Set up Cubase / Nuendo for D-Command as described in [Setting Up Cubase/Nuendo](./cubase-nuendo.md).
